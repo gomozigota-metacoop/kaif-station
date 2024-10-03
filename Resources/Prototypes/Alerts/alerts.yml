@@ -6,6 +6,8 @@
   order:
     - alertType: ChangelingBiomass # goobstation - changelings
     - category: Health
+    - category: Counter # WWDP
+    - alertType: PlasmaCounter # WWDP
     - category: Stamina
     - alertType: ChangelingChemicals # goobstation - changelings
     - alertType: SuitPower

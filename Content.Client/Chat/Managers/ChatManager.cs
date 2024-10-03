@@ -77,6 +77,11 @@ internal sealed class ChatManager : IChatManager
                 _consoleHost.ExecuteCommand($"whisper \"{CommandParsing.Escape(str)}\"");
                 break;
 
+                // WWDP
+            case ChatSelectChannel.XenoHivemind:
+                _consoleHost.ExecuteCommand($"aliensay \"{CommandParsing.Escape(str)}\"");
+                break;
+
             default:
                 throw new ArgumentOutOfRangeException(nameof(channel), channel, null);
         }
