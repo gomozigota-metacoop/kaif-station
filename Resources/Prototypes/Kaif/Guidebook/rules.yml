@@ -1,0 +1,7 @@
+# Default rules
+- type: guideEntry
+  id: KaifRules
+  name: Кайфовые правила сервера
+  priority: 0
+  ruleEntry: true
+  text: "/ServerInfo/Kaif/Rules.xml"
