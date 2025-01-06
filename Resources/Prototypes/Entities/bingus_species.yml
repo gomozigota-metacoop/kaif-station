@@ -1,0 +1,296 @@
+- type: species
+  id: Bingus
+  name: Бингус
+  roundStart: true
+  prototype: MobBingusSmart
+  markingLimits: MobBingus
+  dollPrototype: MobBingus
+  skinColoration: HumanToned
+  maleFirstNames: BingusMale
+  femaleFirstNames: BingusFemale
+  maleLastNames: BingusNull
+  femaleLastNames: BingusNull
+
+- type: markingPoints
+  id: MobBingus
+  points:
+    Hair:
+      points: 0
+      required: false
+    FacialHair:
+      points: 0
+      required: false
+    Snout:
+      points: 0
+      required: false
+    HeadTop:
+      points: 0
+      required: false
+    HeadSide:
+      points: 0
+      required: false
+
+- type: entity
+  name: Урист МакБингус
+  suffix: умный
+  parent: MobBingus
+  id: MobBingusSmart
+  description: Бингус, мой любимый...
+  components:
+  - type: Inventory
+    speciesId: cat
+    templateId: bingus
+  - type: Hands
+  - type: Body
+    prototype: Bingus
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+  - type: Vocal
+    sounds:
+      Male: UnisexBingus
+      Female: UnisexBingus
+      Unsexed: UnisexBingus
+
+- type: emoteSounds
+  id: UnisexBingus
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      path: /Audio/Animals/cat_hiss.ogg
+    Hiss:
+      path: /Audio/Animals/cat_hiss.ogg
+    Meow:
+      path: /Audio/Animals/cat_meow.ogg
+
+- type: emote
+  id: Hiss
+  category: Vocal
+  name: шипеть
+  chatMessages: [шипит!] # Corvax-Localization
+  chatTriggers:
+  - шипит
+  - шипит.
+  - шипит!
+
+- type: emote
+  id: Meow
+  category: Vocal
+  name: мяукнуть
+  chatMessages: [мяукает.] # Corvax-Localization
+  chatTriggers:
+  - мяукает
+  - мяукает.
+  - мяукает!
+  - мяукнул
+  - мяукнул.
+  - мяукнул!
+  - мяукнула
+  - мяукнула.
+  - мяукнула!
+####################################################################################
+- type: dataset
+  id: BingusNull
+  values:
+  - ""
+
+- type: dataset
+  id: BingusMale
+  values:
+  - Оливер
+  - Лео
+  - Симба
+  - Макс
+  - Майло
+  - Чарли
+  - Джаспер
+  - Оскар
+  - Феликс
+  - Тоби
+  - Уинстон
+  - Гизмо
+  - Декстер
+  - Рокки
+  - Аполло
+  - Локи
+  - Бруно
+  - Честер
+  - Тайсон
+  - Зевс
+  - Финн
+  - Гэндальф
+  - Хантер
+  - Джекс
+  - Мокко
+  - Нико
+  - Орео
+  - Пиппин
+  - Сильвер
+  - Реми
+  - Тигр
+  - Винни
+  - Усатый
+  - Йода
+  - Зигги
+  - Аттикус
+  - Бинкс
+  - Каспер
+  - Джанго
+  - Ашер
+  - Бакстер
+  - Чито
+  - Даш
+  - Элвис
+  - Гэндальф
+  - Харли
+  - Ичабод
+  - Джаггер
+  - Кода
+  - Лайнус
+  - Марли
+  - Нимбус
+  - Олаф
+  - Паус
+  - Квилл
+  - Расти
+  - Сириус
+  - Тор
+  - Вафлс
+
+- type: dataset
+  id: BingusFemale
+  values:
+  - Луна
+  - Белла
+  - Нала
+  - Дейзи
+  - Клео
+  - Ива
+  - Мисти
+  - Олива
+  - Джинджер
+  - Перл
+  - Хейзел
+  - Фрея
+  - Зоя
+  - Рубин
+  - Сасси
+  - Хлоя
+  - Мокко
+  - Пенелопа
+  - Тинкербелл
+  - Стелла
+  - Аврора
+  - Мия
+  - Карамель
+  - Делайла
+  - Эльза
+  - Фиона
+  - Джиджи
+  - Харпер
+  - Изабелла
+  - Жасмин
+  - Кики
+  - Лайла
+  - Мейбл
+  - Лапша
+  - Олива
+  - Арахис
+  - Куини
+  - Рози
+  - Сэди
+  - Трикси
+  - Калипсо
+  - Дейзи Мэй
+  - Эмбер
+  - Флер
+  - Грейси
+  - Хейзел Грейс
+  - Айви
+  - Жасмин
+  - Киви
+  - Луна Белль
+  - Мокко Латте
+  - Нала Роуз
+  - Оливковая Мэв
+  - Персик
+  - Куини
+  - Роза Руби
+  - Шафран
+  - Твинкл
+  - Бархат
+####################################################################################
+- type: body
+  id: Bingus
+  name: Bingus
+  root: torso
+  slots:
+    torso:
+      part: TorsoAnimal
+      connections:
+      - legs
+      - hand 1
+      organs:
+        lungs: OrganAnimalLungs
+        stomach: OrganAnimalStomach
+        liver: OrganAnimalLiver
+        heart: OrganAnimalHeart
+        kidneys: OrganAnimalKidneys
+    hand 1:
+      part: RightHandHuman
+    legs:
+      part: LegsAnimal
+      connections:
+      - feet
+    feet:
+      part: FeetAnimal
+####################################################################################
+- type: inventoryTemplate
+  id: bingus
+  slots:
+  - name: mask
+    slotTexture: mask
+    slotFlags: MASK
+    uiWindowPos: 1,1
+    strippingWindowPos: 1,1
+    displayName: Mask
+    whitelist:
+    tags:
+      - PetWearable
+  - name: suitstorage
+    slotTexture: suit_storage
+    slotFlags: SUITSTORAGE
+    slotGroup: SecondHotbar
+    stripTime: 3
+    uiWindowPos: 2,0
+    strippingWindowPos: 2,5
+    displayName: Suit Storage
+    whitelist:
+    components:
+      - GasTank
+  - name: id
+    slotTexture: id
+    slotFlags: IDCARD
+    slotGroup: SecondHotbar
+    stripTime: 6
+    uiWindowPos: 2,1
+    strippingWindowPos: 2,4
+    displayName: ID
+  - name: ears
+    slotTexture: ears
+    slotFlags: EARS
+    stripTime: 3
+    uiWindowPos: 2,0
+    strippingWindowPos: 2,0
+    displayName: Ears
+  - name: pocket1
+    slotTexture: pocket
+    slotFlags: POCKET
+    slotGroup: MainHotbar
+    stripTime: 3
+    uiWindowPos: 0,3
+    strippingWindowPos: 0,4
+    displayName: Pocket 1
+    stripHidden: true
+
