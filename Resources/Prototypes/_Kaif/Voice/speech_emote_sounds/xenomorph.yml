@@ -50,4 +50,4 @@
     Gasp:
       collection: MaleGasp
     DefaultDeathgasp:
-      collection: MaleDeathGasp
+      collection: XenomorphDeathgasp
