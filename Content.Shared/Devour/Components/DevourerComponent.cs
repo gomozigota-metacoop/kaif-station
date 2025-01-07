@@ -1,5 +1,5 @@
 using Content.Shared.Chemistry.Reagent;
-using Content.Shared.Mobs; // WWDP
+using Content.Shared.Mobs; // Kaif
 using Content.Shared.Whitelist;
 using Robust.Shared.Audio;
 using Robust.Shared.Containers;
@@ -60,7 +60,7 @@ public sealed partial class DevourerComponent : Component
         }
     };
 
-    // WWDP
+    // Kaif
     [ViewVariables(VVAccess.ReadWrite), DataField("consumes")]
     public HashSet<MobState> Consumes = new()
     {

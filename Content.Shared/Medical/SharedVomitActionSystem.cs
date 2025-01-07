@@ -2,7 +2,7 @@
 using Content.Shared.Actions;
 using Robust.Shared.Containers;
 
-namespace Content.Shared.Medical; // WWDP SYSTEM
+namespace Content.Shared.Medical; // Kaif SYSTEM
 
 /// <summary>
 /// This handles...

@@ -11,7 +11,7 @@ using Content.Shared.Movement.Events;
 using Content.Shared.Movement.Pulling.Events;
 using Content.Shared.Popups;
 using Content.Shared.Pulling.Events;
-using Content.Shared.Bed.Sleep; // WWDP
+using Content.Shared.Bed.Sleep; // Kaif
 using Content.Shared.Rotation;
 using Content.Shared.Standing;
 using Content.Shared.Storage.Components;
@@ -422,7 +422,7 @@ public abstract partial class SharedBuckleSystem
         if (!CanUnbuckle(buckle, user, popup, out var strap))
             return false;
 
-    // WWDP START
+    // Kaif START
         if (_gameTiming.CurTime < buckle.Comp.BuckleTime + TimeSpan.FromSeconds(strap.Comp.Delay) && user == buckle.Owner)
         {
             _popup.PopupEntity(
@@ -430,7 +430,7 @@ public abstract partial class SharedBuckleSystem
                 user!.Value);
             return false;
         }
-    // WWDP END
+    // Kaif END
 
         Unbuckle(buckle!, strap, user);
         return true;

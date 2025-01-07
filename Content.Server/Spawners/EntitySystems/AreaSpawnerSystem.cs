@@ -13,7 +13,7 @@ using Robust.Shared.Random;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Generic;
 using Robust.Shared.Utility;
 
-namespace Content.Server.Spawners.EntitySystems; // WWDP SYSTEM
+namespace Content.Server.Spawners.EntitySystems; // Kaif SYSTEM
 
 /// <summary>
 /// Spawns entities in area around core, progressing from center to edges.

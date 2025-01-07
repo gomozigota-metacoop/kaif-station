@@ -64,7 +64,7 @@ public sealed class ChannelSelectorButton : ChatPopupButton<ChannelSelectorPopup
             ChatSelectChannel.OOC => Color.LightSkyBlue,
             ChatSelectChannel.Dead => Color.MediumPurple,
             ChatSelectChannel.Admin => Color.HotPink,
-            ChatSelectChannel.XenoHivemind => Color.FromHex("#5b0c82"), // WWDP
+            ChatSelectChannel.XenoHivemind => Color.FromHex("#5b0c82"), // Kaif
             _ => Color.DarkGray
         };
     }

@@ -77,7 +77,7 @@ internal sealed class ChatManager : IChatManager
                 _consoleHost.ExecuteCommand($"whisper \"{CommandParsing.Escape(str)}\"");
                 break;
 
-                // WWDP
+                // Kaif
             case ChatSelectChannel.XenoHivemind:
                 _consoleHost.ExecuteCommand($"aliensay \"{CommandParsing.Escape(str)}\"");
                 break;

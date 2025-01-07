@@ -24,7 +24,7 @@ public sealed partial class ChannelFilterPopup : Popup
         ChatChannel.AdminAlert,
         ChatChannel.AdminChat,
         ChatChannel.Server,
-        ChatChannel.XenoHivemind // WWDP
+        ChatChannel.XenoHivemind // Kaif
     };
 
     private readonly Dictionary<ChatChannel, ChannelFilterCheckbox> _filterStates = new();

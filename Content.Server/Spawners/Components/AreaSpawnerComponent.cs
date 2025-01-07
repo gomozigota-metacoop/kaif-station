@@ -2,7 +2,7 @@
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 
-namespace Content.Server.Spawners.Components; // WWDP SYSTEM
+namespace Content.Server.Spawners.Components; // Kaif SYSTEM
 
 /// <summary>
 /// Spawns Entities in area around spawner

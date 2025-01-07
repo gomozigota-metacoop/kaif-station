@@ -92,7 +92,7 @@ public sealed partial class StrapComponent : Component
     public bool BuckleOnInteractHand = true;
 
     /// <summary>
-    /// WWDP | Delay, that must occur, before user can unbuckle
+    /// Kaif | Delay, that must occur, before user can unbuckle
     /// </summary>
     [DataField]
     public float Delay;

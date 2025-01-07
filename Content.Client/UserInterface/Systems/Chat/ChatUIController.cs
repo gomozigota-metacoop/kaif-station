@@ -85,7 +85,7 @@ public sealed class ChatUIController : UIController
         {SharedChatSystem.AdminPrefix, ChatSelectChannel.Admin},
         {SharedChatSystem.RadioCommonPrefix, ChatSelectChannel.Radio},
         {SharedChatSystem.DeadPrefix, ChatSelectChannel.Dead},
-        {SharedChatSystem.XenoHivemindPrefix, ChatSelectChannel.XenoHivemind} // WWDP
+        {SharedChatSystem.XenoHivemindPrefix, ChatSelectChannel.XenoHivemind} // Kaif
     };
 
     public static readonly Dictionary<ChatSelectChannel, char> ChannelPrefixes = new()
@@ -99,7 +99,7 @@ public sealed class ChatUIController : UIController
         {ChatSelectChannel.Admin, SharedChatSystem.AdminPrefix},
         {ChatSelectChannel.Radio, SharedChatSystem.RadioCommonPrefix},
         {ChatSelectChannel.Dead, SharedChatSystem.DeadPrefix},
-        {ChatSelectChannel.XenoHivemind, SharedChatSystem.XenoHivemindPrefix } // WWDP
+        {ChatSelectChannel.XenoHivemind, SharedChatSystem.XenoHivemindPrefix } // Kaif
     };
 
     /// <summary>
@@ -533,7 +533,7 @@ public sealed class ChatUIController : UIController
             FilterableChannels |= ChatChannel.Radio;
             FilterableChannels |= ChatChannel.Emotes;
             FilterableChannels |= ChatChannel.Notifications;
-            FilterableChannels |= ChatChannel.XenoHivemind; // WWDP
+            FilterableChannels |= ChatChannel.XenoHivemind; // Kaif
 
             // Can only send local / radio / emote when attached to a non-ghost entity.
             // TODO: this logic is iffy (checking if controlling something that's NOT a ghost), is there a better way to check this?
@@ -543,7 +543,7 @@ public sealed class ChatUIController : UIController
                 CanSendChannels |= ChatSelectChannel.Whisper;
                 CanSendChannels |= ChatSelectChannel.Radio;
                 CanSendChannels |= ChatSelectChannel.Emotes;
-                CanSendChannels |= ChatSelectChannel.XenoHivemind; // WWDP
+                CanSendChannels |= ChatSelectChannel.XenoHivemind; // Kaif
             }
         }
 

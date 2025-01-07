@@ -5,7 +5,7 @@ using Content.Shared.StatusIcon;
 using Content.Shared.StatusIcon.Components;
 using Robust.Shared.Prototypes;
 
-namespace Content.Client.Overlays; // WWDP SYSTEM
+namespace Content.Client.Overlays; // Kaif SYSTEM
 
 /// <summary>
 /// This handles...

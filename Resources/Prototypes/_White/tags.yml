@@ -1,8 +1,2 @@
 - type: Tag
   id: EnergySword
-
-- type: Tag
-  id: AlienItem
-
-- type: Tag
-  id: Facehugger

@@ -2,7 +2,7 @@
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 
-namespace Content.Shared.Medical; // WWDP SYSTEM
+namespace Content.Shared.Medical; // Kaif SYSTEM
 
 /// <summary>
 /// This is used for...

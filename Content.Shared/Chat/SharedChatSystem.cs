@@ -22,7 +22,7 @@ public abstract class SharedChatSystem : EntitySystem
     public const char EmotesAltPrefix = '*';
     public const char AdminPrefix = ']';
     public const char WhisperPrefix = ',';
-    public const char XenoHivemindPrefix = 'a'; // WWDP
+    public const char XenoHivemindPrefix = 'a'; // Kaif
     public const char DefaultChannelKey = 'h';
 
     [ValidatePrototypeId<RadioChannelPrototype>]

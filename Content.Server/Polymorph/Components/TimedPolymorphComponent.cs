@@ -4,7 +4,7 @@ using Content.Shared.Whitelist;
 using Robust.Shared.Audio;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server.Polymorph.Components; // WWDP SYSTEM
+namespace Content.Server.Polymorph.Components; // Kaif SYSTEM
 
 /// <summary>
 /// This is used for polymorphing entity after time

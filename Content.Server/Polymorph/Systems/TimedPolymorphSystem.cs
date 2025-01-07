@@ -1,7 +1,7 @@
 ﻿using System.Threading;
 using Content.Server.Polymorph.Components;
 
-namespace Content.Server.Polymorph.Systems; // WWDP SYSTEM
+namespace Content.Server.Polymorph.Systems; // Kaif SYSTEM
 
 /// <summary>
 /// This handles polymorphing entity after time

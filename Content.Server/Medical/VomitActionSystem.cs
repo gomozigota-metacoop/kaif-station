@@ -2,7 +2,7 @@
 using Content.Server.Medical.Components;
 using Content.Shared.Medical;
 
-namespace Content.Server.Medical; // WWDP SYSTEM
+namespace Content.Server.Medical; // Kaif SYSTEM
 
 /// <summary>
 /// This handles...

@@ -11,7 +11,7 @@ using Content.Server.Station.Components;
 using Content.Server.Station.Systems;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Administration;
-using Content.Shared.Aliens.Components; // WWDP
+using Content.Shared.Aliens.Components; // Kaif
 using Content.Shared.CCVar;
 using Content.Shared.Chat;
 using Content.Shared.Database;
@@ -305,7 +305,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         }
     }
 
-    // WWDP START
+    // Kaif START
     public void TrySendXenoHivemindMessage(
         EntityUid source,
         string message,
@@ -332,7 +332,7 @@ public sealed partial class ChatSystem : SharedChatSystem
                 break;
         }
     }
-    // WWDP END
+    // Kaif END
 
     #region Announcements
 
@@ -680,7 +680,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         _chatManager.ChatMessageToMany(ChatChannel.Dead, message, wrappedMessage, source, hideChat, true, clients.ToList(), author: player.UserId);
     }
 
-    // WWDP START
+    // Kaif START
     private void SendXenoHivemindChat(EntityUid source, ICommonSession player, string message, bool hideChat)
     {
         var clients = GetXenoChatClients();
@@ -710,7 +710,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         if (HasComp<AlienComponent>(source))
             _chatManager.ChatMessageToMany(ChatChannel.XenoHivemind, message, wrappedMessage, source, hideChat, true, clients.ToList(), author: player.UserId);
     }
-    // WWDP END
+    // Kaif END
 
     #endregion
 
@@ -861,7 +861,7 @@ public sealed partial class ChatSystem : SharedChatSystem
             .Select(p => p.Channel);
     }
 
-    // WWDP START
+    // Kaif START
     private IEnumerable<INetChannel> GetXenoChatClients()
     {
         return Filter.Empty()
@@ -869,7 +869,7 @@ public sealed partial class ChatSystem : SharedChatSystem
             .Recipients
             .Select(p => p.Channel);
     }
-    // WWDP END
+    // Kaif END
 
     private string SanitizeMessagePeriod(string message)
     {
@@ -1050,7 +1050,7 @@ public enum InGameICChatType : byte
 public enum InGameOOCChatType : byte
 {
     Looc,
-    HiveXeno, // WWDP
+    HiveXeno, // Kaif
     Dead
 }
 

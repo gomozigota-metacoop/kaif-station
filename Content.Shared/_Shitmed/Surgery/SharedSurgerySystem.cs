@@ -1,6 +1,6 @@
 using System.Linq;
 using Content.Shared._Shitmed.Medical.Surgery.Conditions;
-using Content.Shared.Aliens.Components; // WWDP
+using Content.Shared.Aliens.Components; // Kaif
 using Content.Shared._Shitmed.Medical.Surgery.Effects.Complete;
 using Content.Shared.Body.Systems;
 using Content.Shared._Shitmed.Medical.Surgery.Steps;
