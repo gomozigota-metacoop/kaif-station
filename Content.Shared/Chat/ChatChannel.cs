@@ -86,7 +86,7 @@ namespace Content.Shared.Chat
         Unspecified = 1 << 14,
 
         /// <summary>
-        ///     WWDP - Xenomorph Hivemind
+        ///     Kaif - Xenomorph Hivemind
         /// </summary>
         XenoHivemind = 1 << 15,
 
