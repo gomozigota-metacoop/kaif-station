@@ -51,6 +51,11 @@
         /// </summary>
         Admin = ChatChannel.AdminChat,
 
+        /// <summary>
+        ///     WWDP - Xenomorph Hivemind
+        /// </summary>
+        XenoHivemind = ChatChannel.XenoHivemind,
+
         Console = ChatChannel.Unspecified
     }
 }

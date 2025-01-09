@@ -6,6 +6,8 @@
   order:
     - alertType: ChangelingBiomass # goobstation - changelings
     - category: Health
+    - category: Counter # Kaif
+    - alertType: PlasmaCounter # Kaif
     - category: Stamina
     - alertType: ChangelingChemicals # goobstation - changelings
     - alertType: SuitPower
