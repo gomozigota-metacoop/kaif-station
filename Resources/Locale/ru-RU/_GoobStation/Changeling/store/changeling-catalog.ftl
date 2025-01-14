@@ -49,37 +49,37 @@ evolutionmenu-combat-strainedmuscles-desc =
 
 # sting
 
-evolutionmenu-sting-blind-name = Токсин слепоты
+evolutionmenu-sting-blind-name = Жало слепоты
 evolutionmenu-sting-blind-desc =
     Бесшумно ужалите органическую цель, полностью ослепив ее на короткое время и сделав близорукой, пока не будет применен окулин.
     Можно использовать под действием Примитивной Формы.
-    Стоит 35 химикатов.
+    Стоит 25 химикатов.
 
-evolutionmenu-sting-cryo-name = Криотоксин
+evolutionmenu-sting-cryo-name = Жало криотоксина
 evolutionmenu-sting-cryo-desc =
     Введите в органическую цель смесь химикатов, охлаждающую кровь.
     Можно использовать под действием Примитивной Формы.
-    Стоит 35 химикатов.
+    Стоит 25 химикатов.
 
-evolutionmenu-sting-lethargic-name = Замедлить
+evolutionmenu-sting-lethargic-name = Жало замедления
 evolutionmenu-sting-lethargic-desc =
     Введите в органическую цель коктейль из анестетиков, замедляя жертву на приличное время.
     Можно использовать под действием Примитивной Формы.
-    Стоит 35 химикатов.
+    Стоит 25 химикатов.
 
-evolutionmenu-sting-mute-name = Токсин немоты
+evolutionmenu-sting-mute-name = Жало немоты
 evolutionmenu-sting-mute-desc =
     Введите немой токсин в органическую цель, полностью заставив ее замолчать на некоторое время.
     Можно использовать под действием Примитивной Формы.
-    Стоит 35 химикатов.
+    Стоит 25 химикатов.
 
-evolutionmenu-sting-transform-name = Трансформировать
+evolutionmenu-sting-transform-name = Жало трансформации
 evolutionmenu-sting-transform-desc =
     Внедрите часть своего генома в органическую цель, заставив ее тело превратиться в того, кого вы выбрали, используя способность «Переключение ДНК».
     Можно использовать под действием Примитивной Формы.
     Стоит 75 химикатов.
 
-evolutionmenu-sting-armblade-name = Затроллить руко-клинком
+evolutionmenu-sting-armblade-name = Жало игрушечного руко-клинка
 evolutionmenu-sting-armblade-desc =
     Введите часть своего генома в органическую цель, заставив ее руку превратиться в игрушечный руко-клинок.
     Можно использовать под действием Примитивной Формы.
