@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseItem, BaseMagicContraband ]
   id: CodexCicatrix
-  name: codex cicatrix
-  description: An ominous book you've never seen before. The letters seem to be contantly rearranging themselves.
+  name: Кодекс Цикатрикс
+  description: Зловещая книга, которую вы никогда раньше не видели. Кажется, что буквы постоянно перестраиваются.
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/book.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: [ DrinkBase, BaseMagicContraband ]
   id: HereticEldritchFlask
-  name: eldritch flask
-  description: A flask filled with an unknown substance. Who knows what will happen when you take a sip from it.
+  name: Жуткая колба
+  description: Колба, наполненная неизвестным веществом. Кто знает, что произойдет, когда вы сделаете глоток.
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/items.rsi
@@ -62,8 +62,8 @@
 
 - type: entity
   id: HereticProtectiveBlade
-  name: eldritch blade
-  description: Maelstrom of razors flashing right before your eyes. Why are you stopping to look at it!?
+  name: Жуткий клинок
+  description: Водоворот бритв сверкает прямо перед вашими глазами. Почему ты останавливаешься, чтобы посмотреть на это!?
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -85,8 +85,8 @@
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   id: HereticProtectiveBladeProjectile
-  name: eldritch blade
-  description: Maelstrom of razors flashing right before your eyes. Why are you stopping to look at it!?
+  name: Жуткий клинок
+  description: Водоворот бритв сверкает прямо перед вашими глазами. Почему ты останавливаешься, чтобы посмотреть на это!?
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/items.rsi

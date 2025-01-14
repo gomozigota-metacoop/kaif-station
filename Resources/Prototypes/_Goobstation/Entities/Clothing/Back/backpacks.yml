@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackCentcom
-  name: Centcom backpack
-  description: A luxurious backpack, smells like money.
+  name: рюкзак центрального командования
+  description: Только для крутых. Пахнет деньгами.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Backpacks/centcom.rsi
@@ -10,8 +10,8 @@
 - type: entity
   parent: [ClothingBackpack, BaseCentcommContraband]
   id: ClothingBackpackBlueshield
-  name: blueshield backpack
-  description: A very protective backpack, smells like energy gun.
+  name: рюкзак синего щита
+  description: Только для крутых. Пахнет энергетической винтовкой.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Backpacks/blueshield.rsi

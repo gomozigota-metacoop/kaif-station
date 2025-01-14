@@ -1,7 +1,7 @@
 - type: entity
   id: ActionChronoBlink
   name: Temporary shift
-  description: Changes your coordinates, allowing you to teleport to nearby locations
+  description: Изменяет ваши координаты, позволяя вам телепортироваться в ближайшие локации.
   categories: [ HideSpawnMenu ]
   components:
   - type: WorldTargetAction

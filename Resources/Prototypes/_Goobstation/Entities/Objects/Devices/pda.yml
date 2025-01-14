@@ -1,8 +1,8 @@
 - type: entity
   parent: AdminPDA
   id: ChronoPDA
-  name: futuristic PDA
-  description: A powerful quantum computer disguised as a regular pda for disguise.
+  name: футуристичный квантовый компьютер
+  description: Мощный квантовый компьютер будущего, замаскированный под нечто обыкновенное.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Devices/pda.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: SalvagePDA
   id: HelldiverPDA
-  name: salvage diver PDA
-  description: Smells like corpses of insects and androids.
+  name: NT-01 ПДА
+  description: Пахнет трупами ксеносов и безумных андроидов.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Devices/pda.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: CentcomPDA
   id: HecuPDA
-  name: HECU PDA
-  description: Smells of gunpowder.
+  name: ПДА HECU
+  description: Пахнет порохом.
   components:
   - type: Pda
     id: HecuIDCard
@@ -61,8 +61,8 @@
 - type: entity
   parent: ERTLeaderPDA
   id: BlueshieldPDA
-  name: Blueshield Officer PDA
-  description: The silver shield of the Blueshield is engraved on the front.
+  name: ПДА синего щита
+  description: Серебрянный значок "Синий Щит" блестит на корпусе.
   components:
   - type: Pda
     id: BlueshieldIDCard

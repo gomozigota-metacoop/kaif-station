@@ -1,7 +1,7 @@
 - type: entity
   id: ActionHereticFleshSurgery
-  name: flesh surgery
-  description: Remove a random organ from someone, or heal your teammates.
+  name: Хирургия плоти
+  description: Удалите случайный орган у кого-нибудь или исцелите своих товарищей по команде.
   components:
   - type: EntityTargetAction
     useDelay: 30

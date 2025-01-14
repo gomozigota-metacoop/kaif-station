@@ -1,8 +1,8 @@
 - type: entity
-  name: head slug
+  name: Хедкраб
   parent: [SimpleSpaceMobBase] # no dying in space
   id: MobHeadcrab
-  description: You don't want to touch it.
+  description: Вы НЕ хотите это трогать.
   components:
   - type: Sprite
     drawdepth: SmallMobs

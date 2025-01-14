@@ -1,7 +1,7 @@
 - type: entity
   id: ActionAGhostShowStationMap
-  name: Station Map Interface
-  description: View a Station Map Interface.
+  name: Интерфейс Станционной Карты
+  description: Посмотреть интерфейс станционной карты.
   components:
   - type: InstantAction
     # TODO: Make a sprite for the station map interface.

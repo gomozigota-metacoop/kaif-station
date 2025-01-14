@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateMedicHardsuitBundle
-  name: syndicate medic hardsuit bundle
-  description: "A surplus combat medic hardsuit, bundled for your LARP."
+  name: Комплект жесткого костюма медика Синдиката
+  description: "Дополнительный костюм боевого медика, входящий в комплект для вашей ролевой игры."
   components:
   - type: StorageFill
     contents:
@@ -15,8 +15,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateStealthHardsuitBundle
-  name: cybersun stealthsuit bundle
-  description: "An advanced cybersun stealth hardsuit bundle."
+  name: Комплект стелскостюма CyberSun
+  description: "Усовершенствованный комплект стелс-костюма CyberSun."
   components:
   - type: StorageFill
     contents:
@@ -29,8 +29,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateBurner
-  name: Burner Bundle
-  description: "A high caliber Burner rifle, comes with some anti materiel and high explosive ammunition."
+  name: Набор с Бернером
+  description: "Винтовка Бернера большого калибра поставляется с некоторыми противотанковыми и фугасными боеприпасами."
   components:
   - type: StorageFill
     contents:
@@ -42,8 +42,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateM90Bundle # - 古い M90 バンドルがこの ID を使用しているかどうかはわかりませんが、その ID はコメントアウトされており、もう存在しないと思います。
-  name: M-90 bundle
-  description: "A bundle carrying the syndicate's M-90 assault rifle, packed with 2 spare magazines."
+  name: Набор M-90
+  description: "Связка с автоматом синдиката М-90 и двумя запасными магазинами."
   components:
   - type: StorageFill
     contents:
@@ -54,8 +54,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledWSPR
-  name: WSPR bundle
-  description: "A bundle carrying the syndicate's WSPR assault rifle, packed with 2 spare magazines."
+  name: Набор WSPR
+  description: "Сверток с штурмовой винтовкой синдиката WSPR и двумя запасными магазинами."
   components:
   - type: StorageFill
     contents:

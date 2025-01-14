@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: Acidifier
   id: BluespaceLifeline
-  name: bluespace lifeline
-  description: Teleports your body to save your life!
+  name: блюспейс перемога
+  description: Телепортрует твое тело и спасает твою задницу!
   components:
   - type: Transform
     anchored: True

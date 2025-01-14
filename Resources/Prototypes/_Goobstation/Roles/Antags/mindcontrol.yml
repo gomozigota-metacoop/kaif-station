@@ -1,6 +1,6 @@
 - type: antag
   id: Mindcontrolled
-  name: mindcontrolled
+  name: Подчиненный
   antagonist: true
   setPreference: false
-  objective: "Help your Master"
+  objective: "Служите своему хозяину!"

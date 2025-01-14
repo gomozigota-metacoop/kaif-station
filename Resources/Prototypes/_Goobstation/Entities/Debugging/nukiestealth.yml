@@ -2,8 +2,8 @@
   parent: [ ClothingOuterHardsuitBase, BaseSyndicateContraband ]
   id: ClothingOuterHardsuitSyndieStealthDebug
   suffix: DEBUG, DO NOT MAP, stealth
-  name: syndicate stealth hardsuit
-  description: A hardsuit with stealth plating for operations, the shielding doesn't work while you're moving though! Needs the helmet on to finish the stealth field.
+  name: стелс-скафандр синдиката
+  description: Скафандр с встроенным модулем генератора поля невидимости! Для работы требуется стелс-шлем.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
@@ -47,8 +47,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieStealthDebug
   suffix: DEBUG, DO NOT MAP, stealth
-  name: syndicate stealth hardsuit helmet
-  description: A helmet with plating for stealth operations.
+  name: стелс-шлем синдиката
+  description: Шлем с встроенным модулем генератора поля невидимости! Для работы требуется стелс-скафандр.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndicate.rsi

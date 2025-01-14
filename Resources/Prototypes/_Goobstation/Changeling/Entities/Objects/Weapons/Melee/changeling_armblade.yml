@@ -1,6 +1,7 @@
 - type: entity
   parent: ArmBlade
   id: ArmBladeChangeling
+  name: Руко-клинок
   suffix: Unremoveable
   components:
   - type: Sharp
@@ -38,6 +39,7 @@
 - type: entity
   parent: ArmBladeChangeling
   id: FakeArmBladeChangeling
+  name: Руко-клинок
   components:
   - type: MeleeWeapon
     wideAnimationRotation: 90

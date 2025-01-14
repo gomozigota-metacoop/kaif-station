@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseMagicContraband ]
   id: ClothingHeadHatHoodHeretic
-  name: ominous hood
-  description: A torn, dust-caked hood. Strange eyes line the inside.
+  name: Зловещий капюшон
+  description: Порванный, запыленный капюшон. Внутри странные глаза.
   components:
   - type: HereticMagicItem
   - type: Sprite

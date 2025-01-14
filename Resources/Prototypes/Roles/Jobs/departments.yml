@@ -27,7 +27,6 @@
   - Librarian
   - Mime
   - Musician
-  - Passenger
   - Reporter
   - Visitor
   - Zookeeper
@@ -39,6 +38,7 @@
   description: department-CentralCommand-description
   color: "#0c344d"
   roles:
+  - Passenger
   - CentralCommandOfficial
   - CBURN
   - ERTLeader
@@ -148,3 +148,12 @@
   - Zookeeper
   - Psychologist
   primary: false
+
+- type: department
+  id: Admin
+  name: department-Admin
+  description: department-Admin-description
+  color: "Green"
+  weight: 999
+  roles:
+  - Passenger

@@ -2,8 +2,8 @@
   parent: [ ClothingBeltMilitaryWebbingCMO, BaseMedicalContraband ]
   suffix: Filled
   id: ClothingBeltMilitaryWebbingCMOFilled
-  name: chief medical officer's chest rig
-  description: "A medical chest rig with deep pockets, for use by paramedics and health professionals."
+  name: Пояс врача
+  description: "Медицинский пояс с глубокими карманами для использования парамедиками и медицинскими работниками."
   components:
   - type: StorageFill
     contents:

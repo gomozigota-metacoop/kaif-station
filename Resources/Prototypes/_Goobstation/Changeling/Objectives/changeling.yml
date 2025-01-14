@@ -10,8 +10,8 @@
 - type: entity
   parent: [BaseChangelingObjective, BaseSurviveObjective]
   id: ChangelingSurviveObjective
-  name: Survive
-  description: I must survive no matter what.
+  name: Выжить
+  description: Я должен выжить несмотря ни на что.
   components:
   - type: Objective
     icon:
@@ -51,7 +51,8 @@
 - type: entity
   parent: BaseChangelingObjective
   id: EscapeIdentityObjective
-  description: I need to escape on the evacuation shuttle. Undercover.
+  name: Сбежать
+  description: Мне нужно сбежать на эвакуационном шаттле. Под прикрытием.
   components:
   - type: Objective
     icon:

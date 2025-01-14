@@ -198,7 +198,7 @@
 # Observer
 - type: entity
   id: MobObserverBlob
-  name: Blob observer
+  name: Камера блоба
   categories: [ HideSpawnMenu ]
   save: false
   components:

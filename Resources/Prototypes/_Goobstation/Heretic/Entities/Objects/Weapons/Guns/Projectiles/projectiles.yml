@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseBulletTrigger
   id: FireballChain
-  name: twisted fireball
-  description: Uh oh.
+  name: Искривленный огненный шар
+  description: Ой-ой.
   categories: [ HideSpawnMenu ]
   components:
   - type: ChainFireball

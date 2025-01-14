@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDurathread
-  name: durathread jumpsuit
-  description: A loose worn durathread shirt with a grey pants, its resilient fibres provide some protection to the wearer.
+  name: самодельный комбинезон
+  description: Дает некоторую защиту носителю.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/durathread_jumpsuit.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNanotrasenRepresentative
-  name: nanotrasen representative suit
-  description: A black suit worn by officials.
+  name: комбинезон представителя НаноТрейзен
+  description: Строгий костюм, который могут носить только официальные представители.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/nanotrasen_representative.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCasualSyndicate
-  name: casual syndicate jumpsuit
-  description: Short sleeves, short temper.
+  name: казуальный комбинезон синдиката
+  description: Короткие рукава, короткие штаны.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/casualsyndicate.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBlueshieldOfficer
-  name: blueshield officer jumpsuit
-  description: A short-sleeved grey and blue jumpsuit, made out of a sturdy material. Blueshield standard issue.
+  name: комбинезон синего щита
+  description: Серо-голубой костюм, сделанный из тянущихся материалов. Стандартная проблема женского состава Синего Щита.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/blueshield_officer.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBlueshieldShirt
-  name: blueshield officer blue shirt
-  description: An official security uniform. Pretty safe and pretty busy.
+  name: синие шорты синего щита
+  description: Официальная форма офицеров. Очень удобно и очень безопасно.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/blueshield_shirt.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformMailCarrier
-  name: mail carrier's uniform
-  description: Enemy of dogs everywhere.
+  name: униформа курьера
+  description: Враг собак везде.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/mailman.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformHecu
-  name: HECU uniform
-  description: Hunt down the Freeman.
+  name: комбинезон HECU
+  description: Принесите мне голову этого Фримана!
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/hecu.rsi

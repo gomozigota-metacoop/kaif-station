@@ -1,7 +1,8 @@
 - type: entity
   parent: ThrowingStar
   id: ThrowingStarChangeling
-  name: bone shard
+  name: Костный шип
+  description: Я хочу, что бы генокрады стали хокаге.
   components:
   - type: Sprite
     sprite: _Goobstation/Changeling/bone_shard.rsi

@@ -2,8 +2,8 @@
   parent: BaseItem
   id: BaseLockerTeleporter
   abstract: true
-  name: special equipment teleporter
-  description: Device that allows you to request delivery of special equipment.
+  name: специальный телепортер
+  description: Устройство, которое может запросить телепорт снаряжения.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Devices/unique_teleporters.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: BaseLockerTeleporter
   id: BlueshieldOfficerLockerTeleporter
-  name: blueshield locker teleporter
-  description: Device that allows you to request delivery of blueshield officer locker.
+  name: телепортер снаряжения синего щита
+  description: Устройство, которое может телепортировать шкафчик со снаряжением офицера синего щита. Можно использовать только один раз.
   components:
   - type: Sprite
     state: bso
@@ -40,8 +40,8 @@
 - type: entity
   parent: BaseLockerTeleporter
   id: NanorepLockerTeleporter
-  name: nanotrasen representative locker teleporter
-  description: Device that allows you to request delivery of nanotrasen representative locker.
+  name: телепортер снаряжения представителя НаноТрейзен
+  description: Устройство, которое может телепортировать шкафчик со снаряжением представителя НаноТрейзен. Можно использовать только один раз.
   components:
   - type: Sprite
     state: ntr

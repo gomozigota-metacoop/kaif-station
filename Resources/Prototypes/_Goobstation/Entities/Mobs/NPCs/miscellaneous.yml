@@ -1,8 +1,8 @@
 - type: entity
-  name: Skibidi Toilet
+  name: Скибиди Туалет
   id: MobSkibidiToilet
   parent: SimpleMobBase
-  description: Skibidi dop dop dop yes yes
+  description: Скибиди доп доб йес ес!
   components:
     - type: NpcFactionMember
       factions:
@@ -80,8 +80,8 @@
     - type: OhioAccent
 
 - type: entity
-  name: OSRS NPC
-  description: Reminiscent of an older time...
+  name: НПС ОСРС
+  description: Вода... И колодец..
   id: MobOSRS
   parent: [MobRespirator, MobAtmosStandard, StripableInventoryBase, BaseSimpleMob, MobCombat, MobBloodstream, MobFlammable]
   components:
@@ -205,14 +205,14 @@
       gender: male
 
 - type: entity
-  name: Sportacus
-  description: ding dong eat it up i gota go
+  name: Спортакус Чемпион
+  description: Он трахает твою мамку целыми сутками!
   id: MobSportacus
   parent: [BaseSimpleMob, MobCombat, MobBloodstream]
   components:
   - type: MovementSpeedModifier
-    baseWalkSpeed: 3
-    baseSprintSpeed: 5
+    baseWalkSpeed: 5
+    baseSprintSpeed: 10
   - type: CombatMode
   - type: Deathgasp
   - type: Hands
@@ -223,7 +223,7 @@
   - type: MeleeWeapon
     damage:
       types:
-        Blunt: 200000
+        Blunt: 2000000
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -350,8 +350,8 @@
         Heat: -500
 
 - type: entity
-  name: Mariah Carey
-  description: I don't want a lot for Christmas
+  name: Мария Карэй
+  description: Мери кристмас сученьки!
   id: MobMariah
   parent: MobSportacus
   components:

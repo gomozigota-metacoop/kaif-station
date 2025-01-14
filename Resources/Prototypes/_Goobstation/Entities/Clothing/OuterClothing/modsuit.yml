@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingModsuitChestplateStandard
-  name: standard modsuit chestplate
-  description: A special modular suit spaceproof cover designed for compact folding inside modular suit control.
+  name: Стандартный нагрудник МОД-костюма
+  description: Стандартный бронированный герметичный нагрудник используемый в МОД-костюмах.
   categories: [ HideSpawnMenu ]
   components:
   - type: Appearance

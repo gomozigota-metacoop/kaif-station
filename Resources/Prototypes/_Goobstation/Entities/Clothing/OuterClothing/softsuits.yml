@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitSyndicateDurathread # TODO: rename to ClothingOuterEVASuitSyndicate
-  name: syndicate EVA suit
-  description: "A Nimble, well-crafted durathread-woven EVA suit with mild protection and anti-rad installed. Has a tag on the back that reads: 'Totally not property of an enemy corporation, honest!'"
+  name: скафандр EVA синдиката
+  description: "Крутой EVA костюм с встроенной защитой от радиации. Имеет наклееную табличку сзади: 'Точно не снаряжение вражеской корпорации, обещаем!'"
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi

@@ -4,8 +4,8 @@
   description: job-description-passenger
   playTimeTracker: JobPassenger
   startingGear: PassengerGear
-  icon: "JobIconPassenger"
-  supervisors: job-supervisors-everyone
+  icon: "JobIconAdmin"
+  supervisors: job-supervisors-none
   access:
   - Maintenance
 

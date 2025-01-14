@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadHelmetRaid
   id: ClothingHeadHelmetHelldiver
-  name: salvage NT-01 tactical helmet
-  description: This armor is the NanoTrasen standard issue, made from the same titanium alloy as the Goliath hull.
+  name: Тактический шлем утилизатора NT-01
+  description: Эта броня - проблема НаноТрейзен номер один. Сделана из того же сплава, что и череп голиафа.
   components:
   - type: BreathMask
   - type: Sprite
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitBasic
   id: ClothingHeadHelmetHEV
-  name: H.E.V helmet
-  description: Not included in a set with crowbar, long jump module and gravity manipulation device.
+  name: шлем H.E.V
+  description: В набор не входит монтировка, навыки банихопа и гравитационная пушка.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Helmets/hev.rsi

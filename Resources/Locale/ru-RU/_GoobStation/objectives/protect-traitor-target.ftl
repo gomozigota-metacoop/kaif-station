@@ -1,0 +1,1 @@
+objective-condition-traitor-target-alive-title = Защити {$targetName}, {CAPITALIZE($job)} от других агентов.

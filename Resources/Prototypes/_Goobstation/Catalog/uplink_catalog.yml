@@ -12,8 +12,8 @@
 
 - type: listing
   id: UplinkBoxReagentGrenades
-  name: Box of Reagent Grenades
-  description: Contains 2 Glue grenades and 2 Lube Grenades
+  name: Ящик с реагентными гранатами
+  description: Содержит 2 клеевые гранаты и 2 смазочные гранаты.
   productEntity: BoxReagentGrenades
   cost:
     Telecrystal: 30
@@ -32,8 +32,8 @@
 
 - type: listing
   id: UplinkBoxSkibidiRizz
-  name: Box of Skibidi Rizz
-  description: Contains 3 Skibidi Toilet cubes and 3 glasses of SigmaJuice... Chat, is this real?
+  name: Коробка Скибиди Ризза
+  description: Содержит 3 туалетных кубика Skibidi и 3 стакана сигмаджуса... Чат, это реально?
   productEntity: BoxSkibidiRizz
   cost:
     Telecrystal: 30
@@ -250,8 +250,8 @@
 
 - type: listing
   id: UplinkLubeGrenade
-  name: Lube grenade
-  description: Make the floor slippery!
+  name: Смазочная граната
+  description: Сделайте пол скользким!
   productEntity: LubeGrenade
   cost:
     Telecrystal: 14
@@ -266,8 +266,8 @@
 
 - type: listing
   id: UplinkGlueGrenade
-  name: Glue grenade
-  description: Make the floor hard to walk in!
+  name: Клеевая граната
+  description: Сделайте пол трудным для ходьбы!
   productEntity: GlueGrenade
   cost:
     Telecrystal: 5
@@ -294,8 +294,8 @@
 
 - type: listing
   id: UplinkJermovCircuitBoard
-  name: jermov circuit board
-  description: A very un-dangerous Lawset to use when you want to cause the A.I. to get brainrot, use when bored.
+  name: Джермовская плата
+  description: Очень неопасный набор законов, который можно использовать, когда вы хотите заставить ИИ веселиться. Сделает ИИ гнило-мозги, используйте, когда скучно.
   productEntity: JermovCircuitBoard
   cost:
     Telecrystal: 15

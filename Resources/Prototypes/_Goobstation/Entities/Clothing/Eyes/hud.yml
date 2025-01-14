@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesHudOmni
   id: ClothingEyesHudChrono
-  name: futuristic visor
-  description: A visior from the future, capable of displaying almost anything.
+  name: Футуристический сканер
+  description: Футуристический сканер, способный просканировать почти любую информацию об объектах.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Hud/chrono.rsi
