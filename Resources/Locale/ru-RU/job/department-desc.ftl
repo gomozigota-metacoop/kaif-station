@@ -9,4 +9,4 @@ department-Science-description = Изучайте артефакты и аном
 department-Silicon-description = Соблюдайте свои законы, служите экипажу.
 department-Specific-description = Должности, которые есть не на всех станциях.
 
-departament-Admin-description = Если вы настоящий (true) Сигма (Sigma) и у вас большие (Big) яйца (Balls), смело выбирайте данную роль.
+department-Admin-description = Если вы настоящий (true) Сигма (Sigma) и у вас большие (Big) яйца (Balls), смело выбирайте данную роль.

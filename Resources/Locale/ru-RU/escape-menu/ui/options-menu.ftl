@@ -236,7 +236,6 @@ ui-options-function-loadout-shift8 = Страница хотбара Shift+8
 ui-options-function-loadout-shift9 = Страница хотбара Shift+9
 ui-options-function-loadout-shift0 = Страница хотбара Shift+0
 
-
 ui-options-function-loadout1 = 1 страница хотбара
 ui-options-function-loadout2 = 2 страница хотбара
 ui-options-function-loadout3 = 3 страница хотбара

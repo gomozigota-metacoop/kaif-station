@@ -9,4 +9,4 @@ department-Science = Научный отдел
 department-Silicon = Синтетики
 department-Specific = На определённых станциях
 
-departament-Admin = Администрация
+department-Admin = Администрация

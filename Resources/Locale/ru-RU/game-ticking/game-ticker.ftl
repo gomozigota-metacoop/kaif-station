@@ -7,6 +7,7 @@ game-ticker-unknown-role = Неизвестный
 game-ticker-delay-start = Начало раунда было отложено на { $seconds } секунд.
 game-ticker-pause-start = Начало раунда было приостановлено.
 game-ticker-pause-start-resumed = Отсчёт начала раунда возобновлён.
+
 game-ticker-player-join-game-message = Добро пожаловать на Kaif Station! Что бы зайти на наш Discord-сервер, вы можете тыкнуть по соответствующей кнопке в лобби или перейти по ссылке в описаннии сервера! (Описание сервера в списке игровых серверов.) Если вы играете впервые и еще не ознакомились с правилами, обязательно спрашивайте в "Ахелпе" обо всем, что вам нужно.
 game-ticker-get-info-text =
     Хай, бро! Добро пожаловать на [bold][color=orange]Kaif Station![/color][/bold]

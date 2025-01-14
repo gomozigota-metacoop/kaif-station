@@ -1,0 +1,1 @@
+contraband-examine-text-magic = [color=purple]Это магическкая хуйня! Она под запретом![/color]

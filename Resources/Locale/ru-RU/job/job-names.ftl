@@ -33,7 +33,9 @@ job-name-janitor = уборщик
 job-name-chaplain = священник
 job-name-botanist = ботаник
 job-name-bartender = бармен
+
 job-name-passenger = ассистент
+
 job-name-salvagespec = утилизатор
 job-name-station-ai = станционный ИИ
 job-name-qm = квартирмейстер
@@ -95,7 +97,9 @@ JobMedicalDoctor = врач
 JobMedicalIntern = интерн
 JobMime = мим
 JobMusician = музыкант
+
 JobPassenger = ассистент
+
 JobParamedic = парамедик
 JobPsychologist = психолог
 JobQuartermaster = квартирмейстер
