@@ -154,6 +154,54 @@
     chemicalCost: 15
 
 - type: entity
+  id: ActionToggleHammer
+  name: Toggle Arm Hammer
+  description: Reform one of your arms into a strong hammer, composed of bone and flesh. Retract on secondary use. Costs 15 chemicals.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 2
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Goobstation/Changeling/changeling_abilities.rsi
+      state: hammer
+    event: !type:ToggleArmHammerEvent {}
+  - type: ChangelingAction
+    chemicalCost: 15
+
+- type: entity
+  id: ActionToggleClaw
+  name: Toggle Arm Claw
+  description: Reform one of your arms into a strong claw, composed of bone and flesh. Retract on secondary use. Costs 15 chemicals.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 2
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Goobstation/Changeling/changeling_abilities.rsi
+      state: claw
+    event: !type:ToggleArmClawEvent {}
+  - type: ChangelingAction
+    chemicalCost: 15
+
+- type: entity
+  id: ActionToggleDartGun
+  name: Toggle Dart Gun
+  description: Reform one of your arms into a dart gun, composed of bone and flesh. Retract on secondary use. Costs 15 chemicals.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 2
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Goobstation/Changeling/changeling_abilities.rsi
+      state: dartgun
+    event: !type:ToggleDartGunEvent {}
+  - type: ChangelingAction
+    chemicalCost: 15
+
+- type: entity
   id: ActionCreateBoneShard
   name: Сформировать костный шип
   description: Отломите немного костей и сформируйте из них метательный шип. Стоит 15 химикатов.
@@ -263,7 +311,7 @@
 - type: entity
   id: ActionStingBlind
   name: Жало слепоты
-  description: Бесшумно ужалит цель, ослепив ее на короткое время и сделав близорукой. Стоит 35 химикатов.
+  description: Бесшумно ужалит цель, ослепив ее на короткое время и сделав близорукой. Стоит 25 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -277,15 +325,18 @@
     icon:
       sprite: _Goobstation/Changeling/changeling_abilities.rsi
       state: sting_blind
-    event: !type:StingBlindEvent {}
+    event: !type:StingReagentEvent {}
   - type: ChangelingAction
-    chemicalCost: 35
+    chemicalCost: 20
     useInLesserForm: true
+  - type: ChangelingReagentSting
+    configuration: StingBlind
+    dartGunAmmo: StingBlind
 
 - type: entity
   id: ActionStingCryo
   name: Жало криотоксина
-  description: Тихо жалит цель, постоянно замедляя и замораживая ее. Стоит 35 химикатов.
+  description: Тихо жалит цель, постоянно замедляя и замораживая ее. Стоит 25 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -299,15 +350,18 @@
     icon:
       sprite: _Goobstation/Changeling/changeling_abilities.rsi
       state: sting_cryo
-    event: !type:StingCryoEvent {}
+    event: !type:StingReagentEvent {}
   - type: ChangelingAction
-    chemicalCost: 35
+    chemicalCost: 20
     useInLesserForm: true
+  - type: ChangelingReagentSting
+    configuration: StingCryo
+    dartGunAmmo: StingCryo
 
 - type: entity
   id: ActionStingLethargic
   name: Жало замедления
-  description: Тихо введет в цель коктейль из анестетиков и замедлит её. Стоит 35 химикатов.
+  description: Тихо введет в цель коктейль из анестетиков и замедлит её. Стоит 25 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -321,15 +375,18 @@
     icon:
       sprite: _Goobstation/Changeling/changeling_abilities.rsi
       state: sting_lethargic
-    event: !type:StingLethargicEvent {}
+    event: !type:StingReagentEvent {}
   - type: ChangelingAction
-    chemicalCost: 35
+    chemicalCost: 30
     useInLesserForm: true
+  - type: ChangelingReagentSting
+    configuration: StingLethargic
+    dartGunAmmo: StingLethargic
 
 - type: entity
   id: ActionStingMute
   name: Жало немоты
-  description: Бесшумно ужалит цель, полностью заставив ее замолчать на короткое время. Стоит 35 химикатов.
+  description: Бесшумно ужалит цель, полностью заставив ее замолчать на короткое время. Стоит 25 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -343,10 +400,13 @@
     icon:
       sprite: _Goobstation/Changeling/changeling_abilities.rsi
       state: sting_mute
-    event: !type:StingMuteEvent {}
+    event: !type:StingReagentEvent {}
   - type: ChangelingAction
-    chemicalCost: 35
+    chemicalCost: 20
     useInLesserForm: true
+  - type: ChangelingReagentSting
+    configuration: StingMute
+    dartGunAmmo: StingMute
 
 - type: entity
   id: ActionStingFakeArmblade
@@ -593,3 +653,26 @@
   - type: ChangelingAction
     chemicalCost: 0
     useInLesserForm: true
+
+- type: entity
+  id: ActionAbsorbBiomatter
+  name: Absorb Biomatter
+  description: Absorb a food item to regain some chemicals.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    whitelist:
+      components:
+      - Food
+    canTargetSelf: false
+    interactOnMiss: false
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Goobstation/Changeling/changeling_abilities.rsi
+      state: absorb_biomatter
+    event: !type:AbsorbBiomatterEvent {}
+  - type: ChangelingAction
+    chemicalCost: 0
+    requireBiomass: false
+    useInLesserForm: true
+    useInLastResort: true
