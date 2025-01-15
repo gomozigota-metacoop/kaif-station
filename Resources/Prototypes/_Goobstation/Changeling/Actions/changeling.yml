@@ -3,8 +3,8 @@
 # starting
 - type: entity
   id: ActionEvolutionMenu
-  name: Open evolution menu
-  description: Opens the evolution menu.
+  name: Открыть меню эволюции
+  description: Открывает меню эволюции.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -20,8 +20,8 @@
 
 - type: entity
   id: ActionAbsorbDNA
-  name: Absorb DNA
-  description: Absorb the target's DNA, husking them in the process. Costs 25 chemicals.
+  name: Поглотить ДНК
+  description: Поглощает ДНК существа, попутно разлагая его. Стоит 25 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -43,8 +43,8 @@
 
 - type: entity
   id: ActionStingExtractDNA
-  name: Extract DNA sting
-  description: Steal your target's genetic information. Costs 25 chemicals.
+  name: Извлечь ДНК
+  description: Крадет цепь ДНК у существа. Стоит 25 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -65,8 +65,8 @@
 
 - type: entity
   id: ActionChangelingTransformCycle
-  name: Cycle DNA
-  description: Cycle your available DNA.
+  name: Переключить ДНК
+  description: Переключает ваш текущий ДНК.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -82,8 +82,8 @@
 
 - type: entity
   id: ActionChangelingTransform
-  name: Transform
-  description: Transform into another humanoid. Doesn't come with clothes. Costs 5 chemicals.
+  name: Трансформация
+  description: Превращает в другого гуманоида. В комплект не входит одежда. Стоит 5 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -100,8 +100,8 @@
 
 - type: entity
   id: ActionEnterStasis
-  name: Enter regenerative stasis
-  description: Fake your death and start regenerating. Drains all your chemicals. Consumes biomass.
+  name: Войти в регенеративный стазис
+  description: Подделайте свою смерть и начните регенерировать. Сливает все ваши химикаты. Потребляет биомассу.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -119,8 +119,8 @@
 
 - type: entity
   id: ActionExitStasis
-  name: Exit stasis
-  description: Rise from the dead with full health. Costs 60 chemicals.
+  name: Покинуть стазис
+  description: Восстаньте из мертвых с полным здоровьем. Стоит 60 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -139,8 +139,8 @@
 # combat
 - type: entity
   id: ActionToggleArmblade
-  name: Toggle Arm Blade
-  description: Reform one of your arms into a strong blade, composed of bone and flesh. Retract on secondary use. Costs 15 chemicals.
+  name: Переключить руко-клинок
+  description: Превращает одну из ваших рук в сильный клинок, состоящий из костей и плоти. Убирает его при вторичном использовании. Стоит 15 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -203,8 +203,8 @@
 
 - type: entity
   id: ActionCreateBoneShard
-  name: Form Bone Shard
-  description: Break off shards of your bone and shape them into a throwing star. Costs 15 chemicals.
+  name: Сформировать костный шип
+  description: Отломите немного костей и сформируйте из них метательный шип. Стоит 15 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -219,8 +219,8 @@
 
 - type: entity
   id: ActionToggleChitinousArmor
-  name: Toggle Armor
-  description: Inflate your body into an all-consuming chitinous mass of armor. Costs 25 chemicals.
+  name: Переключить броню
+  description: Раздуйте свое тело и превратите его в всепоглощающую хитиновую массу брони. Стоит 25 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -236,8 +236,8 @@
 
 - type: entity
   id: ActionToggleOrganicShield
-  name: Form Shield
-  description: Reform one of your arms into a large, fleshy shield. Costs 20 chemicals.
+  name: Щит из плоти
+  description: Превратите одну из своих рук в большой мясистый щит. Стоит 20 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -253,8 +253,8 @@
 
 - type: entity
   id: ActionShriekDissonant
-  name: Dissonant Shriek
-  description: Emit an EMP blast, with just your voice. Costs 30 chemicals.
+  name: Диссонансный крик
+  description: Выпустит ЭМИ-взрыв с помощью вашего голоса. Стоит 30 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -272,8 +272,8 @@
 
 - type: entity
   id: ActionShriekResonant
-  name: Resonant Shriek
-  description: Disorient people and break lights, with just your voice. Costs 30 chemicals.
+  name: Резонансный крик
+  description: Дезориентирет людей и выбивает свет с помощью вашего голоса. Стоит 30 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -291,8 +291,8 @@
 
 - type: entity
   id: ActionToggleStrainedMuscles
-  name: Strain Muscles
-  description: Move at extremely fast speeds. Deals stamina damage.
+  name: Развить мышцы
+  description: Двигайтесь на чрезвычайно высоких скоростях. Наносит урон выносливости.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -310,8 +310,8 @@
 # stings
 - type: entity
   id: ActionStingBlind
-  name: Blind Sting
-  description: Silently sting your target, blinding them for a short time and rendering them near sighted. Costs 25 chemicals.
+  name: Жало слепоты
+  description: Бесшумно ужалит цель, ослепив ее на короткое время и сделав близорукой. Стоит 25 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -335,8 +335,8 @@
 
 - type: entity
   id: ActionStingCryo
-  name: Cryogenic Sting
-  description: Silently sting your target, constantly slowing and freezing them. Costs 25 chemicals.
+  name: Жало криотоксина
+  description: Тихо жалит цель, постоянно замедляя и замораживая ее. Стоит 25 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -360,8 +360,8 @@
 
 - type: entity
   id: ActionStingLethargic
-  name: Lethargic Sting
-  description: Silently inject a cocktail of anesthetics into the target. Costs 25 chemicals.
+  name: Жало замедления
+  description: Тихо введет в цель коктейль из анестетиков и замедлит её. Стоит 25 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -385,8 +385,8 @@
 
 - type: entity
   id: ActionStingMute
-  name: Mute Sting
-  description: Silently sting your target, completely silencing them for a short time. Costs 25 chemicals.
+  name: Жало немоты
+  description: Бесшумно ужалит цель, полностью заставив ее замолчать на короткое время. Стоит 25 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -410,8 +410,8 @@
 
 - type: entity
   id: ActionStingFakeArmblade
-  name: Fake Armblade Sting
-  description: Silently sting your target, making them grow a dull armblade for a short time. Costs 50 chemicals.
+  name: Жало руко-клинка
+  description:  Бесшумно ужалит цель, заставив ее руку на короткое время превратиться в руко-клинок. Стоит 50 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -432,8 +432,8 @@
 
 - type: entity
   id: ActionStingTransform
-  name: Transformation Sting
-  description: Silently sting your target, transforming them into a person of your choosing. Costs 75 chemicals.
+  name: Жало трансформации
+  description: Тихо ужалит цель, превратив ее в человека на ваш выбор. Стоит 75 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -454,8 +454,8 @@
 
 - type: entity
   id: ActionLayEgg
-  name: Lay Egg
-  description: Plant an egg in a dead corpse which will mature into a new form for us.
+  name: Отложить яйца
+  description: Посадит яйцо в мертвый труп, которое созреет и примет для нас новую форму.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -476,8 +476,8 @@
 # utility
 - type: entity
   id: ActionAnatomicPanacea
-  name: Anatomic Panacea
-  description: Cure yourself of diseases, disabilities, radiation, toxins, drunkedness and brain damage. Costs 30 chemicals.
+  name: Панацея
+  description: Излечит от болезней, инвалидности, радиации, токсинов, пьянства и повреждений головного мозга. Стоит 30 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -495,8 +495,8 @@
 
 - type: entity
   id: ActionAugmentedEyesight
-  name: Augmented Eyesight
-  description: Toggle thermal vision.
+  name: Аугментированное зрение
+  description: Переключает термальное зрение.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -510,8 +510,8 @@
 
 - type: entity
   id: ActionBiodegrade
-  name: Biodegrade
-  description: Vomit a caustic substance onto any restraints, or someone's face. Costs 30 chemicals.
+  name: Биодеградация
+  description: Вас вырвет едким веществом на какие-либо средства фиксации или на чье-либо лицо. Стоит 30 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -528,8 +528,8 @@
 
 - type: entity
   id: ActionChameleonSkin
-  name: Chameleon Skin
-  description: Slowly blend in with the environment. Costs 25 chemicals.
+  name: Кожа хамелеона
+  description: Медленно слейтесь с окружающей средой. Стоит 25 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -546,8 +546,8 @@
 
 - type: entity
   id: ActionEphedrineOverdose
-  name: Ephedrine Overdose
-  description: Inject some stimulants into yourself. Costs 30 chemicals.
+  name: Дозняк эфедрина
+  description: Введите себе эфедриновые стимуляторы. Стоит 30 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -565,8 +565,8 @@
 
 - type: entity
   id: ActionFleshmend
-  name: Fleshmend
-  description: Rapidly heal yourself. Costs 35 chemicals.
+  name: Нарастить плоть
+  description: Быстро исцелите себя от ожогов и тупого урона. Стоит 35 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -584,8 +584,8 @@
 
 - type: entity
   id: ActionLastResort
-  name: Last Resort
-  description: Abandon your current body and escape in the form of a headslug. Costs 20 chemicals.
+  name: Последний шанс
+  description: Оставьте свое нынешнее тело и сбегите в образе слизняка. Стоит 20 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: ConfirmableAction
@@ -605,8 +605,8 @@
 
 - type: entity
   id: ActionToggleLesserForm
-  name: Lesser Form
-  description: Abandon your current form and transform into a monkey. Costs 20 chemicals.
+  name: Примитивная форма
+  description: Оставьте свою нынешнюю форму и превратитесь в обезьяну. Стоит 20 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -622,8 +622,8 @@
 
 - type: entity
   id: ActionToggleSpacesuit
-  name: Toggle Space Suit
-  description: Make your body space proof. Costs 20 chemicals.
+  name: Переключить скуфский скафандр
+  description: Сделайте свое тело защищенным от космического пространства. Стоит 20 химикатов.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -638,8 +638,8 @@
 
 - type: entity
   id: ActionHivemindAccess
-  name: Hivemind Access
-  description: Tune your chemical receptors for hivemind communication.
+  name: Улей
+  description: Настройте свои химические рецепторы на общение коллективного разума.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

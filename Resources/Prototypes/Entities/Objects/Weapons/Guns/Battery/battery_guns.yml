@@ -113,10 +113,10 @@
     - Belt
 
 - type: entity
-  name: svalinn laser pistol
+  name: лазерный пистолет свалинн
   parent: [ BaseWeaponPowerCellSmall, BaseRestrictedContraband ]
   id: WeaponLaserSvalinn
-  description: A cheap and widely used laser pistol.
+  description: Дешевый и широко используемый лазерный пистолет.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
@@ -139,10 +139,10 @@
       Gold: 125
 
 - type: entity
-  name: retro laser blaster
+  name: рентгеновое лазерное ружье
   parent: [ BaseWeaponBatterySmall, BaseMajorContraband ]
   id: WeaponLaserGun
-  description: A weapon using light amplified by the stimulated emission of radiation.
+  description: Оружие, использующее свет, усиленный за счет радиационного излучения.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
@@ -163,10 +163,10 @@
   - type: Multishot # Goobstation
 
 - type: entity
-  name: makeshift laser pistol
+  name: импровизированный лазерный пистолет
   parent: BaseWeaponBatterySmall
   id: WeaponMakeshiftLaser
-  description: Better pray it won't burn your hands off.
+  description: Лучше молитесь, чтобы это не обожгло вам руки.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
@@ -187,10 +187,10 @@
   - type: Multishot # Goobstation
 
 - type: entity
-  name: tesla gun
+  name: тесла пушка
   parent: BaseWeaponBattery
   id: WeaponTeslaGun
-  description: The power of the primordial element of lightning in your hands.
+  description: Сила первородной стихии молнии в ваших руках.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/tesla_gun.rsi
@@ -216,10 +216,10 @@
   - type: Appearance
 
 - type: entity
-  name: practice laser rifle
+  name: тренировочное лазерное ружье
   parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponLaserCarbinePractice
-  description: This modified laser rifle fires nearly harmless beams in the 40-watt range, for target practice.
+  description:  Эта модифицированная лазерная винтовка стреляет почти безвредными лучами мощностью 40 Вт для тренировок по мишеням.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
@@ -244,10 +244,10 @@
 
 
 - type: entity
-  name: laser rifle
+  name: лазерное ружье
   parent: [WeaponLaserCarbinePractice, BaseGunWieldable, BaseRestrictedContraband]
   id: WeaponLaserCarbine
-  description: Favoured by Nanotrasen Security for being cheap and easy to use.
+  description: Одобрено компанией НаноТрейзен за дешевизну и простоту использования.
   components:
   - type: StaticPrice
     price: 420
@@ -256,10 +256,10 @@
     fireCost: 62.5
 
 - type: entity
-  name: pulse pistol
+  name: импульсный пистолет
   parent: BaseWeaponBatterySmall
   id: WeaponPulsePistol
-  description: A state of the art energy pistol favoured as a sidearm by the NT operatives.
+  description: Современный энергетический пистолет, который оперативники NT предпочитают использовать в качестве личного оружия.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
@@ -823,10 +823,10 @@
     startingCharge: 1050
 
 - type: entity
-  name: X-01 Multiphase # Goobstation - Changed the capitalization because it was annoying me.
+  name: Изделие X-01 # Goobstation - Changed the capitalization because it was annoying me.
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband] # Frontier: added BaseC2ContrabandUnredeemable. Goobstation: removed BaseC2ContrabandUnredeemable, added BaseGrandTheftContraband
   id: WeaponEnergyGunMultiphase
-  description: This is an expensive, modern recreation of the antique laser gun. This gun has several unique firemodes, but lacks the ability to recharge over time.
+  description: Это дорогая современная версия старинного лазерного пистолета. Это ружье имеет несколько уникальных режимов огня, но не имеет возможности перезарядки с течением времени.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi

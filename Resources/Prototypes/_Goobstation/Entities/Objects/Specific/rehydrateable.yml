@@ -1,8 +1,8 @@
 - type: entity
   parent: MonkeyCube
   id: SkibidiCube
-  name: skibidi toilet cube
-  description: What a sigma?
+  name: кубик скибиди туалета
+  description: Что за сигма?
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -11,7 +11,7 @@
 - type: entity
   parent: MonkeyCube
   id: HumanCube
-  name: human cube
+  name: кубик человека
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -20,7 +20,7 @@
 - type: entity
   parent: MonkeyCube
   id: DionaCube
-  name: diona cube
+  name: кубик дионы
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -29,7 +29,7 @@
 - type: entity
   parent: MonkeyCube
   id: FelinidCube
-  name: felinid cube
+  name: кубик феленида
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -38,7 +38,7 @@
 - type: entity
   parent: MonkeyCube
   id: GingerbreadCube
-  name: gingerbread cube
+  name: кубик печенья
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -47,7 +47,7 @@
 - type: entity
   parent: MonkeyCube
   id: MothCube
-  name: moth person cube
+  name: кубик моли
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -56,7 +56,7 @@
 - type: entity
   parent: MonkeyCube
   id: DwarfCube
-  name: dwarf cube
+  name: кубик дварфа
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -65,7 +65,7 @@
 - type: entity
   parent: MonkeyCube
   id: HarpyCube
-  name: harpy cube
+  name: кубик гарпии
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -74,7 +74,7 @@
 - type: entity
   parent: MonkeyCube
   id: RodentiaCube
-  name: rodentia cube
+  name: кубик крысы
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -83,7 +83,7 @@
 - type: entity
   parent: MonkeyCube
   id: ReptilianCube
-  name: reptilian person cube
+  name: кубик унатха
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -92,7 +92,7 @@
 - type: entity
   parent: MonkeyCube
   id: VulpkaninCube
-  name: vulpkanin cube
+  name: кубик вульпы
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -101,7 +101,7 @@
 - type: entity
   parent: MonkeyCube
   id: SlimePersonCube
-  name: slime person cube
+  name: кубик слайма
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -110,7 +110,7 @@
 - type: entity
   parent: MonkeyCube
   id: YowieCube
-  name: yowie cube
+  name: кубик йови
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -119,7 +119,7 @@
 - type: entity
   parent: MonkeyCube
   id: VoxCube
-  name: vox cube
+  name: кубик вокса
   components:
   - type: Rehydratable
     possibleSpawns:

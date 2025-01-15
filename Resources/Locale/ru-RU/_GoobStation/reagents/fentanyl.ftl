@@ -1,0 +1,9 @@
+fentanyl-effect-lostsomething = Где это?
+fentanyl-effect-fakepresence = Вы чувствуете, что кто-то смотрит на вас через плечо
+fentanyl-effect-skincrawl = Ваша кожа словно ползет
+fentanyl-effect-rushing = Все движется так быстро...
+fentanyl-effect-giddy = Ты почти начинаешь смеяться
+fentanyl-effect-skinworms = Они у меня под кожей, они ползут по моим костям!
+fentanyl-effect-breathingrazors = Вы чувствуете острую боль в легких
+fentanyl-effect-lungstight = Ваши легкие отказываются вдыхать
+fentanyl-effect-observed = Они все смотрят прямо на тебя

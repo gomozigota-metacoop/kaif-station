@@ -1,6 +1,6 @@
 - type: entity
   id: RandomHumanoidHECUSpawner
-  name: HECU Operative
+  name: Оперативник HECU
   suffix: ERTRole
   components:
     - type: Sprite

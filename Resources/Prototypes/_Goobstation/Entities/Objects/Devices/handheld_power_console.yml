@@ -1,7 +1,7 @@
 - type: entity
   id: BaseHandheldStationMapPowerCe
-  name: handheld power console
-  description: Fine-crafted handheld power map console for Chief Engineers. Allows the user to view the powergrid.
+  name: ручная консоль электроэнергии
+  description: Ручная консоль электроэнергии для старшего инженера. Отображает электропроводку станции.
   parent: BaseItem
   components:
     - type: StationMap

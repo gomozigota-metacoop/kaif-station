@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetChronolegioneer
-  name: futuristic over-ear headset
-  description: A headset from the future that can pick up most station frequencies.
+  name: футуристическая гарнитура
+  description: Гарнитура будущего, способная уловить большинство каналов связи на станции.
   components:
   - type: ContainerFill
     containers:

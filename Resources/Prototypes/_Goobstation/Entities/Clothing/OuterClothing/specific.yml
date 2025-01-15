@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterSuitHEV
-  name: H.E.V suit
-  description: Full-body hazardous suit designed to protect wearer from radiation, energy discarges, blunt-force trauma during the handling of hazardous material.
+  name: костюм H.E.V
+  description: Костюм, который разработан защищать всё тело носителя от радиации, энергетических всплесков и физических повреждений во время транспортировки эксперементальных кристаллов.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Suits/hev.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: SurveillanceWirelessCameraBodyEntertainment
-  name: nopro camera
-  description: A body mounted camera. It's watching you.
+  name: камера НоуПРО
+  description: Нательная камера. Она смотрит на тебя.
   components:
     - type: DeviceNetwork
       deviceNetId: Wireless

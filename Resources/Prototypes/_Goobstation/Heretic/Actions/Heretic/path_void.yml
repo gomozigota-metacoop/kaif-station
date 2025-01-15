@@ -1,7 +1,7 @@
 - type: entity
   id: ActionHereticVoidBlast
-  name: Void Blast
-  description: Fire off a cone of ice in front of you.
+  name: Взрыв Бездны
+  description: Выстрелите ледяной сосулькой перед собой.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -18,8 +18,8 @@
 
 - type: entity
   id: ActionHereticVoidPhase
-  name: Void Phase
-  description: Shift through the void, knocking down everyone around you.
+  name: Фаза Пустоты
+  description: Продвигайтесь сквозь пустоту, сбивая с ног всех вокруг себя.
   categories: [ HideSpawnMenu ]
   components:
   - type: WorldTargetAction
@@ -38,8 +38,8 @@
 
 - type: entity
   id: ActionHereticVoidPull
-  name: Void Pull
-  description: Pull and damage nearby heathens.
+  name: Притяжение Бездны
+  description: Вытяните и нанесите урон ближайшим язычникам.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

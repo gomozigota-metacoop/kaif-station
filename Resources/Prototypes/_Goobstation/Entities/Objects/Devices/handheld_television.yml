@@ -1,7 +1,7 @@
 - type: entity
   id: BaseHandheldTelevision
-  name: handheld television
-  description: Finally, some decent reception around here...
+  name: ручной телевизор
+  description: Наконец-то, макака съела банан.
   parent: BaseItem
   components:
     - type: Sprite

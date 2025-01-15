@@ -13,7 +13,7 @@
     markerName: BlueshieldLocker
 
 - type: entity
-  name: nanorep locker unique marker
+  name: уникальный маркер шкафчика представителя НаноТрейзен
   id: UniqueMarkerNanorepLocker
   parent: MarkerBase
   categories: [ HideSpawnMenu ]

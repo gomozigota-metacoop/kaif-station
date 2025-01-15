@@ -1,0 +1,1 @@
+objective-condition-pkill-person = Убей {$targetName}, {CAPITALIZE($job)}

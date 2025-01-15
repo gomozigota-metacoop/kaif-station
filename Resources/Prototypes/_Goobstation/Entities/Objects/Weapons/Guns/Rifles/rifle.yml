@@ -1,8 +1,8 @@
 - type: entity
-  name: Burner
+  name: Бернер
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleBurner
-  description: A high caliber syndicate gun chambered in .50 caliber, capable of firing anti-materiel and high explosive rounds.
+  description: Оружие синдиката большого калибра под патрон .50, способное стрелять как противотанковыми, так и фугасными снарядами.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/burner.rsi

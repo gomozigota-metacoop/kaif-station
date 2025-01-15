@@ -361,7 +361,7 @@
 - type: entity
   id: GunSafe
   parent: LockerBaseSecure
-  name: gun safe
+  name: оружейный сейф
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -474,7 +474,7 @@
 # Representative
 - type: entity
   id: LockerRepresentative
-  name: representative locker
+  name: шкафчик представителя НаноТрейзен
   parent: LockerBaseSecure
   components:
   - type: Appearance

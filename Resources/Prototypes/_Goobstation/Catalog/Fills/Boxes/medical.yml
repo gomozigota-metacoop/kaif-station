@@ -1,8 +1,8 @@
 - type: entity
-  name: pax syringe box
+  name: коробка для шприцев с паксом
   parent: BoxCardboard
   id: BoxSyringePax
-  description: A box full of tranquilizer syringes.
+  description: Коробка, полная шприцев с транквилизатором.
   components:
   - type: StorageFill
     contents:

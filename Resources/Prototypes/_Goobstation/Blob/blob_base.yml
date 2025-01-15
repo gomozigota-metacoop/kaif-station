@@ -50,7 +50,7 @@
 
 - type: entity
   id: MobObserverBlobController
-  name: Blob observer controller
+  name: Камера блоба
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

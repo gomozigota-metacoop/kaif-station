@@ -1,24 +1,26 @@
 - type: emote
-  id: Flip
+  id: Сальто
   name: chat-emote-name-flip
   chatMessages: ["chat-emote-msg-flip"]
   chatTriggers:
-  - flip
-  - flips
-  - flips.
-  - flips!
-  - does a flip
-  - does a flip.
-  - does a flip!
+  - сальто
+  - сальтуха
+  - сальто.
+  - сальто!
+  - делает сальто
+  - делает сальто.
+  - делает сальто!
   event: !type:AnimationFlipEmoteEvent
 
 - type: emote
-  id: Jump
+  id: Прыжок
   name: chat-emote-name-jump
   chatMessages: ["chat-emote-msg-jump"]
   chatTriggers:
-  - jump
-  - jumps
-  - jumps.
-  - jumps!
+  - прыгает
+  - подпрыгивает
+  - подпрыгивает.
+  - подпрыгивает!
+  - прыгает.
+  - прыгает!
   event: !type:AnimationJumpEmoteEvent

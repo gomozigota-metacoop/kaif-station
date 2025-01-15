@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingShoesBootsMag
   id: ClothingShoesBootsChrono
-  name: futuristic boots
-  description: An advanced futuristic shoe that guarantees wearer comfort and full traction on any surface
+  name: футуристические ботинки
+  description: Футуристические ботинки, которые дарят владельцу незабываемый комфорт. Подстраиваются под любую ступню и поверхность.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Shoes/Boots/chronolegioneer.rsi

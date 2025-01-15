@@ -1,5 +1,5 @@
 - type: entity
-  name: nanotrasen representative rubber stamp
+  name: печать представителя НаноТрейзен
   parent: RubberStampBase
   id: RubberStampNanorep
   components:

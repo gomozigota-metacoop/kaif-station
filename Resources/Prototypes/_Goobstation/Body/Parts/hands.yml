@@ -18,7 +18,7 @@
 
 - type: entity
   id: LeftHandFelinid
-  name: "left felinid hand"
+  name: "левая кисть феленида"
   parent: [PartHuman, BaseLeftHand]
   components:
   - type: Sprite
@@ -27,7 +27,7 @@
 
 - type: entity
   id: RightHandFelinid
-  name: "right felinid hand"
+  name: "правая кисть феленида"
   parent: [PartHuman, BaseRightHand]
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 
 - type: entity
   id: LeftHandYowie
-  name: "left yowie hand"
+  name: "левая кисть йови"
   parent: [PartHuman, BaseLeftHand]
   components:
   - type: Sprite
@@ -45,7 +45,7 @@
 
 - type: entity
   id: RightHandYowie
-  name: "right yowie hand"
+  name: "правая кисть йови"
   parent: [PartHuman, BaseRightHand]
   components:
   - type: Sprite

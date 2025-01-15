@@ -1,8 +1,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieLouie
-  name: louie plushie
-  description: A cute stuffed toy that resembles a rat. You feel a strange compulsion to say hi to the rat.
+  name: люи
+  description: Милая мягкая игрушка, напоминающая крысу. Вы чувствуете странное желание поздороваться с крысой.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/toys.rsi
@@ -29,10 +29,10 @@
       path: /Audio/Items/Toys/mousesqueek.ogg
 
 - type: entity
-  name: Foam Throngler
+  name: мыльный черт
   parent: BaseSword
   id: FoamThrongler
-  description: Not the Throngler you wanted, But the Throngler you deserve.
+  description: Не тот Дроссель, которого ты хотел, А тот Дроссель, которого ты заслуживаешь.
   components:
     - type: Sprite
       sprite: _Goobstation/Objects/Fun/Throngler-Foam.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieDurk
-  name: Durk plushie
-  description: A cute stuffed toy that resembles a certain atmospheric technician. You feel like a great breaking of the universe approaches while holding this
+  name: темная плюшка
+  description: Милая мягкая игрушка, напоминающая некоего атмосферного техника. Пока вы держите это, вы чувствуете, как приближается великий разрыв Вселенной.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/toys.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieBlackburn
-  name: Blackburn plushie
-  description: A "kitsune-like" human hybrid plushie made by Nanotrasen as charity for Blackburnians displaced by the Yukon Insurgency's tyrannical ways.
+  name: блэкберн
+  description: "'Похожий на кицунэ' человеческий гибридный плюшевый плюшевый персонаж, созданный Нанотрасеном в качестве благотворительной помощи для жителей Блэкберна, перемещенных из-за тиранических действий Повстанцев Юкона."
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/toys.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: PlushieBlackburn
   id: PlushieBlackburnKobliska
-  name: Kobliska plushie
-  description: A slimmer Blackburn designed to clear out fox holes and trenches; scientists debate the maximum lifetime of "Kobliskins" as they are the Insurgency's first self-designed subspecies.
+  name: коблишка
+  description: "Более тонкий 'Блэкберн', предназначенный для расчистки лисьих нор и траншей; ученые спорят о максимальном сроке жизни 'коблискинов', поскольку они являются первым подвидом, созданным Повстанцами самостоятельно."
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/toys.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: PlushieBlackburn
   id: PlushieBlackburnMatryoskya
-  name: Matryoskya plushie
-  description: An urban legend told by Nanotrasen war veterans; a beast uncontrolled by both Yukon insurgents and Nanotrasen, now available as a plushie.
+  name: матрёшка
+  description: Городская легенда, рассказанная ветеранами войны НаноТрейзен; зверь, неподконтрольный ни повстанцам Юкона, ни НаноТрейзену, теперь доступный в виде плюша.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Fun/toys.rsi
@@ -134,8 +134,8 @@
 - type: entity
   parent: PlushieBlackburn
   id: PlushieDesislavaBlackburn
-  name: Desislava plushie
-  description: A tiny sub-species of the BKv1 blackburn designed to fit in tankettes and some tank variants, this one is in a "Darwin 6A2M C7 YKN."
+  name: яша лава
+  description: "Крошечный подвид BKv1 Blackburn, предназначенный для установки в танкетках и некоторых вариантах танков. Этот экземпляр представляет собой 'Darwin 6A2M C7 YKN'."
   components:
   - type: RandomWalk
     accumulatorRatio: 0

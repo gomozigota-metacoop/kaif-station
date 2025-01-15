@@ -1,8 +1,8 @@
 - type: entity
-  name: dualetta kit
+  name: Дуэльный набор
   parent: BoxCardboard
   id: BoxDualettaKit
-  description: A box full of completely legal stuff.
+  description: Коробка с абсолютно легальными вещами.
   components:
   - type: StorageFill
     contents:

@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitChronolegioneer
-  name: futuristic hardsuit
-  description: A hardsuit covered in an unknown material that protects against most material and temporal damage
+  name: футуристический скафандр
+  description: Скафандр, сделаный из неизвестного материала. Защищает от всех видов материального и имматериального урона.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/chronolegioneer.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
   id: ClothingOuterHardsuitBlueshield
-  name: blueshield hardsuit
-  description: A hardsuit for the captains personal bodyguard.
+  name: скафандр синего щита
+  description: Скафандр синего щита.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/bso.rsi
@@ -86,8 +86,8 @@
   parent: [ ClothingOuterHardsuitBase, BaseSyndicateContraband ]
   id: ClothingOuterHardsuitCybersunStealth
   suffix: stealth
-  name: cybersun stealth hardsuit
-  description: A hardsuit with stealth plating for operations, the shielding doesn't work while you're moving though! Needs the helmet on to finish the stealth field.
+  name: Стелс-скафандр Киберсан
+  description: Скафандр, который делает вас невидимым, пока вы стоите. Для создания поля невидимости вам также потребуется стелс-шлем Киберсан.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/cybersunstealth.rsi

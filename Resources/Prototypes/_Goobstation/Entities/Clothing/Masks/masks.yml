@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingMaskGasERT
   id: ClothingMaskGasChrono
-  name: futuristic gasmask
-  description: A futuristic gas mask of unknown design with an unimaginable number of filtration systems
+  name: футуристический противогаз
+  description: Футуристический противогаз неизвестного дизайна с невообразимо большим количеством систем фильтрации.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Mask/chronolegioneer.rsi
@@ -24,8 +24,8 @@
 
 - type: entity
   id: ActionHailer
-  name: Hail
-  description: Audibly hail nearby crew, useful for giving quick orders.
+  name: Свисток
+  description: Громко свистните экипажу вокруг. Подходит для отдачи приказов.
   components:
   - type: InstantAction
     icon: { sprite: Clothing/Mask/gassecurity.rsi, state: icon }

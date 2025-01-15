@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: SurveillanceWirelessCameraBodySecurity
-  name: security bodycam
-  description: A body mounted camera. It's watching you.
+  name: бодикамера охраны
+  description: Нательная лайв-камера. Она смотрит на тебя.
   components:
   - type: DeviceNetwork
     deviceNetId: Wired # :clueless:

@@ -1,0 +1,11 @@
+lathe-category-mechs-vim = Вим
+lathe-category-mechs-honker = Х.О.Н.К.
+lathe-category-mechs-hamptr = Х.О.М.Я.К.
+lathe-category-mechs-ripley = Рипли
+lathe-category-mechs-ripleymkii = Рипли MK-II
+lathe-category-mechs-clarke = Кларки
+lathe-category-mechs-gygax = Гигакс
+lathe-category-mechs-durand = Дюранд
+lathe-category-mechs-equipment = Экипировка меха
+lathe-category-mechs-weapons = Оружия меха
+lathe-category-modsuit = MOД костюм

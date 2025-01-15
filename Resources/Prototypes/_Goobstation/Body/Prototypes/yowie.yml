@@ -1,6 +1,6 @@
 - type: body
   id: Yowie
-  name: yowie
+  name: Йови
   root: torso
   slots:
     head:

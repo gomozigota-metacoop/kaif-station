@@ -1,8 +1,8 @@
 - type: entity
-  name: M-90
+  name: М-90
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleM90
-  description: A revision of the M-90gl that removes the inbuilt grenade launcher. Uses .20 rifle ammo.
+  description: Доработка М-90гл, в которой удален встроенный гранатомет. Использует винтовочные патроны .20.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/m90.rsi
@@ -45,10 +45,10 @@
     fireRate: 6
 
 - type: entity
-  name: Annie
+  name: Энни
   parent: WeaponRifleAk
   id: WeaponRifleAnnie
-  description: A beast designed to shoulder the weight of impossible missions. Uses .30 rifle ammo.
+  description: Зверь, созданный для того, чтобы взять на себя бремя невыполнимых миссий. Использует винтовочные патроны .30.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/annie.rsi
@@ -73,7 +73,7 @@
   name: WSPR
   parent: WeaponRifleAk
   id: WeaponRifleWSPR
-  description: A cutting-edge rifle from Cybersun, versatile, reliable, and Syndicate-approved. Uses .30 rifle subsonic ammo.
+  description: Передовая винтовка от Cybersun, универсальная, надежная и одобренная Синдикатом. Использует винтовочные дозвуковые патроны калибра .30.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/wspr.rsi

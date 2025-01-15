@@ -12,46 +12,62 @@
     - Silicon
   chatMessages: ["chat-emote-msg-fart"]
   chatTriggers:
-    - fart
-    - farts
-    - farting
-    - farted
-    - toot
-    - toots
+    - фарт
+    - пукает
+    - пердеж
+    - перданул
+    - дал зазу
+    - поддал газку
+    - поддает газу
+    - присоединяется
+    - ответил тем же
+    - оценил шутку
+    - скибиди допнулся
+    - пуканул
+    - напердел
+    - обосрался
+    - насрал
+    - насрал в штаны
+    - обосрал штаны
+    - навалил жидким
+    - продристался
+    - пердит
+    - пукнул
+    - тута
+    - Тутс
     - tooted
-    - tooting
-    - pass gas
-    - passes gas
-    - passing gas
-    - passed gas
-    - break wind
-    - breaks wind
-    - breaking wind
-    - broke wind
-    - flatulate
-    - flatulates
-    - flatulating
-    - flatulated
-    - let one rip
-    - lets one rip
-    - letting one rip
-    - cut cheese
-    - cuts cheese
-    - cutting cheese
-    - cut the cheese
-    - cuts the cheese
-    - cutting the cheese
-    - let out a stinker
-    - lets out a stinker
-    - letting out a stinker
-    - exhales anally
-    - burps from the rear
-    - burps from the butt
-    - bowel howl
-    - bowel howls
-    - bowel howling
-    - bowel howled
-    - accelerates climate change
+    - Тутинг
+    - пропуск газа
+    - пропускает газ
+    - попутный газ
+    - прошло газа
+    - и глазом не моргнет
+    - лесозащитные
+    - нарушение ветер
+    - поднялся ветер
+    - плоский
+    - выравнивает
+    - выравнивающий
+    - плоский
+    - пусть один порвется
+    - позволяет одному разорваться
+    - позволяю одному разорваться
+    - нарезанный сыр
+    - нарезает сыр
+    - нарезка сыра
+    - нарежьте сыр
+    - нарезает сыр
+    - нарезка сыра
+    - выпусти вонючку
+    - выпускает вонючку
+    - выпускаю вонючку
+    - отрыжка сзади
+    - отрыжка от задницы
+    - кишечный вой
+    - кишечные завывания
+    - кишечный вой
+    - кишечник взвыл
+    - ускоряет изменение климата
 
 - type: emote
   id: FartInhale
@@ -67,32 +83,23 @@
     - Silicon
   chatMessages: ["chat-emote-msg-fart-inhale"]
   chatTriggers:
-    - inhale anally
-    - inhales anally
-    - inhaling anally
-    - inhaled anally
-    - anally inhale
-    - anally inhales
-    - anally inhaling
-    - anally inhaled
-    - farts backward
-    - fart backward
-    - fart in
-    - farts in
-    - farting in
-    - farted in
-    - inhales through the rear
-    - inhales through rear
-    - inhales through the butt
-    - inhales through butt
-    - inhales through the anus
-    - inhales through anus
-    - inhales through the rectum
-    - inhales through rectum
-    - inhales through the ass
-    - inhales through ass
-    - buttreathes in
-    - breathes in through butt
+    - вдыхает анально
+    - пукает задом наперед
+    - пукнул внутрь
+    - вдыхает через заднюю часть
+    - вдыхает через заднюю
+    - вдыхает через ягодицу
+    - вдыхает через задний проход
+    - вдыхает через прямую кишку
+    - вдыхает через задницу
+    - вдыхает через зад
+    - концентрирует пердеж
+    - сконцентрированно пердит
+    - усиляет пердеж
+    - усиленно пердит
+    - усиленно перданул
+    - сильно пердит
+    - сильно перданул
 
 - type: emote
   id: FartSuper
@@ -108,22 +115,28 @@
     - Silicon
   chatMessages: ["chat-emote-msg-fart-super"]
   chatTriggers:
-    - superfart
-    - superfarts
-    - superfarted
-    - superfarting
-    - super fart
-    - super farts
-    - super farted
-    - super farting
-    - ultrafart
-    - ultrafarts
-    - ultrafarted
-    - ultrafarting
-    - ultra fart
-    - ultra farts
-    - ultra farted
-    - ultra farting
+    - сверхпукнул
+    - сверхпукает
+    - сверхперданул
+    - сверхнасрал
+    - суперперданул
+    - суперпук
+    - суперпукнул
+    - суперпуканье
+    - ультрапердеж
+    - ультрапердит
+    - ультраперданул
+    - ультранасрал
+    - ультраперднул
+    - ультрапук
+    - ультра пукнул
+    - суперпердеж
+    - скастовал ульту
+    - ультанул
+    - ультует
+    - кастует ульту
+    - накастовал ульту
+    - навалил дерьмища
 
 - type: emote 
   id: Flap
@@ -139,10 +152,7 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-flap"]
   chatTriggers:
-   - flaps
-   - flapped
-   - flaps his wings
-   - flaps her wings
-   - flaps their wings
-   - flaps its wings
+    - хлопает крыльями
+    - машет крыльями
+    - машет крылышками
 

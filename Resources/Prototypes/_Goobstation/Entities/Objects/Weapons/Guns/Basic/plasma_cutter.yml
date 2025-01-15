@@ -1,8 +1,8 @@
 - type: entity
-  name: plasma cutter
+  name: Плазменый резак
   parent: BaseWeaponBatterySmall
   id: WeaponPlasmaCutter
-  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
+  description: Оружие самообороны, которое истощает органические цели, ослабляя их до тех пор, пока они не разрушатся.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/cutter.rsi

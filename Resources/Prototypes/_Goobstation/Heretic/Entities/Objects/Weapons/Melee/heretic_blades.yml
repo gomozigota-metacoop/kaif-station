@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseItem, BaseMagicContraband ]
   id: HereticBladeBase
-  name: eldritch blade
-  description: The sickly blade used by sinister individuals for rituals and sacrifices.
+  name: Жуткий клинок
+  description: Болезненный клинок, используемый зловещими личностями для ритуалов и жертвоприношений.
   components:
   - type: HereticBlade
   - type: Sharp
@@ -28,7 +28,7 @@
 - type: entity
   parent: HereticBladeBase
   id: HereticBladeAsh
-  name: ashen blade
+  name: Пепельный клинок
   suffix: Ash
   components:
   - type: HereticBlade
@@ -51,7 +51,7 @@
 - type: entity
   parent: HereticBladeBase
   id: HereticBladeBlade
-  name: sundered blade
+  name: Клинок раскола
   suffix: Blade
   components:
   - type: HereticBlade
@@ -60,7 +60,7 @@
 - type: entity
   parent: HereticBladeBase
   id: HereticBladeFlesh
-  name: bloody blade
+  name: Кровавый клинок
   suffix: Flesh
   components:
   - type: HereticBlade
@@ -74,7 +74,7 @@
 - type: entity
   parent: HereticBladeBase
   id: HereticBladeLock
-  name: key blade
+  name: Клинок замка
   suffix: Lock
   components:
   - type: HereticBlade
@@ -88,7 +88,7 @@
 - type: entity
   parent: HereticBladeBase
   id: HereticBladeRust
-  name: rusty blade
+  name: Ржавый клинок
   suffix: Rust
   components:
   - type: HereticBlade
@@ -102,7 +102,7 @@
 - type: entity
   parent: HereticBladeBase
   id: HereticBladeVoid
-  name: void blade
+  name: Клинок пустоты
   suffix: Void
   components:
   - type: HereticBlade

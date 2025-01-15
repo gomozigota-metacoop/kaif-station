@@ -1,8 +1,8 @@
 - type: entity
   id: JetpackChrono
   parent: BaseJetpack
-  name: futuristic jetpack
-  description: Magnetically attached jetpack that holds extreme amount of gas. It is used as an oxygen cylinder.
+  name: футуристический джетпак
+  description: Реактивный ранец с магнитным креплением, вмещающий огромное количество газа. Используется как кислородный баллон.
   components:
   - type: Item
     sprite: _Goobstation/Objects/Tanks/chronojet.rsi

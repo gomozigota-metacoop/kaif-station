@@ -3,8 +3,8 @@
   id: CrateCybersunDarkGygaxBundle
   suffix: Filled
   parent: CrateSyndicate
-  name: Cybersun gygax bundle
-  description: Contains a set of Cybersan light armored mechs.
+  name: Набор киберсан гигакс
+  description: Содержит набор лёгких бронированных роботов Cybersan.
   components:
   - type: StorageFill
     contents:
@@ -18,8 +18,8 @@
   id: CrateCybersunMaulerBundle
   suffix: Filled
   parent: CrateSyndicate
-  name: Cybersun mauler bundle
-  description: Contains a set of Cybersan heavy armored mechs.
+  name: Набор киберсан маулер
+  description: Содержит набор тяжелых бронированных роботов Cybersan.
   components:
   - type: StorageFill
     contents:

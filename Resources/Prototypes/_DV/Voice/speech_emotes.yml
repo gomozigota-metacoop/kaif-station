@@ -1,7 +1,7 @@
 # Harpy
 - type: emote
   id: Ring
-  name: Ring
+  name: Звенеть
   category: Vocal
   icon: _Goobstation/Interface/Emotes/ring.png
   whitelist:
@@ -10,16 +10,18 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [rings.]
+  chatMessages: [звенит.]
   chatTriggers:
-    - ring
-    - rings
-    - ringing
-    - ringed
+    - звенит
+    - звенит.
+    - звонит
+    - звонит.
+    - звенит!
+    - звонит!
 
 - type: emote
   id: Pew
-  name: Pew
+  name: Пискнуть
   category: Vocal
   icon: _Goobstation/Interface/Emotes/pew.png
   whitelist:
@@ -28,14 +30,17 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [pews.]
+  chatMessages: [пищит.]
   chatTriggers:
-    - pew
-    - pews
+    - пискнул
+    - пискнула
+    - пискнуло
+    - пискает
+    - пискать
 
 - type: emote
   id: Bang
-  name: Bang
+  name: Клокотать
   category: Vocal
   icon: _Goobstation/Interface/Emotes/bang.png
   whitelist:
@@ -44,12 +49,11 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [bangs.]
+  chatMessages: [клокочет.]
   chatTriggers:
-    - bangs
-    - bang
-    - banging
-    - banged
+    - клокочет
+    - клокочет.
+    - клокочет!
 
 #- type: emote
 #  id: Beep
@@ -63,7 +67,7 @@
 
 - type: emote
   id: Rev
-  name: Rev
+  name: Ревкать
   category: Vocal
   icon: _Goobstation/Interface/Emotes/rev.png
   whitelist:
@@ -72,12 +76,14 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [revs.]
+  chatMessages: [ревкает.]
   chatTriggers:
-    - revs
-    - rev
-    - revving
-    - revved
+    - ревкает
+    - ревкает.
+    - ревкает!
+    - ревает!
+    - ревает
+    - ревает.
 
 #- type: emote
 #  id: Click
@@ -91,7 +97,7 @@
 
 - type: emote
   id: Caw
-  name: Caw
+  name: Каркать
   category: Vocal
   icon: _Goobstation/Interface/Emotes/caw.png
   whitelist:
@@ -100,17 +106,16 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [caws.]
+  chatMessages: [каркает.]
   chatTriggers:
-    - caws
-    - caw
-    - cawing
-    - cawed
+    - каркает
+    - каркает.
+    - каркает!
 
 #Vulpkanin
 - type: emote
   id: Bark
-  name: Bark
+  name: Гавкать
   category: Vocal
   icon: _Goobstation/Interface/Emotes/bark.png
   whitelist:
@@ -122,14 +127,16 @@
     - BorgChassis
   chatMessages: [barks.]
   chatTriggers:
-    - bark
-    - barks
-    - barked
-    - barking
+    - гавкает
+    - гавкает.
+    - гавкает!
+    - гав
+    - гав.
+    - гав!
 
 - type: emote
   id: Snarl
-  name: Snarl
+  name: Ворчать
   category: Vocal
   icon: _Goobstation/Interface/Emotes/snarl.png
   whitelist:
@@ -139,16 +146,15 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [snarls.]
+  chatMessages: [ворчит.]
   chatTriggers:
-    - snarl
-    - snarls
-    - snarled
-    - snarling
+    - ворчит
+    - ворчит.
+    - ворчит!
 
 - type: emote
   id: Whine
-  name: Whine
+  name: Скулить
   category: Vocal
   icon: _Goobstation/Interface/Emotes/whine.png
   whitelist:
@@ -158,16 +164,15 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [whines.]
+  chatMessages: [скулит.]
   chatTriggers:
-    - whine
-    - whines
-    - whined
-    - whining
+    - скулит
+    - скулит.
+    - скулит!
 
 - type: emote
   id: Howl
-  name: Howl
+  name: Выть
   category: Vocal
   icon: _Goobstation/Interface/Emotes/howl.png
   whitelist:
@@ -177,16 +182,15 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [howls.]
+  chatMessages: [воет.]
   chatTriggers:
-    - howl
-    - howls
-    - howling
-    - howled
+    - воет
+    - воет.
+    - воет!
 
 - type: emote
   id: Awoo
-  name: Awoo
+  name: Аву
   category: Vocal
   icon: _Goobstation/Interface/Emotes/awoo.png
   whitelist:
@@ -196,9 +200,9 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [awoos.]
+  chatMessages: [авукает.]
   chatTriggers:
-    - awoo
-    - awoos
-    - awooing
-    - awooed
+    - аву
+    - авуу
+    - авукает
+    - авукать

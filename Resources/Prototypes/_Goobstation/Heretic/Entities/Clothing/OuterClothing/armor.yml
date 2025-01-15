@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingOuterBaseMedium, ClothingOuterStorageToggleableBase, BaseMagicContraband ]
   id: ClothingOuterArmorHeretic
-  name: ominous armor
-  description: A ragged, dusty set of robes. Strange eyes line the inside.
+  name: Зловещая броня
+  description: Рваный, пыльный комплект одежды.
   components:
   - type: HereticClothing
   - type: Sprite

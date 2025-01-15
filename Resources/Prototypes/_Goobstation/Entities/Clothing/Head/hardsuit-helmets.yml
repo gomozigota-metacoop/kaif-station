@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitChronolegioneer
-  name: futuristic helmet
-  description: The helmet of the fighters of the future, designed for special timeflow operations
+  name: футуристический шлем
+  description: Футуристический шлем солдат будущего.
   components:
   - type: BreathMask
   - type: Sprite
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitBlueshield
-  name: blueshield helmet
-  description: The helmet of the captain's bodyguard's hardsuit.
+  name: шлем синего щита
+  description: Шлем капитанского телохранителя глав станции.
   components:
   - type: BreathMask
   - type: Sprite
@@ -75,8 +75,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCybersunStealth
   suffix: stealth
-  name: cybersun stealth hardsuit helmet
-  description: A helmet with plating for stealth operations.
+  name: стелс-шлем костюма Киберсан
+  description: Шлем с забралом для скрытных операций.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hardsuits/cybersunstealth.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: ClothingOuterWinterCoatMail
-  name: mail carrier's winter coat
-  description: It'll keep away the cold but not the dogs.
+  name: зимняя куртка курьера
+  description: Защищает от холода, но не от собак.
   components:
     - type: Sprite
       sprite: _Goobstation/Clothing/OuterClothing/Wintercoats/mail_winter_coat.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TimelineDisruptorFlatpack
-  name: timeline disruptor flatpack
-  description: A flatpack used for constructing a solar assembly.
+  name: набор солнечной панели
+  description: Набор для изготовления солнечной панели.
   components:
   - type: Flatpack
     entity: TimelineDisruptor

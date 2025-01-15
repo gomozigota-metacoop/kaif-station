@@ -1,7 +1,7 @@
 - type: entity
   id: BlueshieldAmmunitionBox
-  name: blueshield ammunition box
-  description: A box containing various ammunition and magazines for magnum type weapons.
+  name: ящик с боеприпасами синего щита
+  description: Коробка с различными боеприпасами и магазинами для оружия типа Магнум.
   parent: BaseStorageItem
   components:
   - type: Sprite

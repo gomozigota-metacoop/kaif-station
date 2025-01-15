@@ -2,8 +2,8 @@
 - type: entity
   parent: ImmovableRodKeepTilesStill
   id: ImmovableRodSkibidi
-  name: immovable Skibidi
-  description: skibidi dob dob yes yes
+  name: несдвигаемый скибиди
+  description: ПОЛНЫЙ СКИБИДИ ДОБ ДОБ ЕС ЕС!
   components:
   - type: Sprite
     sprite: _Goobstation/Mobs/Demons/skibidi.rsi

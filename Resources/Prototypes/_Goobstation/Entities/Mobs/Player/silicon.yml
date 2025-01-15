@@ -1,8 +1,8 @@
 - type: entity
   id: JermovCircuitBoard
   parent: BaseElectronics
-  name: law board (Jermov)
-  description: An electronics board containing the Jermov lawset.
+  name: плата законов (Джермов)
+  description: Электронная плата с набором законов Джермова для ИИ.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

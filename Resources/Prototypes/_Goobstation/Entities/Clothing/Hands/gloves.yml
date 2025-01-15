@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesChronoLegioneer
-  name: futuristic gloves
-  description: Futuristic gloves made of an unknown material that doesn't leave any trace
+  name: футуристические перчатки
+  description: Футуристические перчатки, которые совсем не оставляют отпечатков.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Hands/Gloves/chronolegioneer.rsi

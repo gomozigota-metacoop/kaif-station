@@ -1,5 +1,5 @@
 - type: entity
-  name: gondola
+  name: Гондола
   parent:
     - MobRespirator
     - MobAtmosStandard
@@ -7,7 +7,7 @@
     - MobBloodstream
     - MobFlammable
   id: MobGondola
-  description: Having no hands he embodies the Taoist principle of wu-wei (non-action) while his smiling facial expression shows his utter and complete acceptance of the world as it is.
+  description: Придерживается принципа бездействия.
   components:
   - type: Hunger
     thresholds:
@@ -116,10 +116,10 @@
   - type: Perishable
 
 - type: entity
-  name: syndimaggot
+  name: синди-моль
   id: MobMothSyndy
   parent: MobMothroach
-  description: Explosive maggot.
+  description: Взрывной гандон.
   components:
   - type: Sprite
     sprite: _Goobstation/Mobs/Animals/syndiroach.rsi
@@ -148,11 +148,11 @@
     - Syndicate
 
 - type: entity
-  name: syndie bee
+  name: синди-пчела
   suffix: Angry, syndicate
   parent: [ MobAngryBee ]
   id: MobSyndieAngryBee
-  description: How nice a bee. Oh no, it looks angry and wants my pizza.
+  description: Классная пчелка. Черт, она летит ко мне!
   components:
   - type: NpcFactionMember
     factions:
@@ -172,10 +172,10 @@
     lifetime: 5
 
 - type: entity
-  name: lootbug
+  name: Червячок
   id: MobLootbug
   parent: SimpleMobBase
-  description: It eats metal, maybe it's eaten something of value?
+  description: Внутри него находятся полезные предметы! Лучший друг ассистента.
   components:
   - type: Sprite
     drawdepth: SmallMobs
