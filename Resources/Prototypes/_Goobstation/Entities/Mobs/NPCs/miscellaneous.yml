@@ -1,5 +1,5 @@
 - type: entity
-  name: Скибиди Туалет
+  name: скибиди туалет
   id: MobSkibidiToilet
   parent: SimpleMobBase
   description: Скибиди доп доб йес ес!
@@ -205,7 +205,7 @@
       gender: male
 
 - type: entity
-  name: Спортакус Чемпион
+  name: спортакус чемпион
   description: Он трахает твою мамку целыми сутками!
   id: MobSportacus
   parent: [BaseSimpleMob, MobCombat, MobBloodstream]

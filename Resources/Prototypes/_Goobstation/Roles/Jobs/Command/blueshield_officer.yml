@@ -1,6 +1,6 @@
 - type: job
   id: BlueshieldOfficer
-  name: Офицер Синего Щита
+  name: офицер синего щита
   description: "Выступайте в роли телохранителя и советника для VIP-персон Командования и ЦентКома."
   playTimeTracker: JobBlueshieldOfficer
   requirements:

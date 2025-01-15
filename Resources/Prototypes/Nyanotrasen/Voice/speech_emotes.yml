@@ -1,7 +1,7 @@
 # vocal emotes
 - type: emote
   id: Hiss
-  name: Hiss
+  name: Шипеть
   category: Vocal
   icon: _Goobstation/Interface/Emotes/hiss.png
   whitelist:
@@ -11,16 +11,15 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [hisses.]
+  chatMessages: [шипит.]
   chatTriggers:
-    - hiss
-    - hisses
-    - hissing
-    - hissed
+    - шипит
+    - шипит.
+    - шипит!
 
 - type: emote
   id: Meow
-  name: Meow
+  name: Мяукнуть
   category: Vocal
   icon: _Goobstation/Interface/Emotes/meow.png
   whitelist:
@@ -30,22 +29,21 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [meows.]
+  chatMessages: [мявкает.]
   chatTriggers:
-    - meow
-    - meows
-    - meowing
-    - meowed
-    - miau
-    - miaus
-    - nya
-    - nyas
-    - mraow
-    - mraows
+    - мяу
+    - мяукает
+    - мяуу
+    - мияу
+    - няу
+    - ня
+    - нья
+    - мрау
+    - мроу
 
 - type: emote
   id: Mew
-  name: Mew
+  name: Мявкать
   category: Vocal
   icon: _Goobstation/Interface/Emotes/mew.png
   whitelist:
@@ -55,16 +53,14 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [mews.]
+  chatMessages: [мявкает.]
   chatTriggers:
-    - mew
-    - mews
-    - mewing
-    - mewed
+    - мявкает
+    - миу
 
 - type: emote
   id: Growl
-  name: Growl
+  name: Урчать
   category: Vocal
   icon: _Goobstation/Interface/Emotes/growl.png
   whitelist:
@@ -74,16 +70,15 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [growls.]
+  chatMessages: [урчит.]
   chatTriggers:
-    - growl
-    - growls
-    - growling
-    - growled
+    - урчит
+    - урчит.
+    - урчит!
 
 - type: emote
   id: Purr
-  name: Purr
+  name: Мурчать
   category: Vocal
   icon: _Goobstation/Interface/Emotes/purr.png
   whitelist:
@@ -93,9 +88,10 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [purrs.]
+  chatMessages: [мурчит.]
   chatTriggers:
-    - purr
-    - purrs
-    - purring
-    - purred
+    - мурчит
+    - мрр
+    - мурчит.
+    - мурчит!
+    - мррр

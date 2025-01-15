@@ -1,2 +1,2 @@
-id-card-access-level-ntr = Представитель Центрального Командования
-id-card-access-level-bso = Офицер Синего Щита
+id-card-access-level-ntr = представитель НаноТрейзен
+id-card-access-level-bso = офицер синего щита

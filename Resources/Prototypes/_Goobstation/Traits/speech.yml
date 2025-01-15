@@ -1,9 +1,19 @@
+#- type: trait
+#  id: Dementia
+#  name: trait-dementia-name
+#  description: trait-dementia-desc
+#  category: SpeechTraits
+#  cost: 1
+#  components:
+#  - type: ReplacementAccent
+#    accent: dementia
+
 - type: trait
-  id: Dementia
-  name: trait-dementia-name
-  description: trait-dementia-desc
+  id: Ohio
+  name: Сигма
+  description: Хотите стать сигмой? Надоело быть камераменом? Тогда это точно вам подойдет!
   category: SpeechTraits
   cost: 1
   components:
   - type: ReplacementAccent
-    accent: dementia
+    accent: ohio

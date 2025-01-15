@@ -1,6 +1,6 @@
 - type: job
   id: NanotrasenRepresentative
-  name: Представитель НаноТрейзен
+  name: представитель НаноТрейзен
   description: "Представляйте NT, отправляйте им отчеты о ситуации на станции, информируйте главу обо всем, что приказывает им сделать Центком."
   playTimeTracker: JobNanotrasenRepresentative
   requirements:

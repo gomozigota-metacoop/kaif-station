@@ -41,8 +41,8 @@
 - type: entity
   id: WeaponStasisGun
   parent: WeaponStasisGunBase
-  name: stasis gun
-  description: A device to stop the temporal flow of any living (or not) creature
+  name: стазисная пушка
+  description: Устройство, останавливающее поток времени любого живого (или нет) существа.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/ChronoLegionnaire/stasisgun.rsi

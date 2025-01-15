@@ -1,1 +1,1 @@
-stamp-component-stamped-name-nanorep = Представитель Центрального Командования
+stamp-component-stamped-name-nanorep = представитель НаноТрейзен

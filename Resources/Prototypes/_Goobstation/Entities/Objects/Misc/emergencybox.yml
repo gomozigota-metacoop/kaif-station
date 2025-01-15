@@ -1,8 +1,8 @@
 - type: entity
   id: BoxSurvivalSlots
   parent: BaseItem
-  name: survival box
-  description: It's a box with basic internals inside.
+  name: аварийный набор
+  description: Это коробка с основными компонентами для выживания внутри.
   suffix: Standard
   components:
   - type: Sprite
@@ -169,8 +169,8 @@
 - type: entity
   parent: BoxSurvivalSlots
   id: BoxSurvivalSlotsEngineering
-  name: extended-capacity survival box
-  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
+  name: расширенный аварийный набор
+  description: Это коробка с основными компонентами для выживания внутри На ней указано, что внутри находится бак увеличенной емкости.
   suffix: Extended
   components:
   - type: ContainerFill
@@ -221,8 +221,8 @@
 - type: entity
   parent: BoxSurvivalSlots
   id: BoxSurvivalSlotsSecurity
-  name: survival box
-  description: It's a box with basic internals inside.
+  name: аварийный набор
+  description: Это коробка с основными компонентами для выживания внутри.
   suffix: Security
   components:
   - type: ContainerFill
@@ -273,8 +273,8 @@
 - type: entity
   parent: BoxSurvivalSlots
   id: BoxSurvivalSlotsMedical
-  name: survival box
-  description: It's a box with basic internals inside.
+  name: аварийный набор
+  description: Это коробка с основными компонентами для выживания внутри.
   suffix: Medical
   components:
   - type: ContainerFill
@@ -325,8 +325,8 @@
 - type: entity
   parent: BoxSurvivalSlots
   id: BoxHugSlots
-  name: box of hugs
-  description: A special box for sensitive people.
+  name: аварийный набор обнимашек
+  description: Специальный набор для ужасных людей.
   suffix: Emergency
   components:
   - type: ContainerFill
@@ -380,8 +380,8 @@
 - type: entity
   parent: BoxSurvivalSlots
   id: BoxSurvivalSlotsSyndicate
-  name: extended-capacity survival box
-  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
+  name: расширенный аварийный набор
+  description: ЭЭто коробка с основными компонентами для выживания внутри. На ней указано, что внутри находится бак увеличенной емкости.
   suffix: Syndicate
   components:
   - type: ContainerFill

@@ -14,7 +14,7 @@
   id: Boop
   name: chat-emote-name-boop
   category: Vocal
-  chatMessages: [ boops. ]
+  chatMessages: [ бупкает. ]
   chatTriggers:
   - boops
   whitelist:
@@ -26,7 +26,7 @@
   id: Whirr
   name: chat-emote-name-whirr
   category: Vocal
-  chatMessages: [ whirrs. ]
+  chatMessages: [ виркает. ]
   chatTriggers:
   - whirrs
   whitelist:

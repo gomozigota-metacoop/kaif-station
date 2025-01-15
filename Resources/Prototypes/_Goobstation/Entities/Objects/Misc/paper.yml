@@ -1,8 +1,8 @@
 - type: entity
-  name: futuristic pen
+  name: футуристическая ручка
   parent: PenCentcom
   id: PenFuture
-  description: Some theories claim that the apocalypse of 3024 happened because of the pens
+  description: Некоторые ботаны из отдела прогнозирования утверждают, что апокалипсис 3024 года случился из-за ручек.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Misc/bureaucracy.rsi

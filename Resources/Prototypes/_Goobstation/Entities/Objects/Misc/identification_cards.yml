@@ -1,8 +1,8 @@
 - type: entity
   parent: IDCardStandard
   id: ChronoIDCard
-  name: futuristic ID card
-  description: The card that originally accessed everything in this universe
+  name: футуристическая ID карта
+  description: Карта, которая изначально имела доступ ко всему в этой вселенной.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Misc/id_cards.rsi
@@ -25,7 +25,7 @@
 - type: entity
   parent: SalvageIDCard
   id: HelldiverIDCard
-  name: salvage diver ID card
+  name: ID карта NT-01
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Misc/id_cards.rsi
@@ -39,7 +39,7 @@
 - type: entity
   parent: IDCardStandard
   id: HecuIDCard
-  name: HECU ID card
+  name: ID карта HECU
   components:
   - type: Sprite
     sprite: Objects/Misc/id_cards.rsi
@@ -58,7 +58,7 @@
 - type: entity
   parent: IDCardStandard
   id: BlueshieldIDCard
-  name: blueshield officer ID card
+  name: ID карта офицера синего щита
   components:
   - type: Sprite
     layers:

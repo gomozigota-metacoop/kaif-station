@@ -2,7 +2,7 @@
   id: WeaponMechDebugBallistic
   parent: [ BaseMechWeaponRange, DebugMechEquipment ] # Debug equipment does have all whitelist tags.
   suffix: Mech Weapon, DEBUG, Ballistic
-  name: debug bang
+  name: дебаг оружие
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
@@ -36,7 +36,7 @@
 
 - type: entity
   id: WeaponMechDebugLaser
-  name: debug pow
+  name: дебаг лазер
   suffix: Mech Weapon, DEBUG, Laser
   parent: [ BaseMechWeaponRange, DebugMechEquipment ]
   description: A weapon using light amplified by the stimulated emission of radiation.
@@ -67,7 +67,7 @@
 
 - type: entity
   id: WeaponMechDebugDisabler
-  name: debug tew
+  name: дебаг резак
   description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
   suffix: Mech Weapon, DEBUG, Disabler
   parent: [ BaseMechWeaponRange, DebugMechEquipment ]

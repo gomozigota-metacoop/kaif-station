@@ -3,7 +3,7 @@
   id: Scream
   name: chat-emote-name-scream
   category: Vocal
-  icon: _Goobstation/Interface/Emotes/scream.png #Goobstation icons
+  icon: Interface/Emotes/scream.png
   whitelist:
     components:
     - Vocal
@@ -28,6 +28,17 @@
     - yells
     - yelled
     - yelling
+    # Corvax-Localization-Start
+    - кричит
+    - кричит.
+    - кричит!
+    - орёт
+    - орёт.
+    - орёт!
+    - визжит
+    - визжит.
+    - визжит!
+    # Corvax-Localization-End
 
 - type: emote
   id: Laugh
@@ -57,6 +68,15 @@
     - chortle
     - chortles
     - chortling
+    # Corvax-Localization-Start
+    - смеется
+    - смеётся
+    - хохочет
+    - хихикает
+    - хихикнул
+    - хихикнула
+    - ржёт
+    # Corvax-Localization-End
 
 - type: emote
   id: Honk
@@ -74,6 +94,10 @@
     - honks
     - honked
     - honking
+    # Corvax-Localization-Start
+    - хонк
+    - хонкает
+    # Corvax-Localization-End
 
 - type: emote
   id: Sigh
@@ -91,6 +115,11 @@
     - sigh
     - sighs
     - sighed
+    # Corvax-Localization-Start
+    - вздыхает
+    - вздохнул
+    - вздохнула
+    # Corvax-Localization-End
 
 - type: emote
   id: Whistle
@@ -108,6 +137,10 @@
     - whistle
     - whistles
     - whistleblowing
+    # Corvax-Localization-Start
+    - свистит
+    - свистнул
+    # Corvax-Localization-End
 
 - type: emote
   id: Crying
@@ -128,6 +161,10 @@
     - sob
     - sobs
     - sobbing
+    # Corvax-Localization-Start
+    - плачет
+    - рыдает
+    # Corvax-Localization-End
 
 - type: emote
   id: Squish
@@ -146,6 +183,9 @@
     - squish
     - squishing
     - squishes
+    # Corvax-Localization-Start
+    - хлюпает
+    # Corvax-Localization-End
 
 - type: emote
   id: Chitter
@@ -164,6 +204,9 @@
    - chitter
    - chitters
    - chittered
+   # Corvax-Localization-Start
+   - стрекочет
+   # Corvax-Localization-End
 
 - type: emote
   id: Squeak
@@ -182,6 +225,9 @@
    - squeak
    - squeaks
    - squeaked
+   # Corvax-Localization-Start
+   - пищит
+   # Corvax-Localization-End
 
 - type: emote
   id: Click
@@ -199,6 +245,10 @@
   chatTriggers:
    - click
    - clicks
+   # Corvax-Localization-Start
+   - клац
+   - клацает
+   # Corvax-Localization-End
 
 # hand emotes
 - type: emote
@@ -218,6 +268,15 @@
     - claps
     - clapping
     - clapped
+    # Corvax-Localization-Start
+    - хлопает
+    - хлопнул
+    - хлопнула
+    - хлопает в ладоши
+    - хлопнул в ладоши
+    - хлопнула в ладоши
+    - апплодирует
+    # Corvax-Localization-End
 
 - type: emote
   id: Snap
@@ -241,6 +300,20 @@
     - snaps their fingers
     - snapping fingers
     - snapped fingers
+    # Corvax-Localization-Start
+    - щелкает
+    - щелкнул
+    - щелкнула
+    - щёлкает
+    - щёлкнул
+    - щёлкнула
+    - щелкает пальцами
+    - щелкнул пальцами
+    - щелкнула пальцами
+    - щёлкает пальцами
+    - щёлкнул пальцами
+    - щёлкнула пальцами
+    # Corvax-Localization-End
 
 - type: emote
   id: Thump
@@ -266,6 +339,13 @@
     - thumps her tail
     - thumps his tail
     - thumps its tail
+    # Corvax-Localization-Start
+    - стучит хвостом
+    - стукнул хвостом
+    - стукнула хвостом
+    - стукнул своим хвостом
+    - стукнула своим хвостом
+    # Corvax-Localization-End
 
 - type: emote
   id: Salute
@@ -282,6 +362,12 @@
   chatTriggers:
     - salute
     - salutes
+    # Corvax-Localization-Start
+    - салютует
+    - отдаёт честь
+    - отдал честь
+    - отдала честь
+    # Corvax-Localization-End
 
 - type: emote
   id: Gasp
@@ -302,10 +388,6 @@
   whitelist:
     components:
     - MobState
-  blacklist: #Goobstation - Replace deathgasp for IPCs and cyborgs
-    components:
-    - Silicon
-    - BorgChassis
   chatMessages: ["chat-emote-msg-deathgasp"]
   chatTriggers:
   - deathgasp
@@ -321,16 +403,22 @@
   name: chat-emote-name-buzz
   category: Vocal
   icon: Interface/Emotes/buzz.png
-  chatMessages: ["chat-emote-msg-buzz"]
-  whitelist: #Goobstation - IPCs
+  whitelist:
+    requireAll: true
     components:
-    - Silicon
     - BorgChassis
+    - Vocal
+  chatMessages: ["chat-emote-msg-buzz"]
   chatTriggers:
     - buzzing
     - buzz
     - buzzed
     - buzzes
+    # Corvax-Localization-Start
+    - жужжит
+    - зажужжал
+    - зажужжала
+    # Corvax-Localization-End
 
 - type: emote
   id: Weh
@@ -350,17 +438,24 @@
   id: Chirp
   name: chat-emote-name-chirp
   category: Vocal
+  available: false
   icon: Interface/Emotes/chirp.png
   whitelist:
-    requireAll: true
     components:
     - Nymph
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
   chatMessages: ["chat-emote-msg-chirp"]
   chatTriggers:
     - chirp
     - chirps
     - chirped
     - chirping
+    # Corvax-Localization-Start
+    - чирикает
+    # Corvax-Localization-End
 
 # Machine Emotes
 - type: emote
@@ -368,43 +463,52 @@
   name: chat-emote-name-beep
   category: Vocal
   icon: Interface/Emotes/beep.png
-  chatMessages: ["chat-emote-msg-beep"]
-  whitelist: #Goobstation - IPCs
+  whitelist:
+    requireAll: true
     components:
-    - Silicon
     - BorgChassis
+    - Vocal
+  chatMessages: ["chat-emote-msg-beep"]
   chatTriggers:
     - beep
     - beeps
     - beeped
     - beeping
+    # Corvax-Localization-Start
+    - бип
+    # Corvax-Localization-End
 
 - type: emote
   id: Chime
   name: chat-emote-name-chime
   category: Vocal
   icon: Interface/Emotes/chime.png
-  chatMessages: ["chat-emote-msg-chime"]
-  whitelist: #Goobstation - IPCs
+  whitelist:
+    requireAll: true
     components:
-    - Silicon
     - BorgChassis
+    - Vocal
+  chatMessages: ["chat-emote-msg-chime"]
   chatTriggers:
     - chime
     - chimes
     - chimed
     - chiming
+    # Corvax-Localization-Start
+    - дзынь
+    # Corvax-Localization-End
 
 - type: emote
   id: Buzz-Two
   name: chat-emote-name-buzztwo
   category: Vocal
   icon: Interface/Emotes/buzztwo.png
-  chatMessages: ["chat-emote-msg-buzzestwo"]
-  whitelist: #Goobstation - IPCs
+  whitelist:
+    requireAll: true
     components:
-    - Silicon
     - BorgChassis
+    - Vocal
+  chatMessages: ["chat-emote-msg-buzzestwo"]
   chatTriggers:
     - buzztwice
     - buzzstwice
@@ -416,19 +520,32 @@
     - buzzes twice
     - buzzing twice
     - buzzed twice
+    # Corvax-Localization-Start
+    - бипбуп
+    - бип буп
+    - бип-буп
+    - бипбип
+    - бип бип
+    - бип-бип
+    # Corvax-Localization-End
 
 - type: emote
   id: Ping
   name: chat-emote-name-ping
   category: Vocal
   icon: Interface/Emotes/ping.png
-  chatMessages: ["chat-emote-msg-ping"]
-  whitelist: #Goobstation - IPCs
+  whitelist:
+    requireAll: true
     components:
-    - Silicon
     - BorgChassis
+    - Vocal
+  chatMessages: ["chat-emote-msg-ping"]
   chatTriggers:
     - ping
     - pings
     - pinged
     - pinging
+    # Corvax-Localization-Start
+    - пинг
+    - пингует
+    # Corvax-Localization-End

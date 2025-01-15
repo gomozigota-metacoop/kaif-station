@@ -39,3 +39,15 @@ trait-french-name = Французский акцент
 trait-french-desc = Ваш акцент, похоже, имеет определённый «je ne sais quoi».
 trait-spanish-name = Испанский акцент
 trait-spanish-desc = Hola señor, как пройти в la biblioteca.
+
+trait-dementia-name = Деменция
+trait-dementia-desc = Я... эээ, о, что? А, точно! Иногда ты многое забываешь.
+
+trait-atheist-name = Атеист
+trait-atheist-desc = Вы атеист. Вы не можете молиться.
+
+trait-buddhist-name = Буддист
+trait-buddhist-desc = Вы буддист.
+
+trait-christian-name = Христианство
+trait-christian-desc = Вы христианин.

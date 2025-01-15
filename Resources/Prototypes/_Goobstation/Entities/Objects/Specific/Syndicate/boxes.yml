@@ -1,8 +1,8 @@
 - type: entity
-  name: Box of Skibidi Rizz
+  name: коробка скибиди туалетов
   parent: BoxCardboard
   id: BoxSkibidiRizz
-  description: A box with 3 glasses of SigmaJuice and 3 dehydrated Skibidi Toilet cubes.
+  description: Коробка с тремя стаканами сигмаджуса и тремя кубиками скибиди туалетов.
   components:
   - type: StorageFill
     contents:

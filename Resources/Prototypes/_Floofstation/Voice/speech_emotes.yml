@@ -2,15 +2,16 @@
   id: Gekker
   name: chat-emote-name-gekker
   category: Vocal
-  chatMessages: [ gekkers ]
+  chatMessages: [ геккерит ]
   chatTriggers:
-  - gekkers
+  - геккер
 
 - type: emote
   id: Yip
   name: chat-emote-name-yip
   category: Vocal
-  chatMessages: [ yips ]
+  chatMessages: [ тявкает ]
   chatTriggers:
-  - yip
-  - yips
+  - тявкнул
+  - тявкает
+  - тяв
