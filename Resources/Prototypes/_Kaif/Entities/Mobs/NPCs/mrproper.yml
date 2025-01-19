@@ -1,0 +1,45 @@
+- type: entity
+  parent: BaseSimpleMob
+  id: MobMrProper
+  name: Mr Proper
+  description: Clean my station.
+  components:
+  - type: Sprite
+    sprite: _Kaif/mrproper.rsi
+    state: alive
+    scale: 0.07, 0.07
+  - type: Absorbent
+    pickupAmount: 10
+  - type: UseDelay
+    delay: 1
+  - type: SolutionRegeneration
+    solution: absorbed
+    generated:
+      reagents:
+        - ReagentId: Water
+          Quantity: 10
+  - type: SolutionPurge
+    solution: absorbed
+    preserve:
+      - Water
+    quantity: 10
+  - type: SolutionContainerManager
+    solutions:
+      absorbed:
+        maxVol: 100
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2
+    baseSprintSpeed: 3
+  - type: HTN
+    rootTask:
+      task: CleanbotCompound
+  - type: DrainableSolution
+    solution: drainBuffer
+  - type: InteractionPopup
+    interactSuccessString: petting-success-generic
+    interactFailureString: petting-failure-generic
+    interactSuccessSound:
+      path: /Audio/Effects/spray2.ogg
+  - type: EmitSoundOnSpawn
+    sound:
+      path: /Audio/_Kaif/Ambience/Mobs/mr_proper.ogg

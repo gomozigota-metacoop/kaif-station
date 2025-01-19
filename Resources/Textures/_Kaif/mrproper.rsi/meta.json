@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Procter & Gamble",
+  "size": {
+    "x": 504,
+    "y": 532
+  },
+  "states": [
+    {
+      "name": "alive",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    }
+  ]
+}
