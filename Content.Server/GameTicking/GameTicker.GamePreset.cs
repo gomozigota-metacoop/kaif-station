@@ -10,6 +10,7 @@ using Robust.Shared.Player;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
+using Content.Shared.Mobs.Systems;
 
 namespace Content.Server.GameTicking
 {
