@@ -58,7 +58,7 @@ public sealed class GhostReturnToRoundSystem : EntitySystem
 
         var deathTime = EnsureComp<GhostComponent>(uid).TimeOfDeath;
         var timeUntilRespawn = _cfg.GetCVar(CCVars.GhostRespawnTime);
-        var timePast = (_gameTiming.CurTime - deathTime).TotalMinutes;
+        var timePast = (_gameTiming.CurTime - deathTime).TotalSeconds;
         if (timePast >= timeUntilRespawn)
         {
             _playerManager.TryGetSessionById(userId, out var targetPlayer);
