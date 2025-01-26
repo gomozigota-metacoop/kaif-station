@@ -30,8 +30,8 @@ namespace Content.Shared.Preferences
         private static readonly Regex RestrictedNameRegex = new("[^А-Яа-яёЁ0-9' -]"); // Kaif
         private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
 
-        public const int MaxNameLength = 32;
-        public const int MaxDescLength = 512;
+        public const int MaxNameLength = 64; // Kaif
+        public const int MaxDescLength = 4096; // Kaif
 
         /// <summary>
         /// Job preferences for initial spawn.
