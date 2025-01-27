@@ -14,3 +14,5 @@ ghost-respawn-log-character-almost-same = Игрок { $player } { $try ->
     *[false] попытался зайти
 } в раунд после возвращения в лобби с похожим именем. Прошлое имя: { $oldName }, текущее: { $newName }.
 ghost-respawn-log-return-to-lobby = { $userName } вернулся в лобби.
+
+ghost-respawn-button-disabled = Возможность возродиться отключена администрацией!
