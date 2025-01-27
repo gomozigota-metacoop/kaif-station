@@ -5,7 +5,7 @@ using Content.Shared.Mind;
 using Robust.Shared.Console;
 using Content.Server.GameTicking;
 
-namespace Content.Server.Ghost
+namespace Content.Server.Ghost.Commands
 {
     [AnyCommand]
     public sealed class GhostCommand : IConsoleCommand

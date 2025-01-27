@@ -48,6 +48,14 @@ public sealed class GhostReturnToRoundSystem : EntitySystem
 
     private void TryGhostReturnToRound(EntityUid uid, INetChannel connectedClient, NetUserId userId, out string message, out string wrappedMessage)
     {
+	var respawnEnabled = _cfg.GetCVar(CCVars.GhostAllowRespawn);
+	if (!respawnEnabled)
+	{
+            message = Loc.GetString("ghost-respawn-button-disabled");
+            wrappedMessage = Loc.GetString("chat-manager-server-wrap-message", ("message", message));
+            return;
+	}
+
         var maxPlayers = _cfg.GetCVar(CCVars.GhostRespawnMaxPlayers);
         if (_playerManager.PlayerCount >= maxPlayers)
         {

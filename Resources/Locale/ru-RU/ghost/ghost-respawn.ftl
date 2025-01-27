@@ -1,9 +1,9 @@
-ghost-respawn-time-left = До возможности вернуться в раунд { $time } 
+ghost-respawn-time-left = До возможности вернуться в раунд нужно подождать ещё { $time } 
     { $time ->
-        [one] секунда
+        [one] секунду
         [few] секунды
        *[other] секунд
-    }
+    }!
 ghost-respawn-max-players = Функция недоступна, игроков на сервере должно быть меньше { $players }.
 ghost-respawn-window-title = Правила возвращения в раунд
 ghost-respawn-window-rules-footer = Пользуясь это функцией, вы [color=#ff7700]обязуетесь[/color] [color=#ff0000]не переносить[/color] знания своего прошлого персонажа в нового.
@@ -14,3 +14,5 @@ ghost-respawn-log-character-almost-same = Игрок { $player } { $try ->
     *[false] попытался зайти
 } в раунд после возвращения в лобби с похожим именем. Прошлое имя: { $oldName }, текущее: { $newName }.
 ghost-respawn-log-return-to-lobby = { $userName } вернулся в лобби.
+
+ghost-respawn-button-disabled = Возможность возродиться отключена администрацией!

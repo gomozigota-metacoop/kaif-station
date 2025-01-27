@@ -15,3 +15,9 @@ discord = "https://discord.gg/jQnxNEv457"
 advertise = true
 tags = "lang:ru,rp:high,region:eu_e,18+"
 hub_urls = "https://hub.spacestation14.com/"
+
+[ghost]
+respawn_time = 15
+respawn_max_players = 999
+allow_same_character = true
+allow_respawn = true

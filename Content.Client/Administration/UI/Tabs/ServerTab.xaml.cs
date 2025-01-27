@@ -18,6 +18,7 @@ namespace Content.Client.Administration.UI.Tabs
 
             _config.OnValueChanged(CCVars.OocEnabled, OocEnabledChanged, true);
             _config.OnValueChanged(CCVars.LoocEnabled, LoocEnabledChanged, true);
+	    _config.OnValueChanged(CCVars.GhostAllowRespawn, GhostRespawnEnabledChanged, true);
         }
 
         private void OocEnabledChanged(bool value)
@@ -30,6 +31,11 @@ namespace Content.Client.Administration.UI.Tabs
             SetLoocButton.Pressed = value;
         }
 
+        private void GhostRespawnEnabledChanged(bool value)
+        {
+            SetGhostRespawn.Pressed = value;
+        }
+
         protected override void Dispose(bool disposing)
         {
             base.Dispose(disposing);
@@ -38,6 +44,7 @@ namespace Content.Client.Administration.UI.Tabs
             {
                 _config.UnsubValueChanged(CCVars.OocEnabled, OocEnabledChanged);
                 _config.UnsubValueChanged(CCVars.LoocEnabled, LoocEnabledChanged);
+                _config.UnsubValueChanged(CCVars.GhostAllowRespawn, GhostRespawnEnabledChanged);
             }
         }
     }
