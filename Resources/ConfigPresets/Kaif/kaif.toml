@@ -21,3 +21,6 @@ respawn_time = 15
 respawn_max_players = 999
 allow_same_character = true
 allow_respawn = true
+
+[ic]
+flavor_text = true
