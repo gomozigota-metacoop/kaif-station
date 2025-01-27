@@ -22,7 +22,15 @@ public sealed class SetGhostRespawnTimeCommand : IConsoleCommand
             return;
         }
 
-        if (args.Length == 0 || args.Length == 1 && !int.TryParse(args[0], out respawntime))
+        if (args.Length == 0)
+        {
+            shell.WriteError(Loc.GetString("set-respawn-time-command-no-arguments-error"));
+            return;
+        }
+	
+	var respawntime = 0;
+	
+        if (args.Length == 1 && !int.TryParse(args[0], out respawntime))
         {
             shell.WriteError(Loc.GetString("set-respawn-time-command-invalid-argument-error"));
             return;
