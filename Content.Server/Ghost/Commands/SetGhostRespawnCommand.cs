@@ -4,7 +4,7 @@ using Content.Shared.CCVar;
 using Robust.Shared.Configuration;
 using Robust.Shared.Console;
 
-namespace Content.Server.Chat.Commands;
+namespace Content.Server.Ghost.Commands;
 
 [AdminCommand(AdminFlags.Server)]
 public sealed class SetGhostRespawnCommand : IConsoleCommand
