@@ -24,3 +24,6 @@ allow_respawn = true
 
 [ic]
 flavor_text = true
+
+[discord]
+round_end_role = "1142813805592727623"
