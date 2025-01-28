@@ -292,6 +292,7 @@
     RandomSpawner100: 56
     SpacemenFigureSpawner: 28
     SpawnMobCockroach: 5
+    SpawnMobPoopsy: 5 # Kaif
     MaintenanceToolSpawner: 5
 
 - type: entity

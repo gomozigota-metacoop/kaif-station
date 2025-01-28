@@ -1,9 +1,9 @@
-- type: soundCollection
-  id: Fart
-  files:
-    - /Audio/_Goobstation/Voice/Human/fart2.ogg
-    - /Audio/_Goobstation/Voice/Human/fart3.ogg
-    - /Audio/_Goobstation/Voice/Human/fart4.ogg
+#- type: soundCollection # Kaif-Remove | Because did it better!!!
+#  id: Fart
+#  files:
+#    - /Audio/_Goobstation/Voice/Human/fart2.ogg
+#    - /Audio/_Goobstation/Voice/Human/fart3.ogg
+#    - /Audio/_Goobstation/Voice/Human/fart4.ogg
 
 - type: soundCollection
   id: Jump
