@@ -463,12 +463,11 @@
   name: chat-emote-name-beep
   category: Vocal
   icon: Interface/Emotes/beep.png
-  whitelist:
-    requireAll: true
+  chatMessages: ["chat-emote-msg-beep"]
+  whitelist: #Goobstation - IPCs, C4 sentience
     components:
     - BorgChassis
-    - Vocal
-  chatMessages: ["chat-emote-msg-beep"]
+    - Explosive
   chatTriggers:
     - beep
     - beeps
