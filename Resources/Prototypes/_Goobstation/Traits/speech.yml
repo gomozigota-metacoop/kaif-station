@@ -10,8 +10,8 @@
 
 - type: trait
   id: Ohio
-  name: Сигма
-  description: Хотите стать сигмой? Надоело быть камераменом? Тогда это точно вам подойдет!
+  name: trait-ohio-name
+  description: trait-ohio-desc
   category: SpeechTraits
   cost: 1
   components:

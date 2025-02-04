@@ -32,8 +32,10 @@ namespace Content.Shared.Localizations
 
             _loc.LoadCulture(culture);
             _loc.LoadCulture(fallbackCulture); // Kaif Station
+
             _loc.SetFallbackCluture(fallbackCulture); // Kaif Station
-            _loc.AddFunction(culture, "MANY", FormatMany); // Kaif Station : To prevent problems in auto-generated locale files
+
+            _loc.AddFunction(culture, "MANY", FormatMany); // Kaif Station
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
@@ -44,16 +46,29 @@ namespace Content.Shared.Localizations
             _loc.AddFunction(culture, "NATURALPERCENT", FormatNaturalPercent);
             _loc.AddFunction(culture, "PLAYTIME", FormatPlaytime);
 
+            _loc.AddFunction(fallbackCulture, "MANY", FormatMany); // Kaif Station
+            _loc.AddFunction(fallbackCulture, "PRESSURE", FormatPressure);
+            _loc.AddFunction(fallbackCulture, "POWERWATTS", FormatPowerWatts);
+            _loc.AddFunction(fallbackCulture, "POWERJOULES", FormatPowerJoules);
+            _loc.AddFunction(fallbackCulture, "UNITS", FormatUnits);
+            _loc.AddFunction(fallbackCulture, "TOSTRING", args => FormatToString(culture, args));
+            _loc.AddFunction(fallbackCulture, "LOC", FormatLoc);
+            _loc.AddFunction(fallbackCulture, "NATURALFIXED", FormatNaturalFixed);
+            _loc.AddFunction(fallbackCulture, "NATURALPERCENT", FormatNaturalPercent);
+            _loc.AddFunction(fallbackCulture, "PLAYTIME", FormatPlaytime);
+
+	    _loc.AddFunction(fallbackCulture, "MAKEPLURAL", FormatMakePlural);
+
 
             /*
              * The following language functions are specific to the english localization. When working on your own
              * localization you should NOT modify these, instead add new functions specific to your language/culture.
              * This ensures the english translations continue to work as expected when fallbacks are needed.
              */
-            var cultureEn = new CultureInfo("en-US");
+            /* var cultureEn = new CultureInfo("en-US");
 
             _loc.AddFunction(cultureEn, "MAKEPLURAL", FormatMakePlural);
-            _loc.AddFunction(cultureEn, "MANY", FormatMany);
+            _loc.AddFunction(cultureEn, "MANY", FormatMany);*/
         }
 
         private ILocValue FormatMany(LocArgs args)
