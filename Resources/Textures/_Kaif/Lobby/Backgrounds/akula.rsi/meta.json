@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "license": "CC BY-ND",
+  "copyright": "By ILLUZORR, for Kaif Station only",
+  "size": {
+    "x": 1280,
+    "y": 720
+  },
+  "states": [
+    {
+      "name": "1",
+      "delays": [
+        [
+          1
+        ]
+      ]
+    }
+  ]
+}

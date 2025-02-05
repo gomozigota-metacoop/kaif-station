@@ -1,0 +1,5 @@
+- type: soundCollection
+  id: LobbyMusicKaif
+  files:
+    - /Audio/_Kaif/Lobby/xs_project_yaica.ogg
+    - /Audio/_Kaif/Lobby/xs_project_kayfushki.ogg

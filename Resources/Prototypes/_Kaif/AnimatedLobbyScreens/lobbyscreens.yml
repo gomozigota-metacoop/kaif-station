@@ -1,0 +1,19 @@
+- type: animatedLobbyScreen
+  id: Ultrazvuk
+  path: /Textures/_Kaif/Lobby/Backgrounds/ultrazvuk.rsi
+
+- type: animatedLobbyScreen
+  id: Stena
+  path: /Textures/_Kaif/Lobby/Backgrounds/stena.rsi
+
+- type: animatedLobbyScreen
+  id: Native
+  path: /Textures/_Kaif/Lobby/Backgrounds/native.rsi
+
+- type: animatedLobbyScreen
+  id: Akula
+  path: /Textures/_Kaif/Lobby/Backgrounds/akula.rsi
+
+- type: animatedLobbyScreen
+  id: Makaka
+  path: /Textures/_Kaif/Lobby/Backgrounds/makaka.rsi
