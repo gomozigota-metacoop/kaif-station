@@ -1,5 +1,4 @@
-ghost-respawn-time-left = До возможности вернуться в раунд нужно подождать ещё { $time } 
-    { $time ->
+ghost-respawn-time-left = До возможности вернуться в раунд нужно подождать ещё { $time } { $time ->
         [one] секунду
         [few] секунды
        *[other] секунд
