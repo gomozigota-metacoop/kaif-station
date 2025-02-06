@@ -238,8 +238,9 @@ namespace Content.Client.Lobby
         {
             if (_gameTicker.LobbyBackground != null)
             {
-                Lobby!.Background.SetRSI(_resourceCache.GetResource<RSIResource>(_gameTicker.LobbyBackground).RSI);
-
+                var res = _resourceCache.GetResource<RSIResource>(_gameTicker.LobbyBackground).RSI;
+                Lobby!.Background.SetRSI(res);
+                Lobby!.LobbyBackground.SetMarkup(res.Path.FilenameWithoutExtension.Replace("_", " ").Replace("-", " "));
                 return;
             }
 
