@@ -38,6 +38,13 @@ public sealed partial class MiscTab : Control
             layoutEntries.Add(new OptionDropDownCVar<string>.ValueOption(layout.ToString()!, Loc.GetString($"ui-options-hud-layout-{layout.ToString()!.ToLower()}")));
         }
 
+        var chatStackingEntries = new List<OptionDropDownCVar<int>.ValueOption>();
+        chatStackingEntries.Add(new OptionDropDownCVar<int>.ValueOption(0, Loc.GetString("ui-options-chatstack-off")));
+        chatStackingEntries.Add(new OptionDropDownCVar<int>.ValueOption(1, Loc.GetString("ui-options-chatstack-single")));
+        chatStackingEntries.Add(new OptionDropDownCVar<int>.ValueOption(2, Loc.GetString("ui-options-chatstack-double")));
+        chatStackingEntries.Add(new OptionDropDownCVar<int>.ValueOption(3, Loc.GetString("ui-options-chatstack-triple")));
+        Control.AddOptionDropDown(CCVars.ChatStackLastLines, ChatStackOption, chatStackingEntries);
+
         // Channel can be null in replays so.
         // ReSharper disable once ConditionalAccessQualifierIsNonNullableAccordingToAPIContract
         ShowOocPatronColor.Visible = _linkAccount.Tier != null;
