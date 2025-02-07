@@ -1,19 +1,11 @@
 - type: animatedLobbyScreen
+  id: KaifWeb
+  path: /Textures/_Kaif/Lobby/Backgrounds/KaifWeb.rsi
+
+- type: animatedLobbyScreen
   id: Ultrazvuk
   path: /Textures/_Kaif/Lobby/Backgrounds/Pulsing_star.rsi
 
-- type: animatedLobbyScreen
-  id: Stena
-  path: /Textures/_Kaif/Lobby/Backgrounds/Wall_of_sound.rsi
-
-- type: animatedLobbyScreen
-  id: Native
-  path: /Textures/_Kaif/Lobby/Backgrounds/Shrek.rsi
-
-- type: animatedLobbyScreen
-  id: Akula
-  path: /Textures/_Kaif/Lobby/Backgrounds/Batman_with_shark.rsi
-
-- type: animatedLobbyScreen
-  id: Makaka
-  path: /Textures/_Kaif/Lobby/Backgrounds/Monkey.rsi
+#- type: animatedLobbyScreen
+#  id: Stena
+#  path: /Textures/_Kaif/Lobby/Backgrounds/Wall_of_sound.rsi

@@ -7,6 +7,7 @@ desc = "🌌 КАЙФУЮЩИЙ ПРИВЕТ, ЧЕЛОВЕК 😎👽\n\n👨�
 maxplayers = 100
 soft_max_players = 80
 role_timers = false
+lobbyduration = 60
 
 [infolinks]
 discord = "https://discord.gg/jQnxNEv457"

@@ -237,7 +237,7 @@ namespace Content.Client.Examine
             if (knowTarget)
             {
                 var itemName = FormattedMessage.EscapeText(Identity.Name(target, EntityManager, player));
-                var labelMessage = FormattedMessage.FromMarkupPermissive($"[bold]{itemName}[/bold]");
+                var labelMessage = FormattedMessage.FromMarkupPermissive($"{itemName}");
                 var label = new RichTextLabel();
                 label.SetMessage(labelMessage);
                 hBox.AddChild(label);
@@ -245,7 +245,7 @@ namespace Content.Client.Examine
             else
             {
                 var label = new RichTextLabel();
-                label.SetMessage(FormattedMessage.FromMarkupOrThrow("[bold]???[/bold]"));
+                label.SetMessage(FormattedMessage.FromMarkupOrThrow("???"));
                 hBox.AddChild(label);
             }
 
