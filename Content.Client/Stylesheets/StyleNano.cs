@@ -41,15 +41,15 @@ namespace Content.Client.Stylesheets
                 // Ew, but ok
                 new[]
                 {
-                    $"/Fonts/NotoSans{ds}/NotoSans{ds}-{sv}.ttf",
-                    $"/Fonts/NotoSans/NotoSansSymbols-{sv}.ttf",
-                    "/Fonts/NotoSans/NotoSansSymbols2-Regular.ttf",
-                    "/Fonts/NotoSans/NotoSansSC-Regular.ttf",
+                    $"/Fonts/Kaif/Anticva.ttf",
+                    $"/Fonts/Kaif/Anticva.ttf",
+                    "/Fonts/Kaif/Anticva.ttf",
+                    "/Fonts/Kaif/Anticva.ttf",
                 },
                 size
             );
         }
-        public static Font NotoStack2ElectricBoogaloo(this IResourceCache resCache, string path = "/Fonts/NotoSans/NotoSans-Regular.ttf", int size = 10)
+        public static Font NotoStack2ElectricBoogaloo(this IResourceCache resCache, string path = "/Fonts/Kaif/Anticva.ttf", int size = 10)
         {
             return resCache.GetFont
             (
@@ -57,9 +57,9 @@ namespace Content.Client.Stylesheets
                 new[]
                 {
                     path,
-                    $"/Fonts/NotoSans/NotoSansSymbols-Regular.ttf",
-                    "/Fonts/NotoSans/NotoSansSymbols2-Regular.ttf",
-                    "/Fonts/NotoSans/NotoSansSC-Regular.ttf",
+                    $"/Fonts/Kaif/Anticva.ttf",
+                    "/Fonts/Kaif/Anticva.ttf",
+                    "/Fonts/Kaif/Anticva.ttf",
                 },
                 size
             );
@@ -204,7 +204,7 @@ namespace Content.Client.Stylesheets
             var notoSansBold16 = resCache.NotoStack(variation: "Bold", size: 16);
             var notoSansBold18 = resCache.NotoStack(variation: "Bold", size: 18);
             var notoSansBold20 = resCache.NotoStack(variation: "Bold", size: 20);
-            var notoSansMono = resCache.NotoStack2ElectricBoogaloo("/EngineFonts/NotoSans/NotoSansMono-Regular.ttf", size: 12); // Goobstation - ZH text support
+            var notoSansMono = resCache.NotoStack(variation: "Regular", size: 12); // Goobstation - ZH text support
             var windowHeaderTex = resCache.GetTexture("/Textures/Interface/Nano/window_header.png");
             var windowHeader = new StyleBoxTexture
             {
@@ -538,7 +538,7 @@ namespace Content.Client.Stylesheets
             var sliderFillBlue = new StyleBoxTexture(sliderFillBox) { Modulate = Color.Blue };
             var sliderFillWhite = new StyleBoxTexture(sliderFillBox) { Modulate = Color.White };
 
-            var boxFont13 = resCache.NotoStack2ElectricBoogaloo("/Fonts/Boxfont-round/Boxfont Round.ttf", 13); // Goobstation - ZH text support
+            var boxFont13 = resCache.NotoStack(variation: "Regular", size: 13); // Goobstation - ZH text support
 
             var insetBack = new StyleBoxTexture
             {

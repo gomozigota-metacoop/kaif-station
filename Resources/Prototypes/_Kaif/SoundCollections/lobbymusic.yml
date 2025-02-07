@@ -1,6 +1,7 @@
 - type: soundCollection
   id: LobbyMusicKaif
   files:
+    - /Audio/_Kaif/Lobby/metacoop_ai_upstream_kaifa.ogg
     - /Audio/_Kaif/Lobby/xs_project_skorostnaya_trassa.ogg
     - /Audio/_Kaif/Lobby/xs_project_yaica.ogg
     - /Audio/_Kaif/Lobby/xs_project_kayfushki.ogg
