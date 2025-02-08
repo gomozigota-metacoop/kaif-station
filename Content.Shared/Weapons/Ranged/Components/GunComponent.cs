@@ -48,7 +48,7 @@ public sealed partial class GunComponent : Component
     /// The base scalar value applied to the vector governing camera recoil.
     /// </summary>
     [DataField, AutoNetworkedField]
-    public float CameraRecoilScalar = 1f;
+    public float CameraRecoilScalar = 0.2f;
 
     /// <summary>
     /// A scalar value applied to the vector governing camera recoil.
