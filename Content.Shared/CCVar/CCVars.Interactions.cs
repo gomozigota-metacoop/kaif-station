@@ -51,4 +51,7 @@ public sealed partial class CCVars
     /// </summary>
     public static readonly CVarDef<bool> OpaqueStorageWindow =
         CVarDef.Create("control.opaque_storage_background", false, CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    public static readonly CVarDef<bool> HoldLookUp =
+        CVarDef.Create("rest.hold_look_up", false, CVar.CLIENT | CVar.ARCHIVE);
 }
