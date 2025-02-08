@@ -45,6 +45,7 @@
     active: False
   - type: AnimatedEmotes
   - type: Fart
+  - type: Telescope # KAIF EDIT Telescope
 
 - type: entity
   save: false
