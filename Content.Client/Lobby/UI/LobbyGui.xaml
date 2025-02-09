@@ -74,7 +74,7 @@
             </BoxContainer>
             <!-- Right Panel -->
             <PanelContainer Name="RightSide" StyleClasses="AngleRect" HorizontalAlignment="Right" VerticalExpand="True"
-                            VerticalAlignment="Stretch">
+                            VerticalAlignment="Stretch" MaxWidth="600">
                 <BoxContainer Orientation="Vertical" HorizontalExpand="True">
                     <!-- Top row -->
                     <BoxContainer Orientation="Horizontal" MinSize="0 40" Name="HeaderContainer" Access="Public"

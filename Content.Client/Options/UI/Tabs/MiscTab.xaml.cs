@@ -24,26 +24,26 @@ public sealed partial class MiscTab : Control
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
 
-        var themes = _prototypeManager.EnumeratePrototypes<HudThemePrototype>().ToList();
-        themes.Sort();
-        var themeEntries = new List<OptionDropDownCVar<string>.ValueOption>();
-        foreach (var gear in themes)
-        {
-            themeEntries.Add(new OptionDropDownCVar<string>.ValueOption(gear.ID, Loc.GetString(gear.Name)));
-        }
+        //var themes = _prototypeManager.EnumeratePrototypes<HudThemePrototype>().ToList();
+        //themes.Sort();
+        //var themeEntries = new List<OptionDropDownCVar<string>.ValueOption>();
+        //foreach (var gear in themes)
+        //{
+        //    themeEntries.Add(new OptionDropDownCVar<string>.ValueOption(gear.ID, Loc.GetString(gear.Name)));
+        //}
 
-        var layoutEntries = new List<OptionDropDownCVar<string>.ValueOption>();
-        foreach (var layout in Enum.GetValues(typeof(ScreenType)))
-        {
-            layoutEntries.Add(new OptionDropDownCVar<string>.ValueOption(layout.ToString()!, Loc.GetString($"ui-options-hud-layout-{layout.ToString()!.ToLower()}")));
-        }
+        //var layoutEntries = new List<OptionDropDownCVar<string>.ValueOption>();
+        //foreach (var layout in Enum.GetValues(typeof(ScreenType)))
+        //{
+        //    layoutEntries.Add(new OptionDropDownCVar<string>.ValueOption(layout.ToString()!, Loc.GetString($"ui-options-hud-layout-{layout.ToString()!.ToLower()}")));
+        //}
 
         // Channel can be null in replays so.
         // ReSharper disable once ConditionalAccessQualifierIsNonNullableAccordingToAPIContract
         ShowOocPatronColor.Visible = _linkAccount.Tier != null;
 
-        Control.AddOptionDropDown(CVars.InterfaceTheme, DropDownHudTheme, themeEntries);
-        Control.AddOptionDropDown(CCVars.UILayout, DropDownHudLayout, layoutEntries);
+        //Control.AddOptionDropDown(CVars.InterfaceTheme, DropDownHudTheme, themeEntries);
+        //Control.AddOptionDropDown(CCVars.UILayout, DropDownHudLayout, layoutEntries);
 
         Control.AddOptionCheckBox(CVars.DiscordEnabled, DiscordRich);
         Control.AddOptionCheckBox(CCVars.ShowOocPatronColor, ShowOocPatronColor);

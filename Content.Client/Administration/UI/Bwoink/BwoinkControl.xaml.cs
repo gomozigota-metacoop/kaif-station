@@ -57,25 +57,29 @@ namespace Content.Client.Administration.UI.Bwoink
                 var sb = new StringBuilder();
 
                 if (info.Connected)
-                    sb.Append('●');
+                    sb.Append("(ONLINE)");
                 else
-                    sb.Append(info.ActiveThisRound ? '○' : '·');
+                    sb.Append(info.ActiveThisRound ? "(LEFT)" : "(OFFLINE)");
 
                 sb.Append(' ');
                 if (AHelpHelper.TryGetChannel(info.SessionId, out var panel) && panel.Unread > 0)
                 {
                     if (panel.Unread < 11)
-                        sb.Append(new Rune('➀' + (panel.Unread-1)));
+                        sb.Append("(" + panel.Unread.ToString() + ")"); // new Rune('➀' + (panel.Unread-1))
                     else
-                        sb.Append(new Rune(0x2639)); // ☹
+                        sb.Append("(M)"); // ☹
                     sb.Append(' ');
                 }
 
-                if (info.Antag && info.ActiveThisRound)
-                    sb.Append(new Rune(0x1F5E1)); // 🗡
+                if (info.Antag && info.ActiveThisRound) {
+                    sb.Append("(ANTAG)"); // 🗡
+		    sb.Append(' ');
+		}
 
-                if (info.OverallPlaytime <= TimeSpan.FromMinutes(_cfg.GetCVar(CCVars.NewPlayerThreshold)))
-                    sb.Append(new Rune(0x23F2)); // ⏲
+                if (info.OverallPlaytime <= TimeSpan.FromMinutes(_cfg.GetCVar(CCVars.NewPlayerThreshold))) {
+                    sb.Append("(NEW)"); // ⏲
+		    sb.Append(' ');
+		}
 
                 sb.AppendFormat("\"{0}\"", text);
 
@@ -236,22 +240,26 @@ namespace Content.Client.Administration.UI.Bwoink
         {
             pl ??= (PlayerInfo) li.Metadata!;
             var sb = new StringBuilder();
-            sb.Append(pl.Connected ? '●' : '○');
+            sb.Append(pl.Connected ? "(ONLINE)" : "(OFFLINE)");
             sb.Append(' ');
             if (AHelpHelper.TryGetChannel(pl.SessionId, out var panel) && panel.Unread > 0)
             {
                 if (panel.Unread < 11)
-                    sb.Append(new Rune('➀' + (panel.Unread-1)));
+                    sb.Append("(" + panel.Unread.ToString() + ")");
                 else
-                    sb.Append(new Rune(0x2639)); // ☹
+                    sb.Append("(M)"); // ☹
                 sb.Append(' ');
             }
 
-            if (pl.Antag)
-                sb.Append(new Rune(0x1F5E1)); // 🗡
+            if (pl.Antag) {
+                sb.Append("(ANTAG)"); // 🗡
+		sb.Append(' ');
+	    }
 
-            if (pl.OverallPlaytime <= TimeSpan.FromMinutes(_cfg.GetCVar(CCVars.NewPlayerThreshold)))
-                sb.Append(new Rune(0x23F2)); // ⏲
+            if (pl.OverallPlaytime <= TimeSpan.FromMinutes(_cfg.GetCVar(CCVars.NewPlayerThreshold))) {
+                sb.Append("(NEW)"); // ⏲
+		sb.Append(' ');
+	    }
 
             sb.AppendFormat("\"{0}\"", pl.CharacterName);
 

@@ -7,7 +7,8 @@
     xmlns:playerTab="clr-namespace:Content.Client.Administration.UI.Tabs.PlayerTab"
     xmlns:objectsTab="clr-namespace:Content.Client.Administration.UI.Tabs.ObjectsTab"
     xmlns:panic="clr-namespace:Content.Client.Administration.UI.Tabs.PanicBunkerTab"
-    xmlns:baby="clr-namespace:Content.Client.Administration.UI.Tabs.BabyJailTab">
+    xmlns:baby="clr-namespace:Content.Client.Administration.UI.Tabs.BabyJailTab"
+    MinWidth="1300" MinHeight="450">
     <TabContainer Name="MasterTabContainer">
         <adminTab:AdminTab />
         <adminbusTab:AdminbusTab />
