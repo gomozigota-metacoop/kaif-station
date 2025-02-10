@@ -20,11 +20,11 @@ chat-manager-server-wrap-message = { $message }
 chat-manager-sender-announcement = Центральное командование
 chat-manager-sender-announcement-wrap-message = Объявление { $sender }:
     { $message }
-chat-manager-entity-say-wrap-message = [BubbleHeader][Name]{ $entityName }[/Name][/BubbleHeader] { $verb }, "[BubbleContent]{ $message }[/BubbleContent]"
-chat-manager-entity-say-bold-wrap-message = [BubbleHeader][Name]{ $entityName }[/Name][/BubbleHeader] { $verb }, "[BubbleContent]{ $message }[/BubbleContent]"
-chat-manager-entity-whisper-wrap-message = [BubbleHeader][Name]{ $entityName }[/Name][/BubbleHeader] шепчет,"[BubbleContent]{ $message }[/BubbleContent]"
-chat-manager-entity-whisper-unknown-wrap-message = [BubbleHeader]Кто-то[/BubbleHeader] шепчет, "[BubbleContent]{ $message }[/BubbleContent]"
-chat-manager-entity-me-wrap-message = { CAPITALIZE($entityName) } { $message }
+chat-manager-entity-say-wrap-message = [BubbleHeader][Name]{ $entityName }[/Name][/BubbleHeader] [color=#919191]{ $verb }[/color], "[BubbleContent]{ $message }[/BubbleContent]"
+chat-manager-entity-say-bold-wrap-message = [BubbleHeader][Name]{ $entityName }[/Name][/BubbleHeader] [color=#999]{ $verb }[/color], "[BubbleContent]{ $message }[/BubbleContent]"
+chat-manager-entity-whisper-wrap-message = [BubbleHeader][Name]{ $entityName }[/Name][/BubbleHeader] [color=#787878]шепчет[/color], [color=#828282]"[BubbleContent]{ $message }[/BubbleContent]"[/color]
+chat-manager-entity-whisper-unknown-wrap-message = [BubbleHeader]Кто-то[/BubbleHeader] [color=#787878]шепчет[/color], [color=#828282]"[BubbleContent]{ $message }[/BubbleContent]"[/color]
+chat-manager-entity-me-wrap-message = [BubbleHeader][Name]{ $entityName }[/Name][/BubbleHeader] [color=#a6a6a6][BubbleContent]{ $message }[/BubbleContent][/color]
 chat-manager-entity-looc-wrap-message = LOOC: { $entityName }: { $message }
 chat-manager-send-ooc-wrap-message = OOC: { $playerName }: { $message }
 chat-manager-send-dead-chat-wrap-message = { $deadChannelName }: [BubbleHeader]{ $playerName }[/BubbleHeader]: [BubbleContent]{ $message }[/BubbleContent]
