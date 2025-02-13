@@ -14,10 +14,10 @@ public sealed partial class CCVars
         CVarDef.Create("ui.layout", "Separated", CVar.CLIENTONLY);
 
     public static readonly CVarDef<string> DefaultScreenChatSize =
-        CVarDef.Create("ui.default_chat_size", "", CVar.CLIENTONLY | CVar.ARCHIVE);
+        CVarDef.Create("ui.default_chat_size", "", CVar.CLIENTONLY);
 
     public static readonly CVarDef<string> SeparatedScreenChatSize =
-        CVarDef.Create("ui.separated_chat_size", "0.6,0", CVar.CLIENTONLY | CVar.ARCHIVE);
+        CVarDef.Create("ui.separated_chat_size", "0.6,0", CVar.CLIENTONLY);
 
     public static readonly CVarDef<bool> OutlineEnabled =
         CVarDef.Create("outline.enabled", true, CVar.CLIENTONLY);

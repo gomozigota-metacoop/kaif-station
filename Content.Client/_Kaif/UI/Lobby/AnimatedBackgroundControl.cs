@@ -7,7 +7,7 @@ using Robust.Shared.Graphics.RSI;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
-namespace Content.Client._Kaif.UI;
+namespace Content.Client._Kaif.UI.Lobby;
 
 public sealed class AnimatedBackgroundControl : TextureRect
 {

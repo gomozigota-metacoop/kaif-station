@@ -91,7 +91,9 @@
 
 - type: alert
   id: Fire
-  icons: [ /Textures/Interface/Alerts/Fire/fire.png ]
+  icons:
+  - sprite: /Textures/Interface/Alerts/fire.rsi
+    state: fire
   clickEvent: !type:ResistFireAlertEvent
   name: alerts-on-fire-name
   description: alerts-on-fire-desc
@@ -150,7 +152,9 @@
 - type: alert
   id: Handcuffed
   clickEvent: !type:RemoveCuffsAlertEvent
-  icons: [ /Textures/Interface/Alerts/Handcuffed/Handcuffed.png ]
+  icons:
+  - sprite: /Textures/Interface/Alerts/handcuffed.rsi
+    state: handcuffed
   name: alerts-handcuffed-name
   description: alerts-handcuffed-desc
 

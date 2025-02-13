@@ -39,3 +39,9 @@
   name: ui-options-hud-theme-ashen
   path: Ashen
   order: 5
+
+- type: hudTheme
+  id: SS14KaifTheme
+  name: ui-options-hud-theme-kaif
+  path: Kaif
+  order: 7

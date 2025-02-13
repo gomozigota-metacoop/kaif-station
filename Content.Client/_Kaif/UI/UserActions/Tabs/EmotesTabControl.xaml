@@ -1,0 +1,25 @@
+<controls:EmotesTabControl
+    xmlns="https://spacestation14.io"
+    xmlns:controls="clr-namespace:Content.Client._Kaif.UI.UserActions.Tabs"
+    xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client">
+    <PanelContainer>
+        <PanelContainer.PanelOverride>
+            <graphics:StyleBoxFlat BackgroundColor="#787878"
+                                   BorderColor="#696969"
+                                   BorderThickness="2 2 2 2"/>
+        </PanelContainer.PanelOverride>
+        <ScrollContainer VerticalExpand="True"
+                         HorizontalExpand="True"
+                         Margin="2"
+                         MinHeight="100"
+                         HScrollEnabled="False"
+                         Access="Public">
+            <BoxContainer Name="EmotesList"
+                          Orientation="Vertical"
+                          HorizontalExpand="True"
+                          Margin="2"
+                          Access="Public">
+            </BoxContainer>
+        </ScrollContainer>
+    </PanelContainer>
+</controls:EmotesTabControl>

@@ -110,3 +110,20 @@
     disabledFore: "#FFF5EE"
     _itemstatus_content_margin_right: "#06060604"
     _itemstatus_content_margin_left: "#06060604"
+
+- type: uiTheme
+  id: SS14KaifTheme
+  path: /Textures/Interface/Kaif/
+  colors:
+    whiteText: "#FFF5EE"
+    slotSelectedGold: "#FFF5EE"
+    slotColor: "#FFF5EE"
+    slotOutline: "#FFF5EE"
+    slotText: "#FFF5EE"
+    nanoGold: "#9051a8"
+    goodGreenFore: "#006400"
+    concerningOrangeFore: "#99461d"
+    dangerousRedFore: "#640000"
+    disabledFore: "#5A5A5A"
+    _itemstatus_content_margin_right: "#06060604"
+    _itemstatus_content_margin_left: "#06060604"

@@ -25,22 +25,17 @@ public sealed partial class SeparatedChatGameScreen : InGameScreen
         SetAnchorAndMarginPreset(Alerts, LayoutPreset.CenterRight, margin: 10);
         SetAnchorAndMarginPreset(Targeting, LayoutPreset.BottomRight, margin: 5);
         
+	Inventory.Margin = new Thickness(5f, 5f);
+
         ScreenContainer.OnSplitResizeFinished += () =>
             OnChatResized?.Invoke(new Vector2(ScreenContainer.SplitFraction, 0));
-
-        ViewportContainer.OnResized += ResizeActionContainer;
-    }
-
-    private void ResizeActionContainer()
-    {
-        float indent = 20;
-        Actions.ActionsContainer.MaxGridWidth = ViewportContainer.Size.X - indent;
     }
 
     public override ChatBox ChatBox => GetWidget<ChatBox>()!;
 
     public override void SetChatSize(Vector2 size)
     {
+        ScreenContainer.DesiredSplitCenter = size.X;
         ScreenContainer.ResizeMode = SplitContainer.SplitResizeMode.RespectChildrenMinSize;
     }
 }

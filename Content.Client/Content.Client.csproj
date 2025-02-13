@@ -30,4 +30,18 @@
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Update="_Kaif\UI\UserActions\UserActionsPanel.cs">
+      <DependentUpon>UserActionsPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="_Kaif\UI\UserActions\Tabs\StatusTabControl.cs">
+      <DependentUpon>StatusTabControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="_Kaif\UI\UserActions\Tabs\EmotesTabControl.cs">
+      <DependentUpon>EmotesTabControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="_Kaif\UI\UserActions\Tabs\ActionsTabControl.cs">
+      <DependentUpon>ActionsTabControl.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>
