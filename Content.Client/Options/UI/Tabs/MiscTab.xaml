@@ -27,6 +27,9 @@
                 <CheckBox Name="OpaqueStorageWindowCheckBox" Text="{Loc 'ui-options-opaque-storage-window'}" />
                 <CheckBox Name="StaticStorageUI" Text="{Loc 'ui-options-static-storage-ui'}" />
                 <!-- <CheckBox Name="ToggleWalk" Text="{Loc 'ui-options-hotkey-toggle-walk'}" /> -->
+                <Label Text="{Loc 'ui-options-chatstack'}"
+                       StyleClasses="LabelKeyText"/>
+                <ui:OptionDropDown Name="ChatStackOption" Title="{Loc 'ui-options-chatstack-list'}" />
             </BoxContainer>
         </ScrollContainer>
         <ui:OptionsTabControlRow Name="Control" Access="Public" />
