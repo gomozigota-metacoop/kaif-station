@@ -1,6 +1,6 @@
 - type: entity
   name: миниатюрный энергетический арбалет
-  parent: BaseWeaponBatterySmall
+  parent: [ BaseWeaponBatterySmall, BaseSyndicateContraband ]
   id: MiniatureEnergyCrossbow
   description: Энергетический арбалет синдиката, маленький, бесшумный и смертоносный.
   components:
