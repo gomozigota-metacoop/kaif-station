@@ -1,9 +1,0 @@
-CC BY-NC-ND 4.0
-CC BY-NC-ND includes the following elements:
- BY: credit must be given to the creator.
- NC: Only noncommercial uses of the work are permitted.
- ND: No derivatives or adaptations of the work are permitted.
-This license enables reusers to copy and distribute all sprites uploaded to our github repository
-without any license in meta.json, on any medium or in any format, only in an unadapted form, only
-for non-commercial purposes and only subject to attribution.
-Exception: The author's request.
