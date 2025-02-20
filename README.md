@@ -17,16 +17,10 @@
 
 Мы будем рады принять вклад от любого желающего. Заходите на [наш Discord сервер](https://discord.gg/MT7hh9WHNG), если хотите помогать нам двигать кайф в массы!
 
-## Сборка
-
-1. Склонируйте репозиторий.
-2. Запустите `RUN_THIS.py` что бы инициализировать sub-модули и скачать их.
-3. Скомпилируйте сборку.
-
 ## Лицензия
 
-Content contributed to this repository after commit [8270907bdc509a3fb5ecfecde8cc14e5845ede36](https://github.com/Goob-Station/Goob-Station/commit/8270907bdc509a3fb5ecfecde8cc14e5845ede36) is licensed under the GNU Affero General Public License version 3.0, unless otherwise stated. See LICENSE-AGPLv3.txt. Content contributed to this repository before commit [8270907bdc509a3fb5ecfecde8cc14e5845ede36](https://github.com/Goob-Station/Goob-Station/commit/8270907bdc509a3fb5ecfecde8cc14e5845ede36) is licensed under the MIT license, unless otherwise stated. See LICENSE.txt.
+See `LEGAL.md`, `LICENSE.txt`, `LICENSE-AGPLv3.txt` and `LICENSE-MIT.txt`.
 
-Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+Assets can have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
 
 Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
