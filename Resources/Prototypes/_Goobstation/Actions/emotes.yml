@@ -1,5 +1,5 @@
 - type: emote
-  id: Сальто
+  id: Flip
   name: chat-emote-name-flip
   chatMessages: ["chat-emote-msg-flip"]
   chatTriggers:
