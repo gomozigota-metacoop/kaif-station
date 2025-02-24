@@ -1,0 +1,165 @@
+- type: species
+  id: Pig
+  name: Свинолюд
+  roundStart: true
+  prototype: MobPig2
+  sprites: MobPigSprites
+  markingLimits: MobPigMarkingLimits
+  dollPrototype: MobPigDummy
+  skinColoration: NoColor
+  defaultSkinTone: "#FFC0CB"
+  maleFirstNames: names_pig_first_male
+  femaleFirstNames: names_pig_first_female
+  lastNames: names_pig_last
+  naming: First
+
+- type: speciesBaseSprites
+  id: MobPigSprites
+  sprites:
+    Head: MobPigHead
+    Hair: MobPigHair
+    FacialHair: MobPigFacialHair
+    Chest: MobPigTorso
+    Eyes: MobPigEyes
+    LArm: MobPigLArm
+    RArm: MobPigRArm
+    LHand: MobPigLHand
+    RHand: MobPigRHand
+    LLeg: MobPigLLeg
+    RLeg: MobPigRLeg
+    LFoot: MobPigLFoot
+    RFoot: MobPigRFoot
+
+- type: markingPoints
+  id: MobPigMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Special: # the cat ear joke
+      points: 0
+      required: false
+    Hair:
+      points: 1
+      required: false
+    FacialHair:
+      points: 1
+      required: false
+    Snout:
+      points: 0
+      required: false
+    Tail: # the cat tail joke
+      points: 0
+      required: false
+    HeadTop:
+      points: 0
+      required: false
+    Chest:
+      points: 0
+      required: false
+    Legs:
+      points: 0
+      required: false
+    Arms:
+      points: 0
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobPigHair
+  baseSprite:
+    sprite: Mobs/Customization/pig_hair.rsi
+    state: bald_s
+
+- type: humanoidBaseSprite
+  id: MobPigFacialHair
+  baseSprite:
+    sprite: Mobs/Customization/pig_facial_hair.rsi
+    state: shaved
+
+- type: humanoidBaseSprite
+  id: MobPigEyes
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: eyes
+
+- type: humanoidBaseSprite
+  id: MobPigHead
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobPigHeadMale
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobPigHeadFemale
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobPigTorso
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobPigTorsoMale
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobPigTorsoFemale
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobPigLLeg
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobPigLArm
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobPigLHand
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobPigLFoot
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobPigRLeg
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobPigRArm
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobPigRHand
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobPigRFoot
+  baseSprite:
+    sprite: _Kaif/Mobs/Species/Pig/parts.rsi
+    state: r_foot

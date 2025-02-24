@@ -6,9 +6,7 @@
 
     <PanelContainer Name="MainPanel" MinWidth="300" MinHeight="200" HorizontalExpand="True">
         <PanelContainer.PanelOverride>
-            <graphics:StyleBoxFlat BackgroundColor="#343434"
-                               BorderColor="#424242"
-                               BorderThickness="2 2 2 2"/>
+            <graphics:StyleBoxFlat BackgroundColor="#080A09"/>
         </PanelContainer.PanelOverride>
         <BoxContainer Orientation="Vertical"
                       Name="BoxContainer"

@@ -1,47 +1,47 @@
 - type: dataset
   id: HonkopsNamesElite
   values:
-  - Honkman
-  - Bonkman
-  - Jokester
-  - Clown
-  - Prankster
-  - Bozo
-  - Circus
-  - Bezerk
-  - Dope
-  - Jester
-  - Chuckler
-  - Chuckster
-  - Jokeler
+  - Хонкмэн
+  - Бонкмэн
+  - Джокеридзе
+  - Клоунер
+  - Пранкстер
+  - Бозо
+  - Циркус
+  - Берзерк
+  - Доуп
+  - Джестер
+  - Чаклер
+  - Чакстер
+  - Джоклер
 
 - type: dataset
   id: HonkopsNamesPrefix
   values:
-  - Honkerative
+  - Хонкоперативник
 
 - type: dataset
   id: operationPrefixHonkops
   values:
-  - Honk
-  - Bonk
-  - Clown
-  - Killing
-  - Prank
-  - Bozo
-  - Circus
-  - Bezerk
-  - Dope
-  - Chuckler
-  - Chuckster
-  - Boom
-  - Funny
+  - Хонк
+  - Бонк
+  - Клуня
+  - Убивающий
+  - Пранкер
+  - Бозик
+  - Цирковник
+  - Берсеркович
+  - Допио
+  - Чуклер
+  - Чукстер
+  - Бум
+  - Смешной
 
 - type: dataset
   id: operationSuffixHonkops
   values:
-  - Kablooey
-  - Kaboom
-  - Explode
-  - Joke
-  - Bonk
+  - Кабули
+  - Кабум
+  - Взыр
+  - Шутка
+  - БОНК

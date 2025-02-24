@@ -1,0 +1,1 @@
+ui-options-filter-label = Фильтр экрана:

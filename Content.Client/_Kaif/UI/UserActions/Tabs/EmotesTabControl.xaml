@@ -4,9 +4,7 @@
     xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client">
     <PanelContainer>
         <PanelContainer.PanelOverride>
-            <graphics:StyleBoxFlat BackgroundColor="#787878"
-                                   BorderColor="#696969"
-                                   BorderThickness="2 2 2 2"/>
+            <graphics:StyleBoxFlat BackgroundColor="#080A09"/>
         </PanelContainer.PanelOverride>
         <ScrollContainer VerticalExpand="True"
                          HorizontalExpand="True"

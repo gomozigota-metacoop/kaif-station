@@ -95,6 +95,14 @@
   - chat-speech-verb-vox-3
 
 - type: speechVerb
+  id: Pig
+  name: chat-speech-verb-name-vox
+  speechVerbStrings:
+  - chat-speech-verb-pig-1
+  - chat-speech-verb-pig-2
+  - chat-speech-verb-pig-3
+
+- type: speechVerb
   id: Plant
   name: chat-speech-verb-name-plant
   speechVerbStrings:

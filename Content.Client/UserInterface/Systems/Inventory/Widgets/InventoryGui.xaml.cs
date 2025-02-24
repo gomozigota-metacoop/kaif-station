@@ -14,6 +14,6 @@ public sealed partial class InventoryGui : UIWidget
         var inventoryUIController = UserInterfaceManager.GetUIController<InventoryUIController>();
         inventoryUIController.RegisterInventoryBarContainer(InventoryHotbar);
 
-        LayoutContainer.SetGrowVertical(this, LayoutContainer.GrowDirection.Begin);
+        //LayoutContainer.SetGrowVertical(this, LayoutContainer.GrowDirection.Begin);
     }
 }

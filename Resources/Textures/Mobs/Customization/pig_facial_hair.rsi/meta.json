@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "license": null,
+  "copyright": null,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "shaved"
+    },
+    {
+      "name": "tusks",
+      "directions": 4
+    },
+    {
+      "name": "goatee",
+      "directions": 4
+    },
+    {
+      "name": "sideburns",
+      "directions": 4
+    },
+    {
+      "name": "stache",
+      "directions": 4
+    },
+    {
+      "name": "moustache",
+      "directions": 4
+    },
+    {
+      "name": "longbeard",
+      "directions": 4
+    }
+  ]
+}

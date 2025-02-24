@@ -8,9 +8,7 @@
 
     <PanelContainer>
         <PanelContainer.PanelOverride>
-            <graphics:StyleBoxFlat BackgroundColor="#505050"
-                                   BorderColor="#454545"
-                                   BorderThickness="2 2 2 2"/>
+            <graphics:StyleBoxFlat BackgroundColor="#080A09"/>
         </PanelContainer.PanelOverride>
         <ScrollContainer VerticalExpand="True"
                          HorizontalExpand="True"

@@ -10,7 +10,7 @@ public sealed class InventoryDisplay : LayoutContainer
     private int Columns = 0;
     private int Rows = 0;
     private const int MarginThickness = 10;
-    private const int ButtonSpacing = 5;
+    private const int ButtonSpacing = 0;
     private const int ButtonSize = 75;
     private readonly Control resizer;
 

@@ -22,6 +22,9 @@ public sealed class HandsContainer : ItemSlotUIContainer<HandButton>
     {
         AddChild(_grid = new GridContainer());
         _grid.ExpandBackwards = true;
+        _grid.VSeparationOverride = 0;
+        _grid.HSeparationOverride = 0;
+        _grid.Margin = new Thickness(0, 0, 0, 0);
     }
 
     public override HandButton? AddButton(HandButton newButton)

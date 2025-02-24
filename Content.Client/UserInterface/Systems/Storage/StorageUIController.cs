@@ -33,7 +33,7 @@ public sealed class StorageUIController : UIController, IOnSystemChanged<Storage
 
     private Vector2? _lastContainerPosition;
 
-    private HotbarGui? Hotbar => UIManager.GetActiveUIWidgetOrNull<HotbarGui>();
+    public HotbarGui? Hotbar => UIManager.GetActiveUIWidgetOrNull<HotbarGui>();
 
     public ItemGridPiece? DraggingGhost;
     public Angle DraggingRotation = Angle.Zero;

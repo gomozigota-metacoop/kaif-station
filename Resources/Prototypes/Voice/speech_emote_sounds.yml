@@ -231,6 +231,16 @@
     # We need vox sounds for the other emotes
 
 - type: emoteSounds
+  id: UnisexPig
+  sounds:
+    Scream:
+      path: /Audio/Animals/pig_oink.ogg
+    Laugh:
+      path: /Audio/Animals/pig_oink.ogg
+  params:
+    variation: 0.3
+
+- type: emoteSounds
   id: UnisexDiona
   sounds:
     Scream:

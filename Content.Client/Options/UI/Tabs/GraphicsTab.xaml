@@ -16,17 +16,16 @@
                 <CheckBox Name="ParallaxLowQualityCheckBox" Text="{Loc 'ui-options-parallax-low-quality'}" />
 
                 <!-- Interface -->
+                <Label Text="{Loc 'ui-options-filter-label'}" />
+                <ui:OptionDropDown Name="ViewportFilterOption" />
+
                 <Label Text="{Loc 'ui-options-interface-label'}" StyleClasses="LabelKeyText"/>
                 <ui:OptionDropDown Name="DropDownUIScale" Title="{Loc 'ui-options-scale-label'}" />
                 <CheckBox Name="ViewportStretchCheckBox" Text="{Loc 'ui-options-vp-stretch'}" />
                 <ui:OptionSlider Name="ViewportScaleSlider" Title="{Loc ui-options-vp-scale}" />
-                <ui:OptionSlider Name="ViewportWidthSlider" Title="{Loc ui-options-vp-width}" />
                 <CheckBox Name="IntegerScalingCheckBox"
                           Text="{Loc 'ui-options-vp-integer-scaling'}"
                           ToolTip="{Loc 'ui-options-vp-integer-scaling-tooltip'}" />
-                <CheckBox Name="ViewportVerticalFitCheckBox"
-                          Text="{Loc 'ui-options-vp-vertical-fit'}"
-                          ToolTip="{Loc 'ui-options-vp-vertical-fit-tooltip'}" />
 
                 <!-- Misc -->
                 <Label Text="{Loc 'ui-options-misc-label'}" StyleClasses="LabelKeyText"/>

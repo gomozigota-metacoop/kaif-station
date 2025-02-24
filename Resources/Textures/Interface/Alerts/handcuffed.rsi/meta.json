@@ -8,13 +8,7 @@
   },
   "states": [
     {
-      "name": "handcuffed",
-      "delays": [
-        [
-          0.3,
-          0.3
-        ]
-      ]
+      "name": "handcuffed"
     }
   ]
 }

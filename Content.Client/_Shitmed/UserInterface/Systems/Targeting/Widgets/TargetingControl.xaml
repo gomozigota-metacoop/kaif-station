@@ -3,13 +3,13 @@
     xmlns:widgets="clr-namespace:Content.Client._Shitmed.UserInterface.Systems.Targeting.Widgets"
     Name="TargetingButton"
     VerticalExpand="True"
-    VerticalAlignment="Bottom"
-    HorizontalAlignment="Right">
+    VerticalAlignment="Top"
+    HorizontalAlignment="Center">
     <Control HorizontalAlignment="Right">
         <TextureRect
             Name="TargetDoll"
             Stretch="KeepAspectCentered"
-            SetSize="96 96">
+            SetSize="64 96">
             <PanelContainer
                 SetSize="57 96"
                 Margin="18 0 0 0"
@@ -45,20 +45,20 @@
                     </TextureButton>
                 </PanelContainer>
                 <PanelContainer
-                    SetSize="51 90"
+                    SetSize="25.5 45"
                     Margin="0 64 0 0"
                     VerticalAlignment="Bottom"
-                    HorizontalAlignment="Center">
+                    HorizontalAlignment="Center"><!-- safaf -->
                     <TextureButton
                         Name="HeadButton"
-                        MinSize="33 27"
+                        MinSize="16.5 13.5"
                         VerticalAlignment="Top"
                         HorizontalAlignment="Center"
                         StyleClasses="TargetDollButtonHead">
                         <TextureRect
                             TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/head.png"
                             Stretch="KeepAspectCentered"
-                            SetSize="27 21"
+                            SetSize="13.5 10.5"
                             VerticalAlignment="Center"
                             HorizontalAlignment="Center"/>
                         <!--<PanelContainer
@@ -89,7 +89,7 @@
                     </TextureButton>
                     <TextureButton
                         Name="ChestButton"
-                        SetSize="33 36"
+                        SetSize="16.5 18"
                         Margin="0 21 0 0"
                         VerticalAlignment="Top"
                         HorizontalAlignment="Center"
@@ -97,84 +97,84 @@
                         <TextureRect
                             TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/torso.png"
                             Stretch="KeepAspectCentered"
-                            SetSize="27 30"
+                            SetSize="13.5 15"
                             VerticalAlignment="Center"
                             HorizontalAlignment="Center"/>
                     </TextureButton>
                     <PanelContainer
-                        MinSize="45 42"
+                        MinSize="22.5 21"
                         VerticalAlignment="Bottom"
                         HorizontalAlignment="Center">
                         <TextureButton
                             Name="GroinButton"
-                            MinSize="33 18"
+                            MinSize="16.5 9"
                             VerticalAlignment="Top"
                             HorizontalAlignment="Center"
                             StyleClasses="TargetDollButtonGroin">
                             <TextureRect
                                 TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/groin.png"
                                 Stretch="KeepAspectCentered"
-                                SetSize="27 12"
+                                SetSize="13.5 6"
                                 VerticalAlignment="Center"
                                 HorizontalAlignment="Center"/>
                         </TextureButton>
                         <PanelContainer
-                            MinSize="24 36"
+                            MinSize="12 18"
                             VerticalAlignment="Bottom"
                             HorizontalAlignment="Right">
                             <TextureButton
                                 Name="LeftLegButton"
-                                MinSize="18 33"
+                                MinSize="9 16.5"
                                 VerticalAlignment="Top"
                                 HorizontalAlignment="Left"
                                 StyleClasses="TargetDollButtonLeftLeg">
                                 <TextureRect
                                     TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/leftleg.png"
                                     Stretch="KeepAspectCentered"
-                                    SetSize="12 27"
+                                    SetSize="6 13.5"
                                     VerticalAlignment="Center"
                                     HorizontalAlignment="Center"/>
                             </TextureButton>
                             <TextureButton
                                 Name="LeftFootButton"
-                                MinSize="24 12"
+                                MinSize="12 6"
                                 VerticalAlignment="Bottom"
                                 StyleClasses="TargetDollButtonLeftFoot">
                                     <TextureRect
                                         TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/leftfoot.png"
                                         Stretch="KeepAspectCentered"
-                                        SetSize="18 9"
+                                        SetSize="9 4.5"
                                         VerticalAlignment="Center"
                                         HorizontalAlignment="Center"/>
                             </TextureButton>
                         </PanelContainer>
                         <PanelContainer
-                            MinSize="24 36"
+                            MinSize="12 18"
                             VerticalAlignment="Bottom"
                             HorizontalAlignment="Left">
                             <TextureButton
                                 Name="RightLegButton"
-                                MinSize="18 33"
+                                MinSize="9 16.5"
                                 VerticalAlignment="Top"
                                 HorizontalAlignment="Right"
                                 StyleClasses="TargetDollButtonRightLeg">
                                 <TextureRect
                                     TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/rightleg.png"
                                     Stretch="KeepAspectCentered"
-                                    SetSize="12 27"
+                                    SetSize="6 13.5"
                                     VerticalAlignment="Center"
                                     HorizontalAlignment="Center"/>
                             </TextureButton>
                             <TextureButton
                                 Name="RightFootButton"
-                                MinSize="24 12"
+                                MinSize="12 6"
                                 VerticalAlignment="Bottom"
                                 HorizontalAlignment="Center"
                                 StyleClasses="TargetDollButtonRightFoot">
                                 <TextureRect
                                     TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/rightfoot.png"
                                     Stretch="KeepAspectCentered"
-                                    SetSize="18 9"
+                                    SetSize="9 4.5"
                                     VerticalAlignment="Center"
                                     HorizontalAlignment="Center"/>
                             </TextureButton>
@@ -182,30 +182,30 @@
                     </PanelContainer>
                 </PanelContainer>
                 <PanelContainer
-                    SetSize="18 39"
+                    SetSize="9 19.5"
                     Margin="0 7 0 0"
                     HorizontalAlignment="Right">
                     <TextureButton
                         Name="LeftArmButton"
-                        MinSize="18 30"
+                        MinSize="9 15"
                         StyleClasses="TargetDollButtonLeftArm"
                         VerticalAlignment="Top">
                         <TextureRect
                             TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/leftarm.png"
                             Stretch="KeepAspectCentered"
-                            SetSize="12 24"
+                            SetSize="6 12"
                             VerticalAlignment="Center"
                             HorizontalAlignment="Center"/>
                     </TextureButton>
                     <TextureButton
                         Name="LeftHandButton"
-                        MinSize="18 18"
+                        MinSize="9 9"
                         VerticalAlignment="Bottom"
                         StyleClasses="TargetDollButtonLeftHand">
                         <TextureRect
                             TexturePath="/Textures/_Shitmed/Interface/Targeting/Doll/lefthand.png"
                             Stretch="KeepAspectCentered"
-                            SetSize="12 12"
+                            SetSize="6 6"
                             VerticalAlignment="Center"
                             HorizontalAlignment="Center"/>
                     </TextureButton>

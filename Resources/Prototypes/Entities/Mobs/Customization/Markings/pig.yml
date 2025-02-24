@@ -1,0 +1,297 @@
+- type: marking
+  id: PigHairBald
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_hair.rsi
+      state: bald
+
+# - type: marking
+#   id: PigHairBaldСolorable
+#   bodyPart: Hair
+#   markingCategory: Hair
+#   speciesRestriction: [Pig]
+#   sprites:
+#     - sprite: Mobs/Customization/pig_hair.rsi
+#       state: bald_colorable
+
+# - type: marking
+#   id: PigHairBaldS
+#   bodyPart: Hair
+#   markingCategory: Hair
+#   speciesRestriction: [Pig]
+#   forcedColoring: true
+#   coloring:
+#     default:
+#       type:
+#         !type:SimpleColoring
+#           color: "#FFFFFF"
+#   sprites:
+#     - sprite: Mobs/Customization/pig_hair.rsi
+#       state: bald_s
+
+# - type: marking
+#   id: PigHairChancellor
+#   bodyPart: Hair
+#   markingCategory: Hair
+#   speciesRestriction: [Pig]
+#   sprites:
+#     - sprite: Mobs/Customization/pig_hair.rsi
+#       state: chancellor
+
+# - type: marking
+#   id: PigHairChancellorFloppy
+#   bodyPart: Hair
+#   markingCategory: Hair
+#   speciesRestriction: [Pig]
+#   sprites:
+#     - sprite: Mobs/Customization/pig_hair.rsi
+#       state: chancellor_floppy
+
+- type: marking
+  id: PigHairChancellorFloppyS
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_hair.rsi
+      state: chancellor_floppy_s
+
+# - type: marking
+#   id: PigHairChancellorPointy
+#   bodyPart: Hair
+#   markingCategory: Hair
+#   speciesRestriction: [Pig]
+#   sprites:
+#     - sprite: Mobs/Customization/pig_hair.rsi
+#       state: chancellor_pointy
+
+# - type: marking
+#   id: PigHairChancellorPointyS
+#   bodyPart: Hair
+#   markingCategory: Hair
+#   speciesRestriction: [Pig]
+#   forcedColoring: true
+#   followSkinColor: true
+#   sprites:
+#     - sprite: Mobs/Customization/pig_hair.rsi
+#       state: chancellor_pointy_s
+
+- type: marking
+  id: PigHairChancellorS
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_hair.rsi
+      state: chancellor_s  
+
+- type: marking
+  id: PigHairFloppyS
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_hair.rsi
+      state: floppy_s    
+
+# - type: marking
+#   id: PigHairMane
+#   bodyPart: Hair
+#   markingCategory: Hair
+#   speciesRestriction: [Pig]
+#   sprites:
+#     - sprite: Mobs/Customization/pig_hair.rsi
+#       state: mane
+
+# - type: marking
+#   id: PigHairManeFloppy
+#   bodyPart: Hair
+#   markingCategory: Hair
+#   speciesRestriction: [Pig]
+#   sprites:
+#     - sprite: Mobs/Customization/pig_hair.rsi
+#       state: mane_floppy
+
+- type: marking
+  id: PigHairManeFloppyS
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_hair.rsi
+      state: mane_floppy_s
+
+# - type: marking
+#   id: PigHairManePointy
+#   bodyPart: Hair
+#   markingCategory: Hair
+#   speciesRestriction: [Pig]
+#   sprites:
+#     - sprite: Mobs/Customization/pig_hair.rsi
+#       state: mane_pointy
+
+- type: marking
+  id: PigHairManePointyS
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_hair.rsi
+      state: mane_pointy_s
+
+- type: marking
+  id: PigHairMohawkFloppyS
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_hair.rsi
+      state: mohawk_floppy_s
+
+- type: marking
+  id: PigHairManeS
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_hair.rsi
+      state: mane_s
+
+# - type: marking
+#   id: PigHairMohawk
+#   bodyPart: Hair
+#   markingCategory: Hair
+#   speciesRestriction: [Pig]
+#   sprites:
+#     - sprite: Mobs/Customization/pig_hair.rsi
+#       state: mohawk
+
+# - type: marking
+#   id: PigHairMohawkFloppy
+#   bodyPart: Hair
+#   markingCategory: Hair
+#   speciesRestriction: [Pig]
+#   sprites:
+#     - sprite: Mobs/Customization/pig_hair.rsi
+#       state: mohawk_floppy
+
+# - type: marking
+#   id: PigHairMohawkPointy
+#   bodyPart: Hair
+#   markingCategory: Hair
+#   speciesRestriction: [Pig]
+#   sprites:
+#     - sprite: Mobs/Customization/pig_hair.rsi
+#       state: mohawk_pointy
+
+- type: marking
+  id: PigHairMohawkPointyS
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_hair.rsi
+      state: mohawk_pointy_s
+
+- type: marking
+  id: PigHairMohawkS
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_hair.rsi
+      state: mohawk_s
+
+- type: marking
+  id: PigHairPointyS
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_hair.rsi
+      state: pointy_s
+
+# boroda snizu volosi sverhu kaif code style
+
+- type: marking
+  id: PigFacialHairShaved
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_facial_hair.rsi
+      state: shaved
+
+- type: marking
+  id: PigFacialHairGoatee
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_facial_hair.rsi
+      state: goatee
+
+- type: marking
+  id: PigFacialHairLongBeard
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_facial_hair.rsi
+      state: longbeard
+
+- type: marking
+  id: PigFacialHairMoustache
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_facial_hair.rsi
+      state: moustache
+
+- type: marking
+  id: PigFacialHairSideburns
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_facial_hair.rsi
+      state: sideburns
+
+- type: marking
+  id: PigFacialHairStache
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_facial_hair.rsi
+      state: stache
+
+- type: marking
+  id: PigFacialHairTusks
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Pig]
+  enableColoring: false
+  sprites:
+    - sprite: Mobs/Customization/pig_facial_hair.rsi
+      state: tusks

@@ -600,6 +600,17 @@ public sealed class ChatUIController : UIController
     public override void FrameUpdate(FrameEventArgs delta)
     {
         UpdateQueuedSpeechBubbles(delta);
+        if (UIManager.ActiveScreen == null)
+        {
+            return;
+        }
+
+        switch (UIManager.ActiveScreen)
+        {
+            case SeparatedChatGameScreen separatedScreen:
+                separatedScreen.MakeInventoryCentered();
+                break;
+        }
     }
 
     private void UpdateQueuedSpeechBubbles(FrameEventArgs delta)

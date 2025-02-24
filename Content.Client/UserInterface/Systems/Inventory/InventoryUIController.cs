@@ -59,7 +59,12 @@ public sealed class InventoryUIController : UIController, IOnStateEntered<Gamepl
             return;
 
         if (UIManager.GetActiveUIWidgetOrNull<InventoryGui>() is { } inventoryGui)
-            RegisterInventoryButton(inventoryGui.InventoryButton);
+        {
+            //RegisterInventoryButton(inventoryGui.InventoryButton);
+            inventoryGui.Margin = new Thickness(0, 0, 0, 0);
+            _inventoryHotbar!.Visible = true;
+            UpdateInventoryHotbar(_playerInventory);
+        }
     }
 
     public void OnStateEntered(GameplayState state)
@@ -69,9 +74,14 @@ public sealed class InventoryUIController : UIController, IOnStateEntered<Gamepl
         LayoutContainer.SetAnchorPreset(_strippingWindow, LayoutContainer.LayoutPreset.Center);
 
         //bind open inventory key to OpenInventoryMenu;
-        CommandBinds.Builder
-            .Bind(ContentKeyFunctions.OpenInventoryMenu, InputCmdHandler.FromDelegate(_ => ToggleInventoryBar()))
-            .Register<ClientInventorySystem>();
+        //CommandBinds.Builder
+        //    .Bind(ContentKeyFunctions.OpenInventoryMenu, InputCmdHandler.FromDelegate(_ => ToggleInventoryBar()))
+        //    .Register<ClientInventorySystem>();
+        if (_inventoryHotbar != null)
+        {
+            _inventoryHotbar.Visible = true;
+        }
+        UpdateInventoryHotbar(_playerInventory);
     }
 
     public void OnStateExited(GameplayState state)
@@ -87,7 +97,7 @@ public sealed class InventoryUIController : UIController, IOnStateEntered<Gamepl
             _inventoryHotbar.Visible = false;
         }
 
-        CommandBinds.Unregister<ClientInventorySystem>();
+        //CommandBinds.Unregister<ClientInventorySystem>();
     }
 
     private SlotButton CreateSlotButton(SlotData data)
@@ -159,8 +169,8 @@ public sealed class InventoryUIController : UIController, IOnStateEntered<Gamepl
 
         var clothing = clientInv.SlotData.Where(p => !p.Value.HasSlotGroup).ToList();
 
-        if (_inventoryButton != null)
-            _inventoryButton.Visible = clothing.Count != 0;
+        //if (_inventoryButton != null)
+        //    _inventoryButton.Visible = clothing.Count != 0;
         if (clothing.Count == 0)
             return;
 
@@ -200,7 +210,6 @@ public sealed class InventoryUIController : UIController, IOnStateEntered<Gamepl
             return position.Y * maxWidth + position.X;
         }
     }
-
     private void UpdateStrippingWindow(InventorySlotsComponent? clientInv)
     {
         if (clientInv == null)

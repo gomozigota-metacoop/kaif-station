@@ -6,54 +6,51 @@
     xmlns:widgets="clr-namespace:Content.Client.UserInterface.Systems.Hotbar.Widgets"
     Name="HotbarInterface"
     VerticalExpand="True"
-    VerticalAlignment="Bottom"
+    VerticalAlignment="Top"
     Orientation="Vertical"
     HorizontalAlignment="Center">
     <BoxContainer Orientation="Vertical">
-        <BoxContainer Name="StorageContainer"
+        <BoxContainer Name="_StorageContainer"
                       Access="Public"
                       HorizontalAlignment="Center"
-                      Margin="10">
+                      Margin="0">
             <storage:StorageContainer
                 Name="StoragePanel"
                 Visible="False"/>
         </BoxContainer>
-        <BoxContainer Orientation="Horizontal" Name="Hotbar" HorizontalAlignment="Center">
-            <inventory:ItemSlotButtonContainer
-                Name="SecondHotbar"
-                SlotGroup="SecondHotbar"
-                VerticalAlignment="Bottom"
-                HorizontalAlignment="Right"
-                VerticalExpand="False"
-                ExpandBackwards="True"
-                Columns="6"
-                HorizontalExpand="False"/>
-            <inventory:ItemStatusPanel
-                Name="StatusPanelRight"
-                HorizontalAlignment="Center" Margin="0 0 -2 2"
-                SetWidth="125"
-                SetHeight="60"/>
-            <hands:HandsContainer
-                Name="HandContainer"
-                Access="Public"
-                HorizontalAlignment="Center"
-                HorizontalExpand="False"
-                ColumnLimit="6"/>
-            <inventory:ItemStatusPanel
-                Name="StatusPanelLeft"
-                HorizontalAlignment="Center" Margin="-2 0 0 2"
-                SetWidth="125"
-                SetHeight="60"/>
+        <BoxContainer Orientation="Vertical" Name="Hotbar" HorizontalAlignment="Center">
             <inventory:ItemSlotButtonContainer
                 Name="MainHotbar"
                 SlotGroup="MainHotbar"
+                VSeparationOverride="0"
+                HSeparationOverride="0"
+                Margin="0"
                 VerticalExpand="False"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Bottom"
                 HorizontalExpand="False"
                 ExpandBackwards="True"
-                Columns="6"
-                />
+                Columns="3"/>
+            <inventory:ItemSlotButtonContainer
+                Name="SecondHotbar"
+                SlotGroup="SecondHotbar"
+                VSeparationOverride="0"
+                HSeparationOverride="0"
+                Margin="0"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Right"
+                VerticalExpand="False"
+                ExpandBackwards="True"
+                Columns="3"
+                HorizontalExpand="False"/>
+        </BoxContainer>
+        <BoxContainer HorizontalAlignment="Center" Orientation="Vertical">
+            <hands:HandsContainer
+                Name="HandContainer"
+                Access="Public"
+                HorizontalAlignment="Center"
+                HorizontalExpand="False"
+                ColumnLimit="3"/>
         </BoxContainer>
     </BoxContainer>
 </widgets:HotbarGui>

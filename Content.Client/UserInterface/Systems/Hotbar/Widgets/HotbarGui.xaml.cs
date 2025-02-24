@@ -8,36 +8,33 @@ namespace Content.Client.UserInterface.Systems.Hotbar.Widgets;
 [GenerateTypedNameReferences]
 public sealed partial class HotbarGui : UIWidget
 {
+
+    public BoxContainer StorageContainer;
+
     public HotbarGui()
     {
         RobustXamlLoader.Load(this);
-        StatusPanelRight.SetSide(HandUILocation.Right);
-        StatusPanelLeft.SetSide(HandUILocation.Left);
         var hotbarController = UserInterfaceManager.GetUIController<HotbarUIController>();
 
+        StorageContainer = _StorageContainer;
+
         hotbarController.Setup(HandContainer, StoragePanel);
-        LayoutContainer.SetGrowVertical(this, LayoutContainer.GrowDirection.Begin);
+        //LayoutContainer.SetGrowVertical(this, LayoutContainer.GrowDirection.Begin);
     }
 
     public void UpdatePanelEntityLeft(EntityUid? entity)
     {
-        StatusPanelLeft.Update(entity);
     }
 
     public void UpdatePanelEntityRight(EntityUid? entity)
     {
-        StatusPanelRight.Update(entity);
     }
 
     public void SetHighlightHand(HandUILocation? hand)
     {
-        StatusPanelLeft.UpdateHighlight(hand is HandUILocation.Left);
-        StatusPanelRight.UpdateHighlight(hand is HandUILocation.Right);
     }
 
     public void UpdateStatusVisibility(bool left, bool right)
     {
-        StatusPanelLeft.Visible = left;
-        StatusPanelRight.Visible = right;
     }
 }

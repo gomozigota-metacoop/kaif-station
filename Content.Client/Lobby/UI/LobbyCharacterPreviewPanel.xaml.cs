@@ -40,7 +40,6 @@ public sealed partial class LobbyCharacterPreviewPanel : Control
         }
 
         _previewDummy = uid;
-
         ViewBox.DisposeAllChildren();
         var spriteView = new SpriteView
         {

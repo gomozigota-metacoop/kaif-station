@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "license": null,
+  "copyright": null,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bald",
+      "directions": 4
+    },
+    {
+      "name": "bald_s",
+      "directions": 4
+    },
+    {
+      "name": "floppy",
+      "directions": 4
+    },
+    {
+      "name": "floppy_s",
+      "directions": 4
+    },
+    {
+      "name": "pointy",
+      "directions": 4
+    },
+    {
+      "name": "pointy_s",
+      "directions": 4
+    },
+    {
+      "name": "bald_colorable",
+      "directions": 4
+    },
+    {
+      "name": "mohawk",
+      "directions": 4
+    },
+    {
+      "name": "mohawk_s",
+      "directions": 4
+    },
+    {
+      "name": "mohawk_floppy",
+      "directions": 4
+    },
+    {
+      "name": "mohawk_floppy_s",
+      "directions": 4
+    },
+    {
+      "name": "mohawk_pointy",
+      "directions": 4
+    },
+    {
+      "name": "mohawk_pointy_s",
+      "directions": 4
+    },
+    {
+      "name": "mane",
+      "directions": 4
+    },
+    {
+      "name": "mane_s",
+      "directions": 4
+    },
+    {
+      "name": "mane_floppy",
+      "directions": 4
+    },
+    {
+      "name": "mane_floppy_s",
+      "directions": 4
+    },
+    {
+      "name": "mane_pointy",
+      "directions": 4
+    },
+    {
+      "name": "mane_pointy_s",
+      "directions": 4
+    },
+    {
+      "name": "chancellor",
+      "directions": 4
+    },
+    {
+      "name": "chancellor_s",
+      "directions": 4
+    },
+    {
+      "name": "chancellor_floppy",
+      "directions": 4
+    },
+    {
+      "name": "chancellor_floppy_s",
+      "directions": 4
+    },
+    {
+      "name": "chancellor_pointy",
+      "directions": 4
+    },
+    {
+      "name": "chancellor_pointy_s",
+      "directions": 4
+    }
+  ]
+}

@@ -24,11 +24,13 @@ public sealed partial class SeparatedChatGameScreen : InGameScreen
         SetAnchorAndMarginPreset(Hotbar, LayoutPreset.BottomWide, margin: 5);
         SetAnchorAndMarginPreset(Alerts, LayoutPreset.CenterRight, margin: 10);
         SetAnchorAndMarginPreset(Targeting, LayoutPreset.BottomRight, margin: 5);
-        
-	Inventory.Margin = new Thickness(5f, 5f);
+
+	    Inventory.Margin = new Thickness(5f, 5f);
 
         ScreenContainer.OnSplitResizeFinished += () =>
             OnChatResized?.Invoke(new Vector2(ScreenContainer.SplitFraction, 0));
+
+        OnThemeUpdated();
     }
 
     public override ChatBox ChatBox => GetWidget<ChatBox>()!;
@@ -37,5 +39,20 @@ public sealed partial class SeparatedChatGameScreen : InGameScreen
     {
         ScreenContainer.DesiredSplitCenter = size.X;
         ScreenContainer.ResizeMode = SplitContainer.SplitResizeMode.RespectChildrenMinSize;
+    }
+
+    public void MakeInventoryCentered()
+    {
+        TopMargin.SetSize = new Vector2(192,
+            ScreenContainer.Height / 2 - Inventory.Height / 2 - Hotbar.Height / 2 - 64 + 5
+            );
+    }
+
+    protected override void OnThemeUpdated()
+    {
+        MainInfoBackground.Texture = Theme.ResolveTexture("main_info_background");
+        RightPanelTopBackground.Texture = Theme.ResolveTexture("right_panel_top_slot");
+        LeftPanel.Texture = Theme.ResolveTexture("left_panel_background");
+        RightPanel.Texture = Theme.ResolveTexture("right_panel_background");
     }
 }

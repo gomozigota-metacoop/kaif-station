@@ -7,26 +7,23 @@
     VerticalExpand="True"
     VerticalAlignment="Bottom"
     Orientation="Horizontal"
-    HorizontalAlignment="Center">
+    HorizontalAlignment="Center"
+    Margin="0"
+    SeparationOverride="0">
     <Control HorizontalAlignment="Center">
         <!-- Needs to default to invisible because if we attach to a non-slots entity this will never get unset -->
-        <controls:SlotButton
-            Name="InventoryButton"
-            Access="Public"
-            Visible="False"
-            VerticalAlignment="Bottom"
-            HorizontalExpand="False"
-            VerticalExpand="False"
-            ButtonTexturePath="Slots/toggle"/>
         <inventory:ItemSlotButtonContainer
             Name="InventoryHotbar"
             Access="Public"
-            Visible="False"
+            Visible="True"
             MaxColumns="3"
             SlotGroup="Default"
             ExpandBackwards="True"
             VerticalExpand="True"
             HorizontalAlignment="Center"
+            VSeparationOverride="0"
+            HSeparationOverride="0"
+            Margin="0"
         />
     </Control>
 </widgets:InventoryGui>

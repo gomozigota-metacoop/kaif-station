@@ -28,6 +28,7 @@ namespace Content.Client.Viewport
         private ScalingViewportRenderScaleMode _renderScaleMode = ScalingViewportRenderScaleMode.Fixed;
         private ScalingViewportIgnoreDimension _ignoreDimension = ScalingViewportIgnoreDimension.None;
         private int _fixedRenderScale = 1;
+        public ShaderInstance? Shader;
 
         private readonly List<CopyPixelsDelegate<Rgba32>> _queuedScreenshots = new();
 
@@ -145,6 +146,8 @@ namespace Content.Client.Viewport
             DebugTools.AssertNotNull(_viewport);
 
             _viewport!.Render();
+
+            handle.UseShader(Shader);
 
             if (_queuedScreenshots.Count != 0)
             {

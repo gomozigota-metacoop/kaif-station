@@ -242,9 +242,9 @@ binds:
 - function: OpenAHelp
   type: State
   key: F1
-- function: OpenInventoryMenu
-  type: State
-  key: I
+#- function: OpenInventoryMenu
+#  type: State
+#  key: I
 - function: SmartEquipBackpack
   type: State
   key: B

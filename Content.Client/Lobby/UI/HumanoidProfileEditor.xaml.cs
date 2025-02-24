@@ -263,6 +263,7 @@ namespace Content.Client.Lobby.UI
             {
                 if (Profile is null)
                     return;
+
                 Profile = Profile.WithCharacterAppearance(
                     Profile.Appearance.WithHairColor(newColor.marking.MarkingColors[0]));
                 UpdateCMarkingsHair();

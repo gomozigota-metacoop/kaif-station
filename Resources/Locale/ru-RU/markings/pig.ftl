@@ -1,0 +1,19 @@
+marking-PigHairBald = Лысина
+marking-PigHairChancellorFloppyS = Канцлерский флоппи-хвостик
+marking-PigHairChancellorS = Канцлерский хвостик
+marking-PigHairFloppyS = Флоппи
+marking-PigHairManeFloppyS = Грива флоппи
+marking-PigHairManePointyS = Пятнистая грива
+marking-PigHairManeS = Грива
+marking-PigHairMohawkFloppyS = Ирокез флоппи
+marking-PigHairMohawkPointyS = Пятнистый ирокез
+marking-PigHairMohawkS = Ирокез
+marking-PigHairPointyS = Пятнистыш
+
+marking-PigFacialHairShaved = Бритый
+marking-PigFacialHairGoatee = Козльячья бородка
+marking-PigFacialHairLongBeard = Длинная борода
+marking-PigFacialHairMoustache = Моржовые усы
+marking-PigFacialHairSideburns = Бакенбарды
+marking-PigFacialHairStache = Подкова
+marking-PigFacialHairTusks = Бивни 

@@ -1,0 +1,124 @@
+# Anything human specific (e.g. UI, input) goes under MobHuman
+- type: entity
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobPig
+  name: Urist McPig
+  abstract: true
+  components:
+  - type: Hunger
+  - type: Icon # It will not have an icon in the adminspawn menu without this. Body parts seem fine for whatever reason.
+    sprite: Mobs/Species/Pig/parts.rsi
+    state: full
+  - type: Thirst
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+  - type: Speech
+    speechVerb: Pig
+    speechSounds: Pig
+  - type: Vocal
+    sounds:
+      Male: UnisexPig
+      Female: UnisexPig
+      Unsexed: UnisexPig
+  - type: HumanoidAppearance
+    species: Pig
+    hideLayersOnEquip:
+    - Hair
+    - Snout
+  - type: Inventory
+    templateId: pig
+    displacements:
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Kaif/Mobs/Species/Pig/displacement.rsi
+            state: outerClothing
+  - type: FootPrints # WD EDIT
+  - type: MeleeWeapon # override some things to make best exp
+    soundHit:
+      collection: Punch
+    angle: 30
+    animation: WeaponArcFist
+    attackRate: 0.8
+    damage:
+      types:
+        Blunt: 9
+  - type: PassiveDamage
+    allowedStates:
+    - Alive
+    damageCap: 20
+    damage:
+      types:
+        Heat: -0.1
+        Poison: -0.5
+      groups:
+        Brute: -0.5
+  - type: StatusEffects
+    allowed:
+    - Stun
+    - KnockedDown
+#    - SlowedDown
+    - Stutter
+    - SeeingRainbows
+    - Electrocution
+#    - Drunk
+#    - SlurredSpeech
+    - RatvarianLanguage
+    - PressureImmunity
+    - Muted
+#    - ForcedSleep
+    - TemporaryBlindness
+#    - Pacified
+    - StaminaModifier
+    - Flashed
+    - RadiationProtection
+    - Drowsiness
+    - Vulgarity # Goobstation - add Profanol
+    - Brainrotted # Goobstation - skibidi rizz ohio update
+    - Adrenaline
+    - Brainrotted # Goobstation - skibidi rizz ohio update
+  - type: Barotrauma
+    damage:
+      types:
+        Blunt: 0.10 #per second, scales with pressure and other constants.
+        Heat: 0.05
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      60: 0.9
+      80: 0.7
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.4
+        density: 50
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      125: Critical
+      225: Dead
+  - type: MovementSpeedModifier
+    baseSprintSpeed: 4
+    baseWalkSpeed: 3
+
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobPigDummy
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Inventory
+    displacements:
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Kaif/Mobs/Species/Pig/displacement.rsi
+            state: outerClothing

@@ -9,8 +9,8 @@
 - type: alert
   id: KnockedDown
   icons:
-  - sprite: /Textures/_Goobstation/Interface/Alerts/knockdown.rsi
-    state: icon
+  - sprite: /Textures/Interface/Alerts/knockdown.rsi
+    state: knockdown
   name: alerts-knocked-down-name
   description: alerts-knocked-down-desc
 

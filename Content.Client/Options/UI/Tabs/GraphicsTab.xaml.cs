@@ -12,6 +12,12 @@ namespace Content.Client.Options.UI.Tabs;
 [GenerateTypedNameReferences]
 public sealed partial class GraphicsTab : Control
 {
+    private static readonly string[] ViewportFilterOptions =
+    {
+        "KaifNoise",
+        "KaifCRT",
+        "None" // It must be null, be we call it "None"
+    };
     [Dependency] private readonly IConfigurationManager _cfg = default!;
 
     public GraphicsTab()
@@ -38,8 +44,21 @@ public sealed partial class GraphicsTab : Control
                 new OptionDropDownCVar<float>.ValueOption(2.00f, Loc.GetString("ui-options-scale-200")),
             ]);
 
+
+        Control.AddOptionDropDown(
+            CCVars.ViewportFilter,
+            ViewportFilterOption,
+            [
+                new OptionDropDownCVar<string>.ValueOption(
+                    CCVars.ViewportFilter.DefaultValue,
+                    "Default"),
+                new OptionDropDownCVar<string>.ValueOption("None", Loc.GetString("ui-options-scale-75")),
+                new OptionDropDownCVar<string>.ValueOption("KaifCRT", Loc.GetString("ui-options-scale-100")),
+                new OptionDropDownCVar<string>.ValueOption("KaifNoise", Loc.GetString("ui-options-scale-125")),
+            ]);
+
+
         var vpStretch = Control.AddOptionCheckBox(CCVars.ViewportStretch, ViewportStretchCheckBox);
-        var vpVertFit = Control.AddOptionCheckBox(CCVars.ViewportVerticalFit, ViewportVerticalFitCheckBox);
         Control.AddOptionSlider(
             CCVars.ViewportFixedScaleFactor,
             ViewportScaleSlider,
@@ -48,13 +67,6 @@ public sealed partial class GraphicsTab : Control
             (_, value) => Loc.GetString("ui-options-vp-scale-value", ("scale", value)));
 
         vpStretch.ImmediateValueChanged += _ => UpdateViewportSettingsVisibility();
-        vpVertFit.ImmediateValueChanged += _ => UpdateViewportSettingsVisibility();
-
-        Control.AddOptionSlider(
-            CCVars.ViewportWidth,
-            ViewportWidthSlider,
-            (int)ViewportWidthSlider.Slider.MinValue,
-            (int)ViewportWidthSlider.Slider.MaxValue);
 
         Control.AddOption(new OptionIntegerScaling(Control, _cfg, IntegerScalingCheckBox));
         Control.AddOptionCheckBox(CCVars.ViewportScaleRender, ViewportLowResCheckBox, invert: true);
@@ -74,17 +86,12 @@ public sealed partial class GraphicsTab : Control
     {
         ViewportScaleSlider.Visible = !ViewportStretchCheckBox.Pressed;
         IntegerScalingCheckBox.Visible = ViewportStretchCheckBox.Pressed;
-        ViewportVerticalFitCheckBox.Visible = ViewportStretchCheckBox.Pressed;
-        ViewportWidthSlider.Visible = !ViewportStretchCheckBox.Pressed || !ViewportVerticalFitCheckBox.Pressed;
     }
 
     private void UpdateViewportWidthRange()
     {
         var min = _cfg.GetCVar(CCVars.ViewportMinimumWidth);
         var max = _cfg.GetCVar(CCVars.ViewportMaximumWidth);
-
-        ViewportWidthSlider.Slider.MinValue = min;
-        ViewportWidthSlider.Slider.MaxValue = max;
     }
 
     private sealed class OptionLightingQuality : BaseOption

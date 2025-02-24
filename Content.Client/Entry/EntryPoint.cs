@@ -164,8 +164,8 @@ namespace Content.Client.Entry
             _clientPreferencesManager.Initialize();
             _euiManager.Initialize();
             _voteManager.Initialize();
-            _userInterfaceManager.SetDefaultTheme("SS14DefaultTheme");
-            _userInterfaceManager.SetActiveTheme(_configManager.GetCVar(CVars.InterfaceTheme));
+            _userInterfaceManager.SetDefaultTheme("SS14KaifTheme");
+            _userInterfaceManager.SetActiveTheme("SS14KaifTheme");
             _documentParsingManager.Initialize();
             _titleWindowManager.Initialize();
 
