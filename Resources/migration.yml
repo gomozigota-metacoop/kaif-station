@@ -738,3 +738,8 @@ CrateWeaponFlareGunpw: null
 CratePlasticSmokingPipe: null
 CratePlasticFoodTinBeans: null
 CratePlasticDrinkVodkaBottleFull: null
+
+# 2024-12-22 # Lavaland Change: Migrations
+VendingMachineRestockSalvageEquipment: null
+ComputerSalvageExpedition: ComputerShuttleMiningLavaland
+SalvageExpeditionsComputerCircuitboard: LavalandShuttleConsoleCircuitboard

@@ -11,9 +11,6 @@
       sprite: _Goobstation/Heretic/abilities_heretic.rsi
       state: ashen_shift
     event: !type:EventHereticAshenShift
-      damage:
-        types:
-          Heat: 25
     checkCanInteract: false
   - type: HereticAction
     requireMagicItem: true
@@ -39,8 +36,8 @@
 
 - type: entity
   id: ActionHereticNightwatcherRebirth
-  name: Возрождение Ночного Дозорного
-  description:  Заклинание, которое тушит вас и истощает ближайших язычников, охваченных пламенем их жизненной силы.
+  name: Nightwatcher's Rebirth
+  description: Drains nearby heathens engulfed in flames of their life force.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -57,8 +54,8 @@
 
 - type: entity
   id: ActionHereticAscension1
-  name: Клятва Пламени
-  description: На минуту вы пассивно создадите вокруг себя огненное кольцо.
+  name: Oath of Flame
+  description: Create a ring of fire around you.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -75,8 +72,8 @@
 
 - type: entity
   id: ActionHereticAscension2
-  name: Огненный каскад
-  description: Нагревает воздух вокруг вас.
+  name: Fire Cascade
+  description: Burn everything in a large distance.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
