@@ -13,6 +13,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Utility;
 using Robust.Shared.Configuration;
 using static Robust.Client.UserInterface.Controls.LineEdit;
+using System.Text.RegularExpressions; // Goob
 
 namespace Content.Client.UserInterface.Systems.Chat.Widgets;
 
@@ -45,9 +46,11 @@ public partial class ChatBox : UIWidget
         ChatInput.Input.OnTextChanged += OnTextChanged;
         ChatInput.ChannelSelector.OnChannelSelect += OnChannelSelect;
         ChatInput.FilterButton.Popup.OnChannelFilter += OnChannelFilter;
+        ChatInput.FilterButton.Popup.OnNewHighlights += OnNewHighlights; // Goob
 
         _controller = UserInterfaceManager.GetUIController<ChatUIController>();
         _controller.MessageAdded += OnMessageAdded;
+        _controller.HighlightsUpdated += OnHighlightsUpdated; // Goob
         _controller.RegisterChat(this);
 
         _chatStackList = new(_chatStackAmount);
@@ -265,4 +268,14 @@ public partial class ChatBox : UIWidget
             IgnoresChatstack = ignoresChatstack;
         }
     }
+    // Goobstation - start
+    private void OnHighlightsUpdated(string highlights)
+    {
+        ChatInput.FilterButton.Popup.UpdateHighlights(highlights);
+    }
+        private void OnNewHighlights(string highlighs)
+    {
+        _controller.UpdateHighlights(highlighs);
+    }
+    // Goobstation - end
 }
