@@ -5,6 +5,7 @@
   description: A positronic brain in a metal body.
   components:
   - type: HarpySinger
+    ShutUpDamageThreshold: 5 # Punch does 5 damage
   - type: Instrument
     allowPercussion: true
     allowProgramChange: true
@@ -16,6 +17,7 @@
     interfaces:
       enum.InstrumentUiKey.Key:
         type: InstrumentBoundUserInterface
+        requireInputValidation: false
       enum.VoiceMaskUIKey.Key:
         type: VoiceMaskBoundUserInterface
       enum.HumanoidMarkingModifierKey.Key:
@@ -29,6 +31,7 @@
         type: LivingHeartMenuBoundUserInterface
       enum.WizardTeleportUiKey.Key: # Goobstation - wizard
         type: WizardTeleportBoundUserInterface
+        requireInputValidation: false
       enum.SurgeryUIKey.Key: # Shitmed
         type: SurgeryBui
   - type: PowerCellSlot
@@ -64,7 +67,7 @@
     - NanoTrasen
   - type: StandingState
   - type: Damageable
-    damageContainer: Silicon
+    damageContainer: SiliconRadiation
     damageModifierSet: IPC
   - type: MobState
     allowedStates:

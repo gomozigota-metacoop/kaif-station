@@ -1,7 +1,7 @@
 - type: entity
   id: CartridgeMagicBullet
   name: magic bullet cartridge
-  parent: [ BaseCartridge, BaseRestrictedContraband ]
+  parent: [ BaseCartridge, BaseSecurityContraband ]
   components:
   - type: Tag
     tags:
@@ -149,12 +149,17 @@
   - type: Icon
     sprite: Objects/Consumable/Drinks/greenteaglass.rsi
     state: icon
+  - type: Destructible
+    thresholds: []
+  - type: Spillable
+    spillWhenThrown: false
 
 - type: entity
   name: wizard's rubber stamp
   parent: RubberStampCMO
   id: RubberStampWizard
   suffix: DO NOT MAP
+  categories: [ DoNotMap ]
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-wizard

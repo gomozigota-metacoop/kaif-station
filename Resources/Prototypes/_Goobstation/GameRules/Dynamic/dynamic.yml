@@ -81,6 +81,7 @@
     - SpaceTrafficControlEventScheduler
     - SpaceTrafficControlFriendlyEventScheduler
     - BasicRoundstartVariation
+    - LavalandStormScheduler # Lavaland Change
 
 - type: gamePreset
   id: DynamicUnforgiving
@@ -95,7 +96,8 @@
     - DynamicUnforgiving
     - BasicStationEventSchedulerNoAntag
     - DynamicStationEventScheduler
-    - MeteorSwarmScheduler
+#    - MeteorSwarmScheduler Goob Edit
     - SpaceTrafficControlEventScheduler
     - SpaceTrafficControlFriendlyEventScheduler
     - BasicRoundstartVariation
+    - LavalandStormScheduler # Lavaland Change

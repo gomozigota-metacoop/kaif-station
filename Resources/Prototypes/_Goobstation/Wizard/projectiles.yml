@@ -108,7 +108,7 @@
   - type: Projectile
     damage:
       types:
-        Heat: 3
+        Heat: 4
   - type: Trail
     color: "#FF0033DD"
     scale: 0.08
@@ -306,6 +306,17 @@
     sprite:
       sprite: /Textures/Objects/Weapons/Guns/Projectiles/magic.rsi
       state: magicm_cyan
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.1,-0.1,0.1,0.1"
+        hard: false
+        mask:
+        - Impassable
+        - BulletImpassable
+        - Opaque # So that it can hit holographic mobs
 
 - type: entity
   id: ProjectileDeathBolt

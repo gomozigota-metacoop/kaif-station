@@ -23,7 +23,7 @@
       soundHit:
         path: /Audio/Effects/hit_kick.ogg
     - type: Damageable
-      damageContainer: Silicon
+      damageContainer: SiliconRadiation # Goobstation - Make IPCs take radiation
       damageModifierSet: IPC
     - type: InteractionOutline
     - type: MovementSpeedModifier
@@ -44,7 +44,7 @@
           shape:
             !type:PhysShapeCircle
             radius: 0.35
-          density: 185
+          density: 300 # goob edit - metal is dense
           restitution: 0.0
           mask:
           - MobMask
@@ -226,8 +226,7 @@
           type: LivingHeartMenuBoundUserInterface
         enum.WizardTeleportUiKey.Key: # Goobstation - wizard
           type: WizardTeleportBoundUserInterface
-        enum.SurgeryUIKey.Key: # Shitmed
-          type: SurgeryBui
+          requireInputValidation: false
     - type: Emoting
     - type: Grammar
       attributes:
@@ -320,5 +319,4 @@
     - type: FootPrints
     - type: Carriable
     - type: Targeting
-    - type: SurgeryTarget
     - type: LayingDown

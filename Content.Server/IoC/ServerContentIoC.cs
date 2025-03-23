@@ -31,6 +31,7 @@ using Content.Shared.Kitchen;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Players.RateLimiting;
 using Content.Server._Goobstation.ServerCurrency; // Goobstation - Server Currency
+using Content.Server._Goobstation.Redial; // Goobstation - Redialing
 
 namespace Content.Server.IoC
 {
@@ -75,7 +76,12 @@ namespace Content.Server.IoC
             IoCManager.Register<PlayerRateLimitManager>();
             IoCManager.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
             IoCManager.Register<MappingManager>();
+            IoCManager.Register<IWatchlistWebhookManager, WatchlistWebhookManager>();
+            IoCManager.Register<ConnectionManager>();
+            IoCManager.Register<MultiServerKickManager>();
+            IoCManager.Register<CVarControlManager>();
             IoCManager.Register<ServerCurrencyManager>(); // Goobstation - Server Currency
+            IoCManager.Register<RedialManager>(); // Goobstation - Redialing
             IoCManager.Register<LinkAccountManager>(); // RMC - Patreon
         }
     }

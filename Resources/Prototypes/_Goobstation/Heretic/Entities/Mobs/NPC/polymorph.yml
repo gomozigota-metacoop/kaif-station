@@ -71,6 +71,7 @@
   name: жуткий ужас
   description: Непонятная путаница конечностей и глаз. Вы можете почувствовать, как он смотрит вам в душу.
   suffix: DO NOT MAP
+  categories: [ DoNotMap ]
   components:
   - type: Bloodstream
     bloodMaxVolume: 1984
@@ -173,13 +174,9 @@
     tags:
     - CannotSuicide
     - DoorBumpOpener
-  - type: ActiveRadio
-    channels:
-    - Mansus
-  - type: IntrinsicRadioReceiver
-  - type: IntrinsicRadioTransmitter
-    channels:
-    - Mansus
+    - MansusLinkMind
+  - type: CollectiveMind
+    defaultChannel: MansusLink
   - type: Examiner
   - type: Pullable
   - type: Reflect

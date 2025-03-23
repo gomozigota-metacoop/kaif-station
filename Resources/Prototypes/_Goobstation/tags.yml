@@ -24,10 +24,10 @@
   id: CartridgeHighCaliber
 
 - type: Tag
-  id: CartridgeLightRifleSubsonic
+  id: CartridgeMagicBullet
 
 - type: Tag
-  id: CartridgeMagicBullet
+  id: CartridgeSmart
 
 - type: Tag
   id: Clarke
@@ -43,7 +43,7 @@
 
 - type: Tag
   id: ClarkePeripheralsControlModule
-  
+
 - type: Tag
   id: ClarkeRArm
 
@@ -55,6 +55,9 @@
 
 - type: Tag
   id: CombatMech
+
+- type: Tag
+  id: ContrabandDetectorCircuitboard
 
 - type: Tag
   id: CursedAnimalMask
@@ -99,6 +102,18 @@
   id: EmergencyOxygenTank
 
 - type: Tag
+  id: EnergySpeedloader
+
+- type: Tag
+  id: EnergySpeedloaderDisabler
+
+- type: Tag
+  id: EnergySpeedloaderLethal
+
+- type: Tag
+  id: EnergySpeedloaderTerminate
+
+- type: Tag
   id: ExtendedEmergencyOxygenTank
 
 - type: Tag
@@ -106,6 +121,9 @@
 
 - type: Tag
   id: FelinidEmotes
+
+- type: Tag
+  id: FlashIgnoreResistances
 
 - type: Tag
   id: FrozenIgnoreMindAction
@@ -150,6 +168,9 @@
   id: GunCanAimShooter
 
 - type: Tag
+  id: HandheldCrewMonitor
+
+- type: Tag
   id: HarpyEmotes
 
 - type: Tag
@@ -183,10 +204,10 @@
   id: MagazineHighCaliber
 
 - type: Tag
-  id: MagazineLightRifleSubsonic
+  id: MagazineMagnumLeverRifle
 
 - type: Tag
-  id: MagazineMagnumLeverRifle
+  id: MagazineSmart
 
 - type: Tag
   id: Mask
@@ -249,6 +270,9 @@
   id: SecurityBreathMask
 
 - type: Tag
+  id: ShowWizardIcons
+
+- type: Tag
   id: SnapPop
 
 - type: Tag
@@ -276,6 +300,9 @@
   id: SyndicateBreathMask
 
 - type: Tag
+  id: ShellShotgunHeavy
+
+- type: Tag
   id: SyringeArmor
 
 - type: Tag
@@ -287,7 +314,10 @@
 - type: Tag
   id: Tourniquet
 
-- type: Tag  
+- type: Tag
+  id: ToyGrenade
+
+- type: Tag
   id: ToySword
 
 - type: Tag
@@ -307,3 +337,36 @@
 
 - type: Tag
   id: WizardHat
+
+- type: Tag
+  id: HudMedicalSecurity
+
+- type: Tag
+  id: HudDiagnostic
+
+- type: Tag
+  id: HudMedicalDiagnostic
+
+- type: Tag
+  id: ReverseBearTrapKey
+
+- type: Tag
+  id: Bomb
+
+- type: Tag
+  id: Rifle
+
+- type: Tag
+  id: Hacking
+
+- type: Tag
+  id: Jetpack
+
+- type: Tag
+  id: RoundstartAntag
+
+- type: Tag
+  id: CalmAntag
+
+- type: Tag
+  id: MidroundAntag

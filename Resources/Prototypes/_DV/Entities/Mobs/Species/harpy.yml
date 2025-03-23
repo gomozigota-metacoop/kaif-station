@@ -6,6 +6,7 @@
   abstract: true
   components:
   - type: HarpySinger
+    ShutUpDamageThreshold: 5 # Punch does 5 damage
   - type: Instrument
     allowPercussion: false
     program: 52
@@ -26,6 +27,7 @@
     interfaces:
       enum.InstrumentUiKey.Key:
         type: InstrumentBoundUserInterface
+        requireInputValidation: false
       enum.VoiceMaskUIKey.Key:
         type: VoiceMaskBoundUserInterface
       enum.HumanoidMarkingModifierKey.Key:
@@ -39,8 +41,7 @@
         type: LivingHeartMenuBoundUserInterface
       enum.WizardTeleportUiKey.Key: # Goobstation - wizard
         type: WizardTeleportBoundUserInterface
-      enum.SurgeryUIKey.Key: # Shitmed
-        type: SurgeryBui
+        requireInputValidation: false
   - type: Sprite
     scale: 0.9, 0.9
     layers:
@@ -144,6 +145,7 @@
     - FootstepSound
     - DoorBumpOpener
     - HarpyEmotes
+    - AnomalyHost
   - type: FootPrints
     leftBarePrint: "footprint-left-bare-lizard"
     rightBarePrint: "footprint-right-bare-lizard"

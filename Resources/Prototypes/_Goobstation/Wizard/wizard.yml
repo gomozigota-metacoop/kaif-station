@@ -26,7 +26,7 @@
   objective: roles-antag-wizard-description
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 54000 # 15h
+    time: 126000 # 35h
   guides: [ Wizard ]
 
 - type: antag
@@ -88,6 +88,8 @@
       - ShowAntagIcons
       - Wizard
       - Apprentice
+    tags:
+      - ShowWizardIcons
   icon:
     sprite: /Textures/_Goobstation/Wizard/StatusIcons/10x10.rsi
     state: wizard
@@ -101,6 +103,8 @@
       - ShowAntagIcons
       - Wizard
       - Apprentice
+    tags:
+      - ShowWizardIcons
   icon:
     sprite: /Textures/_Goobstation/Wizard/StatusIcons/10x10.rsi
     state: apprentice
